@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:58221/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:58221/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:58221/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfNido" />
+      <xsd:import schemaLocation="http://localhost:58221/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/clsEntidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarios_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuarios" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarios_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuarios" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValClaveSegura_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValClaveSegura" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValClaveSegura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValClaveSeguraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetComunicado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetComunicado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetComunicado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetComunicadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelComunicado_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelComunicado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelComunicado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelComunicadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsComunicado_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsComunicado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsComunicado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsComunicadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModComunicado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModComunicado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModComunicado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModComunicadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDistrito_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrito" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDistrito_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistritoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelDistrito_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelDistrito" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelDistrito_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelDistritoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsDistrito_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsDistrito" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsDistrito_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsDistritoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModDistrito_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModDistrito" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModDistrito_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModDistritoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNivel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNivel" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNivel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNivelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelNivel_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelNivel" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelNivel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelNivelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsNivel_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsNivel" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsNivel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsNivelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModNivel_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModNivel" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModNivel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModNivelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSalon_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSalon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelSalon_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelSalon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelSalon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelSalonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsSalon_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsSalon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsSalon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsSalonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModSalon_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModSalon" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModSalon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModSalonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuarioRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuarioRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarioRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuarioRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarioRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuarioRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarioRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuarioRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarioRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuarioRolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModUsuarioRol_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModUsuarioRol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModUsuarioRol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModUsuarioRolResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValidarUsuario" message="tns:IService1_ValidarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidarUsuarioResponse" message="tns:IService1_ValidarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUsuario" message="tns:IService1_GetUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUsuarioResponse" message="tns:IService1_GetUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelUsuarios" message="tns:IService1_DelUsuarios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelUsuariosResponse" message="tns:IService1_DelUsuarios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsUsuarios" message="tns:IService1_InsUsuarios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsUsuariosResponse" message="tns:IService1_InsUsuarios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModUsuario" message="tns:IService1_ModUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModUsuarioResponse" message="tns:IService1_ModUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValClaveSegura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValClaveSegura" message="tns:IService1_ValClaveSegura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValClaveSeguraResponse" message="tns:IService1_ValClaveSegura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetComunicado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetComunicado" message="tns:IService1_GetComunicado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetComunicadoResponse" message="tns:IService1_GetComunicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelComunicado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelComunicado" message="tns:IService1_DelComunicado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelComunicadoResponse" message="tns:IService1_DelComunicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsComunicado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsComunicado" message="tns:IService1_InsComunicado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsComunicadoResponse" message="tns:IService1_InsComunicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModComunicado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModComunicado" message="tns:IService1_ModComunicado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModComunicadoResponse" message="tns:IService1_ModComunicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrito">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDistrito" message="tns:IService1_GetDistrito_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDistritoResponse" message="tns:IService1_GetDistrito_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelDistrito">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelDistrito" message="tns:IService1_DelDistrito_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelDistritoResponse" message="tns:IService1_DelDistrito_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsDistrito">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsDistrito" message="tns:IService1_InsDistrito_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsDistritoResponse" message="tns:IService1_InsDistrito_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModDistrito">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModDistrito" message="tns:IService1_ModDistrito_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModDistritoResponse" message="tns:IService1_ModDistrito_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNivel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNivel" message="tns:IService1_GetNivel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNivelResponse" message="tns:IService1_GetNivel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelNivel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelNivel" message="tns:IService1_DelNivel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelNivelResponse" message="tns:IService1_DelNivel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsNivel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsNivel" message="tns:IService1_InsNivel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsNivelResponse" message="tns:IService1_InsNivel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModNivel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModNivel" message="tns:IService1_ModNivel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModNivelResponse" message="tns:IService1_ModNivel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSalon" message="tns:IService1_GetSalon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSalonResponse" message="tns:IService1_GetSalon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelSalon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelSalon" message="tns:IService1_DelSalon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelSalonResponse" message="tns:IService1_DelSalon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsSalon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsSalon" message="tns:IService1_InsSalon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsSalonResponse" message="tns:IService1_InsSalon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModSalon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModSalon" message="tns:IService1_ModSalon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModSalonResponse" message="tns:IService1_ModSalon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRol" message="tns:IService1_GetRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRolResponse" message="tns:IService1_GetRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelRol" message="tns:IService1_DelRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelRolResponse" message="tns:IService1_DelRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsRol" message="tns:IService1_InsRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsRolResponse" message="tns:IService1_InsRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModRol" message="tns:IService1_ModRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModRolResponse" message="tns:IService1_ModRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPermiso" message="tns:IService1_GetPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPermisoResponse" message="tns:IService1_GetPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelPermiso" message="tns:IService1_DelPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelPermisoResponse" message="tns:IService1_DelPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsPermiso" message="tns:IService1_InsPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsPermisoResponse" message="tns:IService1_InsPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModPermiso" message="tns:IService1_ModPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModPermisoResponse" message="tns:IService1_ModPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuarioRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUsuarioRol" message="tns:IService1_GetUsuarioRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUsuarioRolResponse" message="tns:IService1_GetUsuarioRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarioRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelUsuarioRol" message="tns:IService1_DelUsuarioRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelUsuarioRolResponse" message="tns:IService1_DelUsuarioRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarioRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsUsuarioRol" message="tns:IService1_InsUsuarioRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsUsuarioRolResponse" message="tns:IService1_InsUsuarioRol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModUsuarioRol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModUsuarioRol" message="tns:IService1_ModUsuarioRol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModUsuarioRolResponse" message="tns:IService1_ModUsuarioRol_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValidarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarios">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelUsuarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarios">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsUsuarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValClaveSegura">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValClaveSegura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetComunicado">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetComunicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelComunicado">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelComunicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsComunicado">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsComunicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModComunicado">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModComunicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrito">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDistrito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelDistrito">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelDistrito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsDistrito">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsDistrito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModDistrito">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModDistrito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNivel">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNivel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelNivel">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelNivel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsNivel">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsNivel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModNivel">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModNivel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalon">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSalon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelSalon">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelSalon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsSalon">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsSalon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModSalon">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModSalon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuarioRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUsuarioRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarioRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelUsuarioRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarioRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsUsuarioRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModUsuarioRol">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModUsuarioRol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:58221/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

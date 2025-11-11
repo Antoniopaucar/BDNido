@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/clsEntidades" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/clsEntidades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="clsLogin">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exito" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id_Permiso" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Rol" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Usuario" type="xs:int" />
+      <xs:element minOccurs="0" name="Mensaje" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clave" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsLogin" nillable="true" type="tns:clsLogin" />
+  <xs:complexType name="ArrayOfclsLogin">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsLogin" nillable="true" type="tns:clsLogin" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsLogin" nillable="true" type="tns:ArrayOfclsLogin" />
+  <xs:complexType name="ArrayOfclsUsuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsUsuario" nillable="true" type="tns:clsUsuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsUsuario" nillable="true" type="tns:ArrayOfclsUsuario" />
+  <xs:complexType name="clsUsuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Activo" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ApellidoMaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApellidoPaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bloqueado" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Clave" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dni" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaBloqueo" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaCreacion" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaNacimiento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Intentos" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreUsuario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UltimoIntento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UltimoLoginExitoso" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsUsuario" nillable="true" type="tns:clsUsuario" />
+  <xs:complexType name="ArrayOfclsComunicado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsComunicado" nillable="true" type="tns:clsComunicado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsComunicado" nillable="true" type="tns:ArrayOfclsComunicado" />
+  <xs:complexType name="clsComunicado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaCreacion" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaFinal" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:clsUsuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsComunicado" nillable="true" type="tns:clsComunicado" />
+  <xs:complexType name="ArrayOfclsDistrito">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsDistrito" nillable="true" type="tns:clsDistrito" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsDistrito" nillable="true" type="tns:ArrayOfclsDistrito" />
+  <xs:complexType name="clsDistrito">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ubigeo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsDistrito" nillable="true" type="tns:clsDistrito" />
+  <xs:complexType name="ArrayOfclsNivel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsNivel" nillable="true" type="tns:clsNivel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsNivel" nillable="true" type="tns:ArrayOfclsNivel" />
+  <xs:complexType name="clsNivel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsNivel" nillable="true" type="tns:clsNivel" />
+  <xs:complexType name="ArrayOfclsSalon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsSalon" nillable="true" type="tns:clsSalon" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsSalon" nillable="true" type="tns:ArrayOfclsSalon" />
+  <xs:complexType name="clsSalon">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Activo" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Aforo" type="xs:int" />
+      <xs:element minOccurs="0" name="Dimensiones" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsSalon" nillable="true" type="tns:clsSalon" />
+  <xs:complexType name="ArrayOfclsRol">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsRol" nillable="true" type="tns:clsRol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsRol" nillable="true" type="tns:ArrayOfclsRol" />
+  <xs:complexType name="clsRol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreRol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsRol" nillable="true" type="tns:clsRol" />
+  <xs:complexType name="ArrayOfclsPermiso">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsPermiso" nillable="true" type="tns:clsPermiso" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsPermiso" nillable="true" type="tns:ArrayOfclsPermiso" />
+  <xs:complexType name="clsPermiso">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="NombrePermiso" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsPermiso" nillable="true" type="tns:clsPermiso" />
+  <xs:complexType name="ArrayOfclsUsuarioRol">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsUsuarioRol" nillable="true" type="tns:clsUsuarioRol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsUsuarioRol" nillable="true" type="tns:ArrayOfclsUsuarioRol" />
+  <xs:complexType name="clsUsuarioRol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Rol" nillable="true" type="tns:clsRol" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:clsUsuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsUsuarioRol" nillable="true" type="tns:clsUsuarioRol" />
+</xs:schema>

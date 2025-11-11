@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\desarrollo de aplicaciones distribuidas\\proyectonido\\proyectonido\\proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_Salon.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwCkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:05.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_Comunicado.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T05:32:32.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_Comunicado.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:40:06.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemplatePrincipal.Master",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
+              "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
+              "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-05T17:30:53.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_Permiso.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:05:24.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_Usuario_Rol.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T23:06:07.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_Usuario_Rol.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:13:35.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_Inicio.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T19:42:54.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_Rol.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T21:09:27.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_Rol.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwHUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:12:25.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_Permiso.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T22:04:49.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frm_Salon.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T19:01:56.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frm_Inicio.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:49:53.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_Nivel.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T18:19:52.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_Nivel.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T18:13:31.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TemplatePrincipal.Master.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
+              "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:21:53.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
+              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\Estilos.css",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
+              "RelativeToolTip": "ProyectoNido\\CSS\\Estilos.css",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T06:40:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frm_Distrito.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T17:07:48.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frm_Login.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:22:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frm_Distrito.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:16:32.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frm_Usuario.aspx.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAuwOoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:53:33.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frm_Usuario.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-05T17:58:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frm_Usuario.aspx.designer.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T20:19:42.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Funciones.js",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeDocumentMoniker": "ProyectoNido\\Js\\Funciones.js",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeToolTip": "ProyectoNido\\Js\\Funciones.js",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T20:39:52.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EstiloLogin.css",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
+              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\EstiloLogin.css",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
+              "RelativeToolTip": "ProyectoNido\\CSS\\EstiloLogin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T18:52:53.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "clsValidacion.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "RelativeToolTip": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:16:23.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frm_Login.aspx",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-05T18:11:43.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
+              "RelativeDocumentMoniker": "ProyectoNido\\Web.config",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
+              "RelativeToolTip": "ProyectoNido\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T18:22:05.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
+              "RelativeDocumentMoniker": "ProyectoNido\\Web.Debug.config",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
+              "RelativeToolTip": "ProyectoNido\\Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T19:05:37.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frm_Login.aspx.designer.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.designer.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:14:42.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TemplatePrincipal.Master.designer.cs",
+              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:44:59.949Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
