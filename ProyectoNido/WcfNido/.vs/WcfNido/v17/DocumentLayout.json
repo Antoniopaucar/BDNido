@@ -1,133 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\",
+  "WorkspaceRootPath": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|c:\\users\\alberto_vq\\dbnido\\bdnido\\proyectonido\\wcfnido\\clsentidades\\prueba_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\prueba_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|c:\\users\\alberto_vq\\dbnido\\bdnido\\proyectonido\\wcfnido\\clsdac\\clsdacusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdaccomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdaccomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdaccomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clscomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clscomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clscomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|d:\\desarrollo de aplicaciones distribuidas\\proyectonido\\wcfnido\\wcfnido\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\wcfnido\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|solutionrelative:wcfnido\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\wcfnido\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\wcfnido\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|solutionrelative:wcfnido\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblcomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblcomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblcomunicado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clsusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clsusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clsusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clsdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clsdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clsdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clspermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clspermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clspermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clsrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clsrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clsrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clsnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clsnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clsnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblsalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsbldistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsbldistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsbldistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clssalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clssalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clssalon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdacdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdacdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdacdistrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsbllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsbllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsbllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsbl\\clsblusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsbl\\clsblusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C69266-943F-4352-9586-24C81C2F22B5}|clsBL\\clsBL.csproj|solutionrelative:clsbl\\clsblusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsdaclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsdaclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsdaclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsentidades\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsentidades\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265A1FB6-499E-47DE-9D66-3321BF294396}|clsEntidades\\clsEntidades.csproj|solutionrelative:clsentidades\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A501B2-0CFC-468D-AF81-9A67B957A6FA}|clsUtilidades\\clsUtilidades.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsutilidades\\clshash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38A501B2-0CFC-468D-AF81-9A67B957A6FA}|clsUtilidades\\clsUtilidades.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsutilidades\\clshash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A501B2-0CFC-468D-AF81-9A67B957A6FA}|clsUtilidades\\clsUtilidades.csproj|solutionrelative:clsutilidades\\clshash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsdac\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsdac\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97AB70CB-C3A2-4818-8C67-D4EAA5479207}|clsDAC\\clsDAC.csproj|solutionrelative:clsdac\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\wcfnido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\wcfnido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E3FB02A9-2F38-4590-899C-AAE52F128B4F}|WcfNido\\WcfNido.csproj|solutionrelative:wcfnido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -138,28 +142,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Prueba_A.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\Prueba_A.cs",
+              "RelativeDocumentMoniker": "clsEntidades\\Prueba_A.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\Prueba_A.cs",
+              "RelativeToolTip": "clsEntidades\\Prueba_A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T04:59:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "clsDacUsuarioRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuarioRol.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacUsuarioRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuarioRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuarioRol.cs",
               "RelativeToolTip": "clsDAC\\clsDacUsuarioRol.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIAywBcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T22:45:26.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IService1.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\IService1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\IService1.cs",
               "RelativeDocumentMoniker": "WcfNido\\IService1.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\IService1.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\IService1.cs",
               "RelativeToolTip": "WcfNido\\IService1.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAA7wHYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "clsBLComunicado.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLComunicado.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLComunicado.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLComunicado.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLComunicado.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLComunicado.cs",
               "RelativeToolTip": "clsBL\\clsBLComunicado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,63 +204,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Service1.svc.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\Service1.svc.cs",
               "RelativeDocumentMoniker": "WcfNido\\Service1.svc.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\Service1.svc.cs",
               "RelativeToolTip": "WcfNido\\Service1.svc.cs",
               "ViewState": "AgIAAIQBAAAAAAAAAAAowIYBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T05:21:11.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T05:21:11.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsComunicado.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsComunicado.cs",
+              "RelativeDocumentMoniker": "clsEntidades\\clsComunicado.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsComunicado.cs",
+              "RelativeToolTip": "clsEntidades\\clsComunicado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:01:01.907Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "clsComunicado.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsComunicado.cs",
-              "RelativeDocumentMoniker": "clsEntidades\\clsComunicado.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsComunicado.cs",
-              "RelativeToolTip": "clsEntidades\\clsComunicado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Title": "clsDacComunicado.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacComunicado.cs",
+              "RelativeDocumentMoniker": "clsDAC\\clsDacComunicado.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacComunicado.cs",
+              "RelativeToolTip": "clsDAC\\clsDacComunicado.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T05:01:01.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T05:05:59.736Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsDacComunicado.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacComunicado.cs",
-              "RelativeDocumentMoniker": "clsDAC\\clsDacComunicado.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacComunicado.cs",
-              "RelativeToolTip": "clsDAC\\clsDacComunicado.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T05:05:59.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "clsDacRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacRol.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacRol.cs",
               "RelativeToolTip": "clsDAC\\clsDacRol.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:56:42.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T20:56:42.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "clsRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsRol.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsRol.cs",
               "RelativeToolTip": "clsEntidades\\clsRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +264,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "clsUsuarioRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuarioRol.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsUsuarioRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuarioRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuarioRol.cs",
               "RelativeToolTip": "clsEntidades\\clsUsuarioRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,11 +276,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "clsBLUsuarioRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuarioRol.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLUsuarioRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuarioRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuarioRol.cs",
               "RelativeToolTip": "clsBL\\clsBLUsuarioRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "clsBLRol.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLRol.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLRol.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLRol.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLRol.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLRol.cs",
               "RelativeToolTip": "clsBL\\clsBLRol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,11 +300,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "clsPermiso.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsPermiso.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsPermiso.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsPermiso.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsPermiso.cs",
               "RelativeToolTip": "clsEntidades\\clsPermiso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,11 +312,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "clsDacPermiso.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacPermiso.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacPermiso.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacPermiso.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacPermiso.cs",
               "RelativeToolTip": "clsDAC\\clsDacPermiso.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "clsDistrito.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsDistrito.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsDistrito.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsDistrito.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsDistrito.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsDistrito.cs",
               "RelativeToolTip": "clsEntidades\\clsDistrito.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "clsBLPermiso.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLPermiso.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLPermiso.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLPermiso.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLPermiso.cs",
               "RelativeToolTip": "clsBL\\clsBLPermiso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,11 +348,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "clsDacNivel.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacNivel.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacNivel.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacNivel.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacNivel.cs",
               "RelativeToolTip": "clsDAC\\clsDacNivel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,11 +360,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "clsDacSalon.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacSalon.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacSalon.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacSalon.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacSalon.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacSalon.cs",
               "RelativeToolTip": "clsDAC\\clsDacSalon.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAwwFgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,11 +372,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "clsNivel.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsNivel.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsNivel.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsNivel.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsNivel.cs",
               "RelativeToolTip": "clsEntidades\\clsNivel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,11 +384,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "clsBLDistrito.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLDistrito.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLDistrito.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLDistrito.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLDistrito.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLDistrito.cs",
               "RelativeToolTip": "clsBL\\clsBLDistrito.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,11 +396,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "clsBLNivel.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLNivel.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLNivel.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLNivel.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLNivel.cs",
               "RelativeToolTip": "clsBL\\clsBLNivel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "clsSalon.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsSalon.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsSalon.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsSalon.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsSalon.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsSalon.cs",
               "RelativeToolTip": "clsEntidades\\clsSalon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +420,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "clsDacUsuario.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuario.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacUsuario.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuario.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacUsuario.cs",
               "RelativeToolTip": "clsDAC\\clsDacUsuario.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAgwCsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,11 +432,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "clsBLSalon.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLSalon.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLSalon.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLSalon.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLSalon.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLSalon.cs",
               "RelativeToolTip": "clsBL\\clsBLSalon.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,11 +444,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "clsDacDistrito.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacDistrito.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacDistrito.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacDistrito.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacDistrito.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacDistrito.cs",
               "RelativeToolTip": "clsDAC\\clsDacDistrito.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,11 +456,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "clsUsuario.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuario.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsUsuario.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuario.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsUsuario.cs",
               "RelativeToolTip": "clsEntidades\\clsUsuario.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA0wAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,11 +468,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "clsBLLogin.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLLogin.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLLogin.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLLogin.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLLogin.cs",
               "RelativeToolTip": "clsBL\\clsBLLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +480,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "clsBLUsuario.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuario.cs",
               "RelativeDocumentMoniker": "clsBL\\clsBLUsuario.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuario.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsBL\\clsBLUsuario.cs",
               "RelativeToolTip": "clsBL\\clsBLUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,11 +492,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "clsLogin.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsLogin.cs",
               "RelativeDocumentMoniker": "clsEntidades\\clsLogin.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsEntidades\\clsLogin.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsEntidades\\clsLogin.cs",
               "RelativeToolTip": "clsEntidades\\clsLogin.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -483,11 +504,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "clsDacLogin.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacLogin.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsDacLogin.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsDacLogin.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsDacLogin.cs",
               "RelativeToolTip": "clsDAC\\clsDacLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -495,11 +516,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "clsHash.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsUtilidades\\clsHash.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsUtilidades\\clsHash.cs",
               "RelativeDocumentMoniker": "clsUtilidades\\clsHash.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsUtilidades\\clsHash.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsUtilidades\\clsHash.cs",
               "RelativeToolTip": "clsUtilidades\\clsHash.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,11 +528,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "clsConexion.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsConexion.cs",
               "RelativeDocumentMoniker": "clsDAC\\clsConexion.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\clsDAC\\clsConexion.cs",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\clsDAC\\clsConexion.cs",
               "RelativeToolTip": "clsDAC\\clsConexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,11 +540,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Web.config",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\Web.config",
+              "DocumentMoniker": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\Web.config",
               "RelativeDocumentMoniker": "WcfNido\\Web.config",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\WcfNido\\WcfNido\\Web.config",
+              "ToolTip": "C:\\Users\\Alberto_VQ\\DBNido\\BDNido\\ProyectoNido\\WcfNido\\WcfNido\\Web.config",
               "RelativeToolTip": "WcfNido\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
