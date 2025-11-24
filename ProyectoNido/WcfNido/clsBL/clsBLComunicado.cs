@@ -8,11 +8,24 @@ namespace clsBL
 {
     public class clsBLComunicado
     {
-        public List<clsEntidades.clsComunicado> listar_comunicados()
+        public List<clsEntidades.clsComunicado> listar_comunicados(int idUsuario)
         {
             clsDAC.clsDacComunicado xcomunicados = new clsDAC.clsDacComunicado();
-            List<clsEntidades.clsComunicado> xlistacomunicados = xcomunicados.listarComunicados();
+            List<clsEntidades.clsComunicado> xlistacomunicados = xcomunicados.listarComunicados(idUsuario);
             return xlistacomunicados;
+        }
+
+        public void marcar_comunicado_visto(int idComunicado, int idUsuario)
+        {
+            try
+            {
+                clsDAC.clsDacComunicado db = new clsDAC.clsDacComunicado();
+                db.MarcarComunicadoVisto(idComunicado, idUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         public void eliminar_comunicado(int xcodigo)

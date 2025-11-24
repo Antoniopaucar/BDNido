@@ -76,5 +76,36 @@ namespace clsBL
             }
         }
 
+        public void actualizar_datos_docente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+            string fotos, string verificacionDomiciliaria)
+        {
+            try
+            {
+                clsDAC.clsDacUsuario db = new clsDAC.clsDacUsuario();
+                db.ActualizarDatosDocente(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento,
+                    sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica,
+                    fotos, verificacionDomiciliaria);
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Error al actualizar los datos del docente: " + ex.Message);
+            }
+        }
+
+        public clsEntidades.clsUsuario obtener_datos_docente(int idUsuario)
+        {
+            try
+            {
+                clsDAC.clsDacUsuario db = new clsDAC.clsDacUsuario();
+                return db.ObtenerDatosDocente(idUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Error al obtener los datos del docente: " + ex.Message);
+            }
+        }
+
     }
 }

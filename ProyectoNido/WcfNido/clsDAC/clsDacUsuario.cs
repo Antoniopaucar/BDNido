@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
@@ -152,6 +153,83 @@ namespace clsDAC
             }
 
             return (exito, mensaje);
+        }
+
+        public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+            string fotos, string verificacionDomiciliaria)
+        {
+            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            {
+                cn.Open();
+                using (SqlCommand cmd = new SqlCommand("actualizar_datos_docente", cn))
+                {
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@Id_Usuario", idUsuario);
+                    cmd.Parameters.AddWithValue("@Nombres", nombres ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@ApPaterno", apPaterno ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@ApMaterno", apMaterno ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Dni", dni ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@FechaNacimiento", fechaNacimiento.HasValue ? (object)fechaNacimiento.Value : DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Sexo", sexo ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Direccion", direccion ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Email", email ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@FechaIngreso", fechaIngreso.HasValue ? (object)fechaIngreso.Value : DBNull.Value);
+                    cmd.Parameters.AddWithValue("@TituloProfesional", tituloProfesional ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Cv", cv ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@EvaluacionPsicologica", evaluacionPsicologica ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Fotos", fotos ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@VerificacionDomiciliaria", verificacionDomiciliaria ?? (object)DBNull.Value);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public clsEntidades.clsUsuario ObtenerDatosDocente(int idUsuario)
+        {
+            clsEntidades.clsUsuario usuario = null;
+
+            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            {
+                cn.Open();
+                using (SqlCommand cmd = new SqlCommand("obtener_datos_profesor_por_usuario", cn))
+                {
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Id_Usuario", idUsuario);
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            usuario = new clsEntidades.clsUsuario();
+                            
+                            usuario.Id = Convert.ToInt32(dr["Id"]);
+                            usuario.NombreUsuario = dr["NombreUsuario"].ToString();
+                            usuario.Nombres = dr["Nombres"].ToString();
+                            usuario.ApellidoPaterno = dr["ApPaterno"].ToString();
+                            usuario.ApellidoMaterno = dr["ApMaterno"].ToString();
+                            usuario.Dni = dr.IsDBNull(dr.GetOrdinal("Dni")) ? null : dr["Dni"].ToString();
+                            usuario.FechaNacimiento = dr.IsDBNull(dr.GetOrdinal("FechaNacimiento")) ? (DateTime?)null : dr.GetDateTime(dr.GetOrdinal("FechaNacimiento"));
+                            usuario.Sexo = dr.IsDBNull(dr.GetOrdinal("Sexo")) ? null : dr["Sexo"].ToString();
+                            usuario.Direccion = dr.IsDBNull(dr.GetOrdinal("Direccion")) ? null : dr["Direccion"].ToString();
+                            usuario.Email = dr.IsDBNull(dr.GetOrdinal("Email")) ? null : dr["Email"].ToString();
+                            
+                            // Campos de Profesor
+                            usuario.FechaIngreso = dr.IsDBNull(dr.GetOrdinal("FechaIngreso")) ? (DateTime?)null : dr.GetDateTime(dr.GetOrdinal("FechaIngreso"));
+                            usuario.TituloProfesional = dr.IsDBNull(dr.GetOrdinal("TituloProfesional")) ? null : dr["TituloProfesional"].ToString();
+                            usuario.Cv = dr.IsDBNull(dr.GetOrdinal("Cv")) ? null : dr["Cv"].ToString();
+                            usuario.EvaluacionPsicologica = dr.IsDBNull(dr.GetOrdinal("EvaluacionPsicologica")) ? null : dr["EvaluacionPsicologica"].ToString();
+                            usuario.Fotos = dr.IsDBNull(dr.GetOrdinal("Fotos")) ? null : dr["Fotos"].ToString();
+                            usuario.VerificacionDomiciliaria = dr.IsDBNull(dr.GetOrdinal("VerificacionDomiciliaria")) ? null : dr["VerificacionDomiciliaria"].ToString();
+                        }
+                    }
+                }
+            }
+
+            return usuario;
         }
     }
 }

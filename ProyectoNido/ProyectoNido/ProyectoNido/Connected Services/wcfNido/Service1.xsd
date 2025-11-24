@@ -445,4 +445,44 @@
       <xs:sequence />
     </xs:complexType>
   </xs:element>
+  <xs:element name="ActualizarDatosDocente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+        <xs:element minOccurs="0" name="nombres" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="apPaterno" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="apMaterno" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaNacimiento" nillable="true" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="sexo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="direccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaIngreso" nillable="true" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="tituloProfesional" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="evaluacionPsicologica" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fotos" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="verificacionDomiciliaria" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ActualizarDatosDocenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosDocente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosDocenteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/clsEntidades" minOccurs="0" name="ObtenerDatosDocenteResult" nillable="true" type="q29:clsUsuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

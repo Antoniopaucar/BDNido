@@ -1,129 +1,181 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\",
+  "WorkspaceRootPath": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\desarrollo de aplicaciones distribuidas\\proyectonido\\proyectonido\\proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\isur\\6 semestre\\experiencias formativas iii\\p_nido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_datos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_datos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_datos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_datos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_datos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_datos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\usuario_secundario.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\usuario_secundario.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_apoderado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_apoderado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_apoderado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_apoderado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_profesor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_profesor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_alumno.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_alumno.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_profesor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_profesor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_alumno.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_alumno.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_alumno.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_alumno.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_distrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_permiso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_rol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_salon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -134,51 +186,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frm_Salon.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAUwCkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:14:05.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frm_Comunicado.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx",
+              "DocumentIndex": 0,
+              "Title": "frm_Docente_Comunicado.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Comunicado.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Comunicado.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T05:32:32.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_Comunicado.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T05:40:06.62Z"
+              "WhenOpened": "2025-11-19T07:10:53.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TemplatePrincipal.Master.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
+              "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:21:53.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_Docente_Datos.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Datos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-18T19:56:30.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_Docente_Datos.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Datos.aspx.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwH8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:22:08.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TemplatePrincipal.Master",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
               "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
               "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -188,275 +254,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frm_Permiso.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHEAAAAJAAAAAAAAAA==",
+              "Title": "frm_Docente_Datos.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:05:24.456Z"
+              "WhenOpened": "2025-11-18T20:23:42.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_Usuario_Rol.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T23:06:07.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_Usuario_Rol.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:13:35.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frm_Inicio.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T19:42:54.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frm_Rol.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T21:09:27.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frm_Rol.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAUwHUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:12:25.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frm_Permiso.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T22:04:49.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frm_Salon.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T19:01:56.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frm_Inicio.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:49:53.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frm_Nivel.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwHQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:19:52.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frm_Nivel.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T18:13:31.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TemplatePrincipal.Master.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
-              "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:21:53.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Estilos.css",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
-              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\Estilos.css",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
-              "RelativeToolTip": "ProyectoNido\\CSS\\Estilos.css",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-07T06:40:13.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frm_Distrito.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T17:07:48.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "frm_Login.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowEAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:22:54.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "frm_Distrito.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwFgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:16:32.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frm_Usuario.aspx.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAuwOoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:53:33.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frm_Usuario.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-05T17:58:13.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "frm_Usuario.aspx.designer.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
-              "ViewState": "AgIAAD0BAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T20:19:42.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Funciones.js",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
-              "RelativeDocumentMoniker": "ProyectoNido\\Js\\Funciones.js",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
-              "RelativeToolTip": "ProyectoNido\\Js\\Funciones.js",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-09T20:39:52.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EstiloLogin.css",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
-              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\EstiloLogin.css",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
-              "RelativeToolTip": "ProyectoNido\\CSS\\EstiloLogin.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-05T18:52:53.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "clsValidacion.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
-              "RelativeToolTip": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwFwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T05:16:23.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 9,
               "Title": "frm_Login.aspx",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
               "RelativeToolTip": "ProyectoNido\\frm_Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -464,24 +277,204 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 7,
+              "Title": "frm_Login.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:22:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_Usuario.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-05T17:58:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario_secundario.Master",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Usuario_secundario.Master",
+              "RelativeDocumentMoniker": "ProyectoNido\\Usuario_secundario.Master",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Usuario_secundario.Master",
+              "RelativeToolTip": "ProyectoNido\\Usuario_secundario.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-18T19:30:36.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_Usuario_Rol.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T23:06:07.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_Permiso.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T22:04:49.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EstiloLogin.css",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
+              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\EstiloLogin.css",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
+              "RelativeToolTip": "ProyectoNido\\CSS\\EstiloLogin.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T18:52:53.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
+              "RelativeDocumentMoniker": "ProyectoNido\\CSS\\Estilos.css",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
+              "RelativeToolTip": "ProyectoNido\\CSS\\Estilos.css",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAuwGMBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T06:40:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_Distrito.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T17:07:48.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frm_Apoderado.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Apoderado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Apoderado.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Apoderado.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Apoderado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T03:55:27.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frm_Nivel.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T18:13:31.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frm_Comunicado.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T05:32:32.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frm_Apoderado.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Apoderado.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Apoderado.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Apoderado.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Apoderado.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T04:08:56.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Web.config",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
               "RelativeDocumentMoniker": "ProyectoNido\\Web.config",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
               "RelativeToolTip": "ProyectoNido\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-11-05T18:22:05.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 20,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Release.config",
+              "RelativeDocumentMoniker": "ProyectoNido\\Web.Release.config",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Release.config",
+              "RelativeToolTip": "ProyectoNido\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-18T19:51:39.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frm_Rol.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T21:09:27.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frm_Profesor.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Profesor.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Profesor.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Profesor.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Profesor.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:19:12.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Web.Debug.config",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
               "RelativeDocumentMoniker": "ProyectoNido\\Web.Debug.config",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
               "RelativeToolTip": "ProyectoNido\\Web.Debug.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -489,11 +482,227 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frm_Alumno.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Alumno.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Alumno.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T23:54:07.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frm_Profesor.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Profesor.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Profesor.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Profesor.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Profesor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T23:55:07.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frm_Alumno.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Alumno.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Alumno.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:22:32.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frm_Alumno.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Alumno.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Alumno.aspx.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Alumno.aspx.designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:19:21.352Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "frm_Distrito.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Distrito.aspx.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:16:32.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frm_Comunicado.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:40:06.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frm_Permiso.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Permiso.aspx.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:05:24.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frm_Salon.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwCkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:05.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frm_Usuario_Rol.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:13:35.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frm_Inicio.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T19:42:54.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frm_Rol.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Rol.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwHUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:12:25.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frm_Salon.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Salon.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T19:01:56.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frm_Inicio.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Inicio.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:49:53.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frm_Nivel.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Nivel.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T18:19:52.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frm_Usuario.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAuwOoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:53:33.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frm_Usuario.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T20:19:42.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Funciones.js",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeDocumentMoniker": "ProyectoNido\\Js\\Funciones.js",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeToolTip": "ProyectoNido\\Js\\Funciones.js",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T20:39:52.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "clsValidacion.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "RelativeToolTip": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:16:23.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "frm_Login.aspx.designer.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.designer.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
               "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -501,11 +710,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "TemplatePrincipal.Master.designer.cs",
-              "DocumentMoniker": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.designer.cs",
-              "ToolTip": "D:\\DESARROLLO DE APLICACIONES DISTRIBUIDAS\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
               "RelativeToolTip": "ProyectoNido\\TemplatePrincipal.Master.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

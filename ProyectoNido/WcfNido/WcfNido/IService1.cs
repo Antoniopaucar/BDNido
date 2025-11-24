@@ -41,7 +41,10 @@ namespace WcfNido
         //----------------COMUNICADOS---------------------------------------------------
 
         [OperationContract]
-        List<clsEntidades.clsComunicado> GetComunicado();
+        List<clsEntidades.clsComunicado> GetComunicado(int idUsuario);
+
+        [OperationContract]
+        void MarcarComunicadoVisto(int idComunicado, int idUsuario);
 
         [OperationContract]
         void DelComunicado(int Codigo);
@@ -117,6 +120,16 @@ namespace WcfNido
         void InsUsuarioRol(clsEntidades.clsUsuarioRol xUr);
         [OperationContract]
         void ModUsuarioRol(clsEntidades.clsUsuarioRol xUr);
+
+        //------------------------ DOCENTE DATOS ----------------------------------------------
+        [OperationContract]
+        void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+            string fotos, string verificacionDomiciliaria);
+
+        [OperationContract]
+        clsEntidades.clsUsuario ObtenerDatosDocente(int idUsuario);
         // TODO: agregue aquí sus operaciones de servicio
     }
 

@@ -31,20 +31,26 @@
       <xs:element minOccurs="0" name="ApellidoPaterno" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Bloqueado" type="xs:boolean" />
       <xs:element minOccurs="0" name="Clave" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cv" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Dni" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EvaluacionPsicologica" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="FechaBloqueo" nillable="true" type="xs:dateTime" />
       <xs:element minOccurs="0" name="FechaCreacion" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaIngreso" nillable="true" type="xs:dateTime" />
       <xs:element minOccurs="0" name="FechaNacimiento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fotos" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Id" type="xs:int" />
       <xs:element minOccurs="0" name="Intentos" type="xs:int" />
       <xs:element minOccurs="0" name="NombreUsuario" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TituloProfesional" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="UltimoIntento" nillable="true" type="xs:dateTime" />
       <xs:element minOccurs="0" name="UltimoLoginExitoso" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="VerificacionDomiciliaria" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clsUsuario" nillable="true" type="tns:clsUsuario" />

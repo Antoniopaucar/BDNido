@@ -240,6 +240,9 @@ namespace ProyectoNido.wcfNido {
         private string ClaveField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CvField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string DireccionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -249,13 +252,22 @@ namespace ProyectoNido.wcfNido {
         private string EmailField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EvaluacionPsicologicaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<System.DateTime> FechaBloqueoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.DateTime FechaCreacionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<System.DateTime> FechaIngresoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<System.DateTime> FechaNacimientoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FotosField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int IdField;
@@ -276,10 +288,16 @@ namespace ProyectoNido.wcfNido {
         private string TelefonoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TituloProfesionalField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<System.DateTime> UltimoIntentoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<System.DateTime> UltimoLoginExitosoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string VerificacionDomiciliariaField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -357,6 +375,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Cv {
+            get {
+                return this.CvField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CvField, value) != true)) {
+                    this.CvField = value;
+                    this.RaisePropertyChanged("Cv");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Direccion {
             get {
                 return this.DireccionField;
@@ -396,6 +427,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string EvaluacionPsicologica {
+            get {
+                return this.EvaluacionPsicologicaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EvaluacionPsicologicaField, value) != true)) {
+                    this.EvaluacionPsicologicaField = value;
+                    this.RaisePropertyChanged("EvaluacionPsicologica");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public System.Nullable<System.DateTime> FechaBloqueo {
             get {
                 return this.FechaBloqueoField;
@@ -422,6 +466,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> FechaIngreso {
+            get {
+                return this.FechaIngresoField;
+            }
+            set {
+                if ((this.FechaIngresoField.Equals(value) != true)) {
+                    this.FechaIngresoField = value;
+                    this.RaisePropertyChanged("FechaIngreso");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public System.Nullable<System.DateTime> FechaNacimiento {
             get {
                 return this.FechaNacimientoField;
@@ -430,6 +487,19 @@ namespace ProyectoNido.wcfNido {
                 if ((this.FechaNacimientoField.Equals(value) != true)) {
                     this.FechaNacimientoField = value;
                     this.RaisePropertyChanged("FechaNacimiento");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Fotos {
+            get {
+                return this.FotosField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FotosField, value) != true)) {
+                    this.FotosField = value;
+                    this.RaisePropertyChanged("Fotos");
                 }
             }
         }
@@ -513,6 +583,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TituloProfesional {
+            get {
+                return this.TituloProfesionalField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TituloProfesionalField, value) != true)) {
+                    this.TituloProfesionalField = value;
+                    this.RaisePropertyChanged("TituloProfesional");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public System.Nullable<System.DateTime> UltimoIntento {
             get {
                 return this.UltimoIntentoField;
@@ -534,6 +617,19 @@ namespace ProyectoNido.wcfNido {
                 if ((this.UltimoLoginExitosoField.Equals(value) != true)) {
                     this.UltimoLoginExitosoField = value;
                     this.RaisePropertyChanged("UltimoLoginExitoso");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string VerificacionDomiciliaria {
+            get {
+                return this.VerificacionDomiciliariaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.VerificacionDomiciliariaField, value) != true)) {
+                    this.VerificacionDomiciliariaField = value;
+                    this.RaisePropertyChanged("VerificacionDomiciliaria");
                 }
             }
         }
@@ -574,6 +670,9 @@ namespace ProyectoNido.wcfNido {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private ProyectoNido.wcfNido.clsUsuario UsuarioField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool VistoField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -659,6 +758,19 @@ namespace ProyectoNido.wcfNido {
                 if ((object.ReferenceEquals(this.UsuarioField, value) != true)) {
                     this.UsuarioField = value;
                     this.RaisePropertyChanged("Usuario");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool Visto {
+            get {
+                return this.VistoField;
+            }
+            set {
+                if ((this.VistoField.Equals(value) != true)) {
+                    this.VistoField = value;
+                    this.RaisePropertyChanged("Visto");
                 }
             }
         }
@@ -1205,10 +1317,16 @@ namespace ProyectoNido.wcfNido {
         System.Threading.Tasks.Task<ProyectoNido.wcfNido.ValClaveSeguraResponse> ValClaveSeguraAsync(ProyectoNido.wcfNido.ValClaveSeguraRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetComunicado", ReplyAction="http://tempuri.org/IService1/GetComunicadoResponse")]
-        ProyectoNido.wcfNido.clsComunicado[] GetComunicado();
+        ProyectoNido.wcfNido.clsComunicado[] GetComunicado(int idUsuario);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetComunicado", ReplyAction="http://tempuri.org/IService1/GetComunicadoResponse")]
-        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsComunicado[]> GetComunicadoAsync();
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsComunicado[]> GetComunicadoAsync(int idUsuario);
+
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/MarcarComunicadoVisto", ReplyAction="http://tempuri.org/IService1/MarcarComunicadoVistoResponse")]
+        void MarcarComunicadoVisto(int idComunicado, int idUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/MarcarComunicadoVisto", ReplyAction="http://tempuri.org/IService1/MarcarComunicadoVistoResponse")]
+        System.Threading.Tasks.Task MarcarComunicadoVistoAsync(int idComunicado, int idUsuario);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelComunicado", ReplyAction="http://tempuri.org/IService1/DelComunicadoResponse")]
         void DelComunicado(int Codigo);
@@ -1371,6 +1489,18 @@ namespace ProyectoNido.wcfNido {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModUsuarioRol", ReplyAction="http://tempuri.org/IService1/ModUsuarioRolResponse")]
         System.Threading.Tasks.Task ModUsuarioRolAsync(ProyectoNido.wcfNido.clsUsuarioRol xUr);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ActualizarDatosDocente", ReplyAction="http://tempuri.org/IService1/ActualizarDatosDocenteResponse")]
+        void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ActualizarDatosDocente", ReplyAction="http://tempuri.org/IService1/ActualizarDatosDocenteResponse")]
+        System.Threading.Tasks.Task ActualizarDatosDocenteAsync(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerDatosDocente", ReplyAction="http://tempuri.org/IService1/ObtenerDatosDocenteResponse")]
+        ProyectoNido.wcfNido.clsUsuario ObtenerDatosDocente(int idUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerDatosDocente", ReplyAction="http://tempuri.org/IService1/ObtenerDatosDocenteResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsUsuario> ObtenerDatosDocenteAsync(int idUsuario);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -1514,12 +1644,20 @@ namespace ProyectoNido.wcfNido {
             return base.Channel.ValClaveSeguraAsync(request);
         }
         
-        public ProyectoNido.wcfNido.clsComunicado[] GetComunicado() {
-            return base.Channel.GetComunicado();
+        public ProyectoNido.wcfNido.clsComunicado[] GetComunicado(int idUsuario) {
+            return base.Channel.GetComunicado(idUsuario);
         }
         
-        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsComunicado[]> GetComunicadoAsync() {
-            return base.Channel.GetComunicadoAsync();
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsComunicado[]> GetComunicadoAsync(int idUsuario) {
+            return base.Channel.GetComunicadoAsync(idUsuario);
+        }
+
+        public void MarcarComunicadoVisto(int idComunicado, int idUsuario) {
+            base.Channel.MarcarComunicadoVisto(idComunicado, idUsuario);
+        }
+        
+        public System.Threading.Tasks.Task MarcarComunicadoVistoAsync(int idComunicado, int idUsuario) {
+            return base.Channel.MarcarComunicadoVistoAsync(idComunicado, idUsuario);
         }
         
         public void DelComunicado(int Codigo) {
@@ -1736,6 +1874,22 @@ namespace ProyectoNido.wcfNido {
         
         public System.Threading.Tasks.Task ModUsuarioRolAsync(ProyectoNido.wcfNido.clsUsuarioRol xUr) {
             return base.Channel.ModUsuarioRolAsync(xUr);
+        }
+        
+        public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria) {
+            base.Channel.ActualizarDatosDocente(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento, sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica, fotos, verificacionDomiciliaria);
+        }
+        
+        public System.Threading.Tasks.Task ActualizarDatosDocenteAsync(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria) {
+            return base.Channel.ActualizarDatosDocenteAsync(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento, sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica, fotos, verificacionDomiciliaria);
+        }
+        
+        public ProyectoNido.wcfNido.clsUsuario ObtenerDatosDocente(int idUsuario) {
+            return base.Channel.ObtenerDatosDocente(idUsuario);
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsUsuario> ObtenerDatosDocenteAsync(int idUsuario) {
+            return base.Channel.ObtenerDatosDocenteAsync(idUsuario);
         }
     }
 }

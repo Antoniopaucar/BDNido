@@ -134,7 +134,8 @@ namespace ProyectoNido
             try
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-                List<clsComunicado> lista = xdb.GetComunicado().ToList();
+                int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+                List<clsComunicado> lista = xdb.GetComunicado(idUsuario).ToList();
 
                 gvComunicados.DataSource = lista;
                 gvComunicados.DataBind();
@@ -153,7 +154,8 @@ namespace ProyectoNido
             wcfNido.Service1Client xdb = new wcfNido.Service1Client();
 
             // Obtener la lista desde el servicio
-            var lista = xdb.GetComunicado().ToList();
+            int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+            var lista = xdb.GetComunicado(idUsuario).ToList();
 
             // Aplicar filtro si existe texto
             if (!string.IsNullOrEmpty(filtro))
@@ -183,7 +185,8 @@ namespace ProyectoNido
                 try
                 {
                     // Obtener todos los usuarios desde el servicio
-                    var lista = xdb.GetComunicado(); // 
+                    int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+                    var lista = xdb.GetComunicado(idUsuario); // 
 
                     // Buscar el usuario correspondiente al ID
                     var Comu = lista.FirstOrDefault(u => u.Id == id);

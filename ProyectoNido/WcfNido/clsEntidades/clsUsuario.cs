@@ -28,6 +28,14 @@ namespace clsEntidades
         public DateTime? UltimoLoginExitoso { get; set; }
         public DateTime FechaCreacion { get; set; }
 
+        // Campos de Profesor (opcionales, solo se llenan cuando se obtienen datos del docente)
+        public DateTime? FechaIngreso { get; set; }
+        public string TituloProfesional { get; set; }
+        public string Cv { get; set; }
+        public string EvaluacionPsicologica { get; set; }
+        public string Fotos { get; set; }
+        public string VerificacionDomiciliaria { get; set; }
+
         public clsUsuario() { }
         public clsUsuario(int id, string nombreUsuario, string password, string nombres, string apellidoP,
             string apellidoM,string dni, DateTime? fecNacimiento,string sexo, string direccion, string telefono, 

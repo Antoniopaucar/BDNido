@@ -98,11 +98,24 @@ namespace WcfNido
         }
 
         //------------------ COMUNICADO ----------------------------
-        public List<clsComunicado> GetComunicado()
+        public List<clsComunicado> GetComunicado(int idUsuario)
         {
 
             clsBL.clsBLComunicado xbl = new clsBL.clsBLComunicado();
-            return xbl.listar_comunicados();
+            return xbl.listar_comunicados(idUsuario);
+        }
+
+        public void MarcarComunicadoVisto(int idComunicado, int idUsuario)
+        {
+            try
+            {
+                clsBL.clsBLComunicado xbl = new clsBL.clsBLComunicado();
+                xbl.marcar_comunicado_visto(idComunicado, idUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
         }
 
         public void DelComunicado(int Codigo)
@@ -410,6 +423,38 @@ namespace WcfNido
             {
                 clsBL.clsBLUsuarioRol xbl = new clsBL.clsBLUsuarioRol();
                 xbl.modificar_usuario_rol(xUr);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        //---------------------------- ACTUALIZAR DATOS DOCENTE ---------------------------------
+        public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+            string fotos, string verificacionDomiciliaria)
+        {
+            try
+            {
+                clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
+                xbl.actualizar_datos_docente(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento,
+                    sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica,
+                    fotos, verificacionDomiciliaria);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public clsUsuario ObtenerDatosDocente(int idUsuario)
+        {
+            try
+            {
+                clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
+                return xbl.obtener_datos_docente(idUsuario);
             }
             catch (Exception ex)
             {

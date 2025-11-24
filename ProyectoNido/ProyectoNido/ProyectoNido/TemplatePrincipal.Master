@@ -47,7 +47,7 @@
                             <ul class="submenu">
                                 <li><a href="frm_Apoderado.aspx"><img src="Img/apoderado.png" alt="Apoderado">Apoderado</a></li>
                                 <li><a href="frm_Alumno.aspx"><img src="Img/alumno.png" alt="Alumno">Alumno</a></li>
-                                <li><a href="frm_Profesor.aspx"><img src="Img/profesor.png" alt="Profesor">Profesor</a></li>
+                                <li><a href="frm_Docente_Datos.aspx"><img src="Img/profesor.png" alt="Profesor">Profesor</a></li>
                             </ul>
                         </li>
 

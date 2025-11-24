@@ -288,7 +288,7 @@ CREATE TABLE Cuota (
 --				select 'Todo OK' as resultado
 --			end
 
-ALTER PROCEDURE [dbo].[ValidarUsuario]
+CREATE PROCEDURE [dbo].[ValidarUsuario]
 (
     @NombreUsuario VARCHAR(50),
     @Clave VARCHAR(256)
@@ -383,7 +383,7 @@ BEGIN
     WHERE u.Id = @IdUsuario;
 END
 
-ALTER PROCEDURE ValidarContraseniaSegura
+CREATE PROCEDURE ValidarContraseniaSegura
     @Usuario VARCHAR(50),
     @Contrasena VARCHAR(256),
     @EsValido BIT OUTPUT,
@@ -438,17 +438,22 @@ create proc [dbo].[listar_usuarios]
 as
 select  * from Usuario
 
-alter proc [dbo].[listar_comunicados]
+ALTER proc [dbo].[listar_comunicados]
 as
 select  c.Id_Comunicado,
 		c.Id_Usuario,
 		u.NombreUsuario,
+        u.Nombres,
+        u.ApPaterno,
+        u.ApMaterno,
 		c.Nombre,
 		c.Descripcion,
 		c.FechaCreacion,
 		c.FechaFinal
 from Comunicado as c inner join
 Usuario as u on c.Id_Usuario = u.Id
+where c.FechaFinal >= CAST(GETDATE() as DATE) or c.FechaFinal is null
+order by c.FechaCreacion desc
 
 create proc [dbo].[listar_distritos]
 as
@@ -470,7 +475,7 @@ create proc [dbo].[listar_permisos]
 as
 select  * from Permiso
 
-alter proc [dbo].[listar_usuario_rol]
+create proc [dbo].[listar_usuario_rol]
 as
 select  ur.Id_Usuario,
 		u.NombreUsuario,
@@ -574,7 +579,7 @@ where Id_Usuario = @Id_Usuario AND Id_Rol = @Id_Rol
 
 --****************************************************************************************************
 
-ALTER proc [dbo].[insertar_usuarios]
+CREATE proc [dbo].[insertar_usuarios]
 (@NombreUsuario varchar(50),
 @Clave varchar(256),
 @Nombres varchar(100),
@@ -590,7 +595,7 @@ as
 insert Usuario (NombreUsuario,Clave,Nombres,ApPaterno,ApMaterno,Dni,FechaNacimiento,Sexo,Direccion,Telefono,Email)
 values (@NombreUsuario,@Clave,@Nombres,@ApPaterno,@ApMaterno,@Dni,@FechaNacimiento,@Sexo,@Direccion,@Telefono,@Email)
 
-alter proc [dbo].[insertar_comunicados]
+CREATE proc [dbo].[insertar_comunicados]
 (@Id_Usuario int,
 @Nombre varchar(100),
 @Descripcion varchar(500),
@@ -644,7 +649,7 @@ values (@Id_Usuario,@Id_Rol)
 
 --********************************************************************************************************************
 
-ALTER PROCEDURE [dbo].[modificar_usuarios]
+CREATE PROCEDURE [dbo].[modificar_usuarios]
     @Id int,
     @NombreUsuario nvarchar(50),
     @Clave nvarchar(256),
@@ -724,7 +729,7 @@ BEGIN
     WHERE Id_Nivel = @Id
 END
 
-alter PROCEDURE [dbo].[modificar_salon]
+CREATE PROCEDURE [dbo].[modificar_salon]
     @Id int,
 	@Nombre varchar(50),
 	@Aforo int,
@@ -810,3 +815,139 @@ select * from Usuario
 select * from Comunicado
 
 select * from UsuarioRol
+select * from Permiso
+
+
+select * from Nivel
+
+----------------------------DOCENTE------------------
+CREATE PROCEDURE [dbo].[modificar_profesor]
+    @Id_Usuario INT,
+    @FechaIngreso DATE,
+    @TituloProfesional VARCHAR(100),
+    @Cv VARCHAR(100),
+    @EvaluacionPsicologica VARCHAR(100),
+    @Fotos VARCHAR(100),
+    @VerificacionDomiciliaria VARCHAR(100)
+AS
+BEGIN
+    UPDATE Profesor
+    SET FechaIngreso = @FechaIngreso,
+        TituloProfesional = @TituloProfesional,
+        Cv = @Cv,
+        EvaluacionPsicologica = @EvaluacionPsicologica,
+        Fotos = @Fotos,
+        VerificacionDomiciliaria = @VerificacionDomiciliaria
+    WHERE Id_Usuario = @Id_Usuario;
+END
+
+CREATE PROCEDURE [dbo].[obtener_datos_profesor_por_usuario]
+    @Id_Usuario INT
+AS
+BEGIN
+    SELECT 
+        u.Id,
+        u.NombreUsuario,
+        u.Nombres,
+        u.ApPaterno,
+        u.ApMaterno,
+        u.Dni,
+        u.FechaNacimiento,
+        u.Sexo,
+        u.Direccion,
+        u.Email,
+        p.FechaIngreso,
+        p.TituloProfesional,
+        p.Cv,
+        p.EvaluacionPsicologica,
+        p.Fotos,
+        p.VerificacionDomiciliaria
+    FROM Usuario u
+    LEFT JOIN Profesor p ON u.Id = p.Id_Usuario
+    WHERE u.Id = @Id_Usuario;
+END
+alter PROCEDURE [dbo].[actualizar_datos_docente]
+    @Id_Usuario              INT,           -- docente logueado
+    @Nombres                 VARCHAR(100),
+    @ApPaterno               VARCHAR(50),
+    @ApMaterno               VARCHAR(50),
+    @Dni                     CHAR(8),
+    @FechaNacimiento         DATE,
+    @Sexo                    CHAR(1),      -- 'M' / 'F'
+    @Direccion               VARCHAR(200),
+    @Email                   VARCHAR(100),
+
+    @FechaIngreso            DATE,
+    @TituloProfesional       VARCHAR(100),
+    @Cv                      VARCHAR(100),
+    @EvaluacionPsicologica   VARCHAR(100),
+    @Fotos                   VARCHAR(100),
+    @VerificacionDomiciliaria VARCHAR(100)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        BEGIN TRAN;
+
+        -- 1) Actualizar datos personales en USUARIO
+        UPDATE Usuario
+        SET
+            Nombres         = @Nombres,
+            ApPaterno       = @ApPaterno,
+            ApMaterno       = @ApMaterno,
+            Dni             = @Dni,
+            FechaNacimiento = @FechaNacimiento,
+            Sexo            = @Sexo,
+            Direccion       = @Direccion,
+            Email           = @Email
+        WHERE Id = @Id_Usuario;
+
+        -- 2) Actualizar datos de PROFESOR (documentos y fecha ingreso)
+        -- Usar NULLIF para convertir cadenas vacías a NULL, luego COALESCE para mantener valores existentes
+        -- Si el parámetro es NULL o cadena vacía, mantiene el valor existente
+        -- Si el parámetro tiene un valor, actualiza con ese valor
+        UPDATE Profesor
+        SET
+            FechaIngreso            = COALESCE(@FechaIngreso, FechaIngreso),
+            TituloProfesional       = COALESCE(NULLIF(@TituloProfesional, ''), TituloProfesional),
+            Cv                      = COALESCE(NULLIF(@Cv, ''), Cv),
+            EvaluacionPsicologica   = COALESCE(NULLIF(@EvaluacionPsicologica, ''), EvaluacionPsicologica),
+            Fotos                   = COALESCE(NULLIF(@Fotos, ''), Fotos),
+            VerificacionDomiciliaria = COALESCE(NULLIF(@VerificacionDomiciliaria, ''), VerificacionDomiciliaria)
+        WHERE Id_Usuario = @Id_Usuario;
+
+        COMMIT TRAN;
+    END TRY
+    BEGIN CATCH
+        IF @@TRANCOUNT > 0 ROLLBACK TRAN;
+
+        DECLARE @ErrMsg NVARCHAR(4000) = ERROR_MESSAGE();
+        RAISERROR(@ErrMsg, 16, 1);
+    END CATCH
+END;
+GO
+
+
+CREATE PROCEDURE [dbo].[modificar_profesor]
+    @Id_Usuario INT,
+    @FechaIngreso DATE,
+    @TituloProfesional VARCHAR(100),
+    @Cv VARCHAR(100),
+    @EvaluacionPsicologica VARCHAR(100),
+    @Fotos VARCHAR(100),
+    @VerificacionDomiciliaria VARCHAR(100)
+AS
+BEGIN
+    UPDATE Profesor
+    SET FechaIngreso = @FechaIngreso,
+        TituloProfesional = @TituloProfesional,
+        Cv = @Cv,
+        EvaluacionPsicologica = @EvaluacionPsicologica,
+        Fotos = @Fotos,
+        VerificacionDomiciliaria = @VerificacionDomiciliaria
+    WHERE Id_Usuario = @Id_Usuario;
+END
+GO
+
+

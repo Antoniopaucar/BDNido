@@ -1,6 +1,0 @@
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\bin\Debug\clsUtilidades.dll
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\bin\Debug\clsUtilidades.pdb
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\obj\Debug\clsUtilidades.csproj.AssemblyReference.cache
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\obj\Debug\clsUtilidades.csproj.CoreCompileInputs.cache
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\obj\Debug\clsUtilidades.dll
-D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\WcfNido\clsUtilidades\obj\Debug\clsUtilidades.pdb

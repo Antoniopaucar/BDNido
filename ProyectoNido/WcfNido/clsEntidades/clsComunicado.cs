@@ -14,6 +14,7 @@ namespace clsEntidades
         public string Descripcion { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public DateTime? FechaFinal { get; set; }
+        public bool Visto { get; set; }
 
         public clsComunicado() {}
 
