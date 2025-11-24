@@ -111,8 +111,6 @@
     </None>
     <Content Include="CSS\EstiloLogin.css" />
     <Content Include="CSS\Estilos.css" />
-    <Content Include="frm_Alumno.aspx" />
-    <Content Include="frm_Apoderado.aspx" />
     <Content Include="frm_Comunicado.aspx" />
     <Content Include="frm_Distrito.aspx" />
     <Content Include="frm_Docente_Comunicado.aspx" />
@@ -121,7 +119,6 @@
     <Content Include="frm_Login.aspx" />
     <Content Include="frm_Nivel.aspx" />
     <Content Include="frm_Permiso.aspx" />
-    <Content Include="frm_Profesor.aspx" />
     <Content Include="frm_Rol.aspx" />
     <Content Include="frm_Salon.aspx" />
     <Content Include="frm_Usuario.aspx" />
@@ -163,20 +160,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Alumno.aspx.cs">
-      <DependentUpon>frm_Alumno.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frm_Alumno.aspx.designer.cs">
-      <DependentUpon>frm_Alumno.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Apoderado.aspx.cs">
-      <DependentUpon>frm_Apoderado.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frm_Apoderado.aspx.designer.cs">
-      <DependentUpon>frm_Apoderado.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Comunicado.aspx.cs">
       <DependentUpon>frm_Comunicado.aspx</DependentUpon>
@@ -233,13 +216,6 @@
     </Compile>
     <Compile Include="frm_Permiso.aspx.designer.cs">
       <DependentUpon>frm_Permiso.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Profesor.aspx.cs">
-      <DependentUpon>frm_Profesor.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="frm_Profesor.aspx.designer.cs">
-      <DependentUpon>frm_Profesor.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Rol.aspx.cs">
       <DependentUpon>frm_Rol.aspx</DependentUpon>
