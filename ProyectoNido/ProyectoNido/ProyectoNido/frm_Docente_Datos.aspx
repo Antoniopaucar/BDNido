@@ -1,33 +1,10 @@
-﻿
-<%@ Page Title="" Language="C#" MasterPageFile="~/TemplatePrincipal.Master" AutoEventWireup="true" CodeBehind="frm_Docente_Datos.aspx.cs" Inherits="ProyectoNido.frm_Docente_Datos" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script type="text/javascript">
-        // Ejecutar después de cargar la página
-        window.addEventListener('load', function () {
-            // Ocultar el texto "Sin archivos seleccionados" de los FileUpload
-            var fileUploads = document.querySelectorAll('.file-upload-custom');
-            fileUploads.forEach(function (fu) {
-                var spans = fu.getElementsByTagName('span');
-                for (var i = 0; i < spans.length; i++) {
-                    if (spans[i].textContent.indexOf('Sin archivos seleccionados') !== -1) {
-                        spans[i].style.display = 'none';
-                    }
-                }
-            });
-
-            // Cambiar el estilo activo de los enlaces del menú lateral
-            var menuButtons = document.querySelectorAll('.docente-menu a');
-            menuButtons.forEach(function (btn) {
-                btn.addEventListener('click', function () {
-                    menuButtons.forEach(function (b) { b.classList.remove('activo'); });
-                    btn.classList.add('activo');
-                });
-            });
-        });
-    </script>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-     <div class="docente-left">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TemplatePrincipal.Master" AutoEventWireup="true"
+    CodeBehind="frm_Docente_Datos.aspx.cs" Inherits="ProyectoNido.frm_Docente_Datos" %>
+    <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <script src="Js/docente_datos.js" type="text/javascript"></script>
+    </asp:Content>
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+        <div class="docente-left">
             <div class="docente-avatar"></div>
             <div class="docente-nombre">
                 <asp:Label ID="lblNombreDocente" runat="server" Text="nombre y apellido"></asp:Label>
@@ -40,13 +17,13 @@
             </div>
         </div>
 
-</asp:Content>
+    </asp:Content>
 
 
 
 
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-    <div class="docente-right">
+    <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+        <div class="docente-right">
             <table class="docente-form-table">
                 <tr>
                     <td class="docente-label">
@@ -62,8 +39,10 @@
                     <td>
                         <asp:FileUpload ID="fuTituloProfesional" runat="server" CssClass="file-upload-custom" />
                         <div class="archivo-info">
-                            <asp:HyperLink ID="lnkTituloProfesional" runat="server" Target="_blank" Visible="false" CssClass="archivo-existente"></asp:HyperLink>
-                            <asp:Label ID="lblTituloProfesional" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo"></asp:Label>
+                            <asp:HyperLink ID="lnkTituloProfesional" runat="server" Target="_blank" Visible="false"
+                                CssClass="archivo-existente"></asp:HyperLink>
+                            <asp:Label ID="lblTituloProfesional" runat="server" Text="Sin archivo guardado"
+                                CssClass="sin-archivo"></asp:Label>
                         </div>
                     </td>
                 </tr>
@@ -82,8 +61,10 @@
                     <td>
                         <asp:FileUpload ID="fuCV" runat="server" CssClass="file-upload-custom" />
                         <div class="archivo-info">
-                            <asp:HyperLink ID="lnkCV" runat="server" Target="_blank" Visible="false" CssClass="archivo-existente"></asp:HyperLink>
-                            <asp:Label ID="lblCV" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo"></asp:Label>
+                            <asp:HyperLink ID="lnkCV" runat="server" Target="_blank" Visible="false"
+                                CssClass="archivo-existente"></asp:HyperLink>
+                            <asp:Label ID="lblCV" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo">
+                            </asp:Label>
                         </div>
                     </td>
                 </tr>
@@ -102,8 +83,10 @@
                     <td>
                         <asp:FileUpload ID="fuEvaluacionPsicologica" runat="server" CssClass="file-upload-custom" />
                         <div class="archivo-info">
-                            <asp:HyperLink ID="lnkEvaluacionPsicologica" runat="server" Target="_blank" Visible="false" CssClass="archivo-existente"></asp:HyperLink>
-                            <asp:Label ID="lblEvaluacionPsicologica" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo"></asp:Label>
+                            <asp:HyperLink ID="lnkEvaluacionPsicologica" runat="server" Target="_blank" Visible="false"
+                                CssClass="archivo-existente"></asp:HyperLink>
+                            <asp:Label ID="lblEvaluacionPsicologica" runat="server" Text="Sin archivo guardado"
+                                CssClass="sin-archivo"></asp:Label>
                         </div>
                     </td>
                 </tr>
@@ -113,7 +96,8 @@
                         <asp:Label ID="LabelDNI" runat="server" Text="DNI"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtDNI" runat="server" CssClass="docente-input docente-input-readonly" ReadOnly="true"></asp:TextBox>
+                        <asp:TextBox ID="txtDNI" runat="server" CssClass="docente-input docente-input-readonly"
+                            ReadOnly="true"></asp:TextBox>
                     </td>
 
                     <td class="docente-label">
@@ -122,11 +106,13 @@
                     <td>
                         <asp:FileUpload ID="fuFoto" runat="server" CssClass="file-upload-custom" />
                         <div class="archivo-info">
-                            <asp:HyperLink ID="lnkFoto" runat="server" Target="_blank" Visible="false" CssClass="archivo-existente"></asp:HyperLink>
-                            <asp:Label ID="lblFoto" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo"></asp:Label>
+                            <asp:HyperLink ID="lnkFoto" runat="server" Target="_blank" Visible="false"
+                                CssClass="archivo-existente"></asp:HyperLink>
+                            <asp:Label ID="lblFoto" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo">
+                            </asp:Label>
                         </div>
                     </td>
-                                           
+
                 </tr>
 
                 <tr>
@@ -134,7 +120,8 @@
                         <asp:Label ID="LabelFechaNac" runat="server" Text="FECHA DE NACIMIENTO"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtFechaNacimiento" runat="server" CssClass="docente-input" TextMode="Date"></asp:TextBox>
+                        <asp:TextBox ID="txtFechaNacimiento" runat="server" CssClass="docente-input" TextMode="Date">
+                        </asp:TextBox>
                     </td>
                     <td class="docente-label">
                         <asp:Label ID="LabelVerifDom" runat="server" Text="Verificación Domiciliaria"></asp:Label>
@@ -142,8 +129,10 @@
                     <td>
                         <asp:FileUpload ID="fuVerificacionDomiciliaria" runat="server" CssClass="file-upload-custom" />
                         <div class="archivo-info">
-                            <asp:HyperLink ID="lnkVerificacionDomiciliaria" runat="server" Target="_blank" Visible="false" CssClass="archivo-existente"></asp:HyperLink>
-                            <asp:Label ID="lblVerificacionDomiciliaria" runat="server" Text="Sin archivo guardado" CssClass="sin-archivo"></asp:Label>
+                            <asp:HyperLink ID="lnkVerificacionDomiciliaria" runat="server" Target="_blank"
+                                Visible="false" CssClass="archivo-existente"></asp:HyperLink>
+                            <asp:Label ID="lblVerificacionDomiciliaria" runat="server" Text="Sin archivo guardado"
+                                CssClass="sin-archivo"></asp:Label>
                         </div>
                     </td>
                 </tr>
@@ -184,7 +173,9 @@
                         <asp:Label ID="LabelFechaIngreso" runat="server" Text="Fecha de ingreso"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txt_FechaIngreso" runat="server" CssClass="docente-input docente-input-readonly" TextMode="Date" ReadOnly="true"></asp:TextBox>
+                        <asp:TextBox ID="txt_FechaIngreso" runat="server"
+                            CssClass="docente-input docente-input-readonly" TextMode="Date" ReadOnly="true">
+                        </asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -192,9 +183,8 @@
             </table>
 
             <asp:Button ID="btnGuardarDocente" runat="server" Text="GUARDAR"
-    CssClass="btn btn-exito btn-guardar-docente"
-    OnClick="btnGuardarDocente_Click" />
+                CssClass="btn btn-exito btn-guardar-docente" OnClick="btnGuardarDocente_Click" />
         </div>
 
-    </div>
-</asp:Content>
+        </div>
+    </asp:Content>

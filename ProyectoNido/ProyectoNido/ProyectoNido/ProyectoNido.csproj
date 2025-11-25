@@ -151,6 +151,7 @@
     <Content Include="Img\USUARIO ROL.png" />
     <Content Include="Img\usuario.png" />
     <Content Include="Img\usuario2.png" />
+    <Content Include="Js\docente_comunicado.js" />
     <Content Include="Js\Funciones.js" />
     <Content Include="Web.config" />
   </ItemGroup>

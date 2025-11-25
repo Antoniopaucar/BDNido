@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\isur\\6 semestre\\experiencias formativas iii\\p_nido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\frm_docente_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_datos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_docente_datos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\isur\\6 semestre\\experiencias formativas iii\\p_nido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\js\\docente_comunicado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\docente_comunicado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|d:\\isur\\6 semestre\\experiencias formativas iii\\p_nido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_docente_datos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_nivel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_comunicado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -135,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\frm_usuario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518104-E3A6-4B75-AA49-1D19D2813807}|ProyectoNido\\ProyectoNido.csproj|solutionrelative:proyectonido\\auxiliar\\clsvalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -162,7 +166,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "docente_comunicado.js",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\docente_comunicado.js",
+              "RelativeDocumentMoniker": "ProyectoNido\\Js\\docente_comunicado.js",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\docente_comunicado.js",
+              "RelativeToolTip": "ProyectoNido\\Js\\docente_comunicado.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-25T02:59:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_Login.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.cs",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
+              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:22:54.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_Docente_Comunicado.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Comunicado.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx*",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Comunicado.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-19T07:10:53.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_Docente_Datos.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Docente_Datos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-18T19:56:30.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "frm_Docente_Datos.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx.cs",
@@ -174,7 +230,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "frm_Comunicado.aspx",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
+              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T05:32:32.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TemplatePrincipal.Master",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master",
               "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master",
@@ -187,45 +256,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_Login.aspx.cs",
-              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.cs",
-              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.cs",
-              "RelativeToolTip": "ProyectoNido\\frm_Login.aspx.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADgvxsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:22:54.146Z",
+              "DocumentIndex": 4,
+              "Title": "Funciones.js",
+              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeDocumentMoniker": "ProyectoNido\\Js\\Funciones.js",
+              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
+              "RelativeToolTip": "ProyectoNido\\Js\\Funciones.js",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T20:39:52.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_Docente_Comunicado.aspx",
-              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Comunicado.aspx",
-              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Comunicado.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Docente_Comunicado.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-19T07:10:53.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_Docente_Datos.aspx",
-              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx",
-              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Docente_Datos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-18T19:56:30.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TemplatePrincipal.Master.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.cs",
@@ -237,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "frm_Docente_Datos.aspx.designer.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Docente_Datos.aspx.designer.cs",
@@ -249,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "frm_Login.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx",
@@ -261,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "frm_Usuario.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx",
@@ -273,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Usuario_secundario.Master",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Usuario_secundario.Master",
               "RelativeDocumentMoniker": "ProyectoNido\\Usuario_secundario.Master",
@@ -285,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "frm_Usuario_Rol.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx",
@@ -297,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "frm_Permiso.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx",
@@ -309,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "EstiloLogin.css",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\EstiloLogin.css",
               "RelativeDocumentMoniker": "ProyectoNido\\CSS\\EstiloLogin.css",
@@ -321,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Estilos.css",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\CSS\\Estilos.css",
               "RelativeDocumentMoniker": "ProyectoNido\\CSS\\Estilos.css",
@@ -333,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "frm_Distrito.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx",
@@ -345,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "frm_Nivel.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx",
@@ -357,19 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frm_Comunicado.aspx",
-              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
-              "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx",
-              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx",
-              "RelativeToolTip": "ProyectoNido\\frm_Comunicado.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T05:32:32.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.config",
               "RelativeDocumentMoniker": "ProyectoNido\\Web.config",
@@ -382,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Web.Release.config",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Release.config",
               "RelativeDocumentMoniker": "ProyectoNido\\Web.Release.config",
@@ -394,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "frm_Rol.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx",
@@ -406,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Web.Debug.config",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Web.Debug.config",
               "RelativeDocumentMoniker": "ProyectoNido\\Web.Debug.config",
@@ -418,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "frm_Distrito.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Distrito.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Distrito.aspx.cs",
@@ -430,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "frm_Comunicado.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Comunicado.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Comunicado.aspx.cs",
@@ -442,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "frm_Permiso.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Permiso.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Permiso.aspx.cs",
@@ -454,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "frm_Salon.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx.cs",
@@ -466,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "frm_Usuario_Rol.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario_Rol.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario_Rol.aspx.cs",
@@ -478,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "frm_Inicio.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx",
@@ -490,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "frm_Rol.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Rol.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Rol.aspx.cs",
@@ -502,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "frm_Salon.aspx",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Salon.aspx",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Salon.aspx",
@@ -514,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "frm_Inicio.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Inicio.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Inicio.aspx.cs",
@@ -526,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "frm_Nivel.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Nivel.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Nivel.aspx.cs",
@@ -538,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "frm_Usuario.aspx.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.cs",
@@ -550,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "frm_Usuario.aspx.designer.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Usuario.aspx.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Usuario.aspx.designer.cs",
@@ -562,19 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Funciones.js",
-              "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
-              "RelativeDocumentMoniker": "ProyectoNido\\Js\\Funciones.js",
-              "ToolTip": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Js\\Funciones.js",
-              "RelativeToolTip": "ProyectoNido\\Js\\Funciones.js",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-09T20:39:52.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "clsValidacion.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\Auxiliar\\clsValidacion.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\Auxiliar\\clsValidacion.cs",
@@ -586,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "frm_Login.aspx.designer.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\frm_Login.aspx.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\frm_Login.aspx.designer.cs",
@@ -598,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "TemplatePrincipal.Master.designer.cs",
               "DocumentMoniker": "D:\\ISUR\\6 SEMESTRE\\EXPERIENCIAS FORMATIVAS III\\P_nido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\ProyectoNido\\TemplatePrincipal.Master.designer.cs",
               "RelativeDocumentMoniker": "ProyectoNido\\TemplatePrincipal.Master.designer.cs",

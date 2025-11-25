@@ -15,6 +15,30 @@ namespace ProyectoNido
             if (!IsPostBack)
             {
                 CargarComunicados();
+                CargarDatosDocente();
+            }
+        }
+
+        private void CargarDatosDocente()
+        {
+            if (Session["IdUsuario"] != null)
+            {
+                try
+                {
+                    int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+                    wcfNido.Service1Client servicio = new wcfNido.Service1Client();
+                    wcfNido.clsUsuario docente = servicio.ObtenerDatosDocente(idUsuario);
+
+                    if (docente != null)
+                    {
+                        lblNombreDocente.Text = $"{docente.Nombres} {docente.ApellidoPaterno} {docente.ApellidoMaterno}";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    string script = $"console.error('Error al cargar datos del docente: {ex.Message}');";
+                    ClientScript.RegisterStartupScript(this.GetType(), "error", script, true);
+                }
             }
         }
 
