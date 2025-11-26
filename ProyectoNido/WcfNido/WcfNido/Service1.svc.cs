@@ -461,5 +461,19 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+
+        //---------------------------- GRUPO ANUAL ---------------------------------
+        public List<GrupoAnualDetalle> ListarGruposPorDocente(int idUsuario)
+        {
+            try
+            {
+                clsBL.clsBLGrupoAnual xbl = new clsBL.clsBLGrupoAnual();
+                return xbl.ListarGruposPorDocente(idUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
     }
 }

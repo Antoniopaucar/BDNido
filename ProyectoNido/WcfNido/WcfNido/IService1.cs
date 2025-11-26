@@ -130,6 +130,11 @@ namespace WcfNido
 
         [OperationContract]
         clsEntidades.clsUsuario ObtenerDatosDocente(int idUsuario);
+
+        //------------------------ GRUPO ANUAL ----------------------------------------------
+        [OperationContract]
+        List<clsEntidades.GrupoAnualDetalle> ListarGruposPorDocente(int idUsuario);
+
         // TODO: agregue aquí sus operaciones de servicio
     }
 

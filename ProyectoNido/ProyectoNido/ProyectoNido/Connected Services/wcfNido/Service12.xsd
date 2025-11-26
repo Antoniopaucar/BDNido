@@ -68,6 +68,7 @@
       <xs:element minOccurs="0" name="Id" type="xs:int" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:clsUsuario" />
+      <xs:element minOccurs="0" name="Visto" type="xs:boolean" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clsComunicado" nillable="true" type="tns:clsComunicado" />
@@ -156,4 +157,21 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clsUsuarioRol" nillable="true" type="tns:clsUsuarioRol" />
+  <xs:complexType name="ArrayOfGrupoAnualDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GrupoAnualDetalle" nillable="true" type="tns:GrupoAnualDetalle" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGrupoAnualDetalle" nillable="true" type="tns:ArrayOfGrupoAnualDetalle" />
+  <xs:complexType name="GrupoAnualDetalle">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aforo" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_GrupoAnual" type="xs:int" />
+      <xs:element minOccurs="0" name="Nivel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Periodo" type="xs:int" />
+      <xs:element minOccurs="0" name="Salon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalAlumnos" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GrupoAnualDetalle" nillable="true" type="tns:GrupoAnualDetalle" />
 </xs:schema>

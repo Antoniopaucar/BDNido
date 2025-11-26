@@ -62,6 +62,12 @@
   <wsdl:message name="IService1_GetComunicado_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetComunicadoResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_MarcarComunicadoVisto_InputMessage">
+    <wsdl:part name="parameters" element="tns:MarcarComunicadoVisto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MarcarComunicadoVisto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MarcarComunicadoVistoResponse" />
+  </wsdl:message>
   <wsdl:message name="IService1_DelComunicado_InputMessage">
     <wsdl:part name="parameters" element="tns:DelComunicado" />
   </wsdl:message>
@@ -236,6 +242,12 @@
   <wsdl:message name="IService1_ObtenerDatosDocente_OutputMessage">
     <wsdl:part name="parameters" element="tns:ObtenerDatosDocenteResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_ListarGruposPorDocente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGruposPorDocente" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListarGruposPorDocente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGruposPorDocenteResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -272,6 +284,10 @@
     <wsdl:operation name="GetComunicado">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetComunicado" message="tns:IService1_GetComunicado_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetComunicadoResponse" message="tns:IService1_GetComunicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MarcarComunicadoVisto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/MarcarComunicadoVisto" message="tns:IService1_MarcarComunicadoVisto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/MarcarComunicadoVistoResponse" message="tns:IService1_MarcarComunicadoVisto_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="DelComunicado">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelComunicado" message="tns:IService1_DelComunicado_InputMessage" />
@@ -389,6 +405,10 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerDatosDocente" message="tns:IService1_ObtenerDatosDocente_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerDatosDocenteResponse" message="tns:IService1_ObtenerDatosDocente_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="ListarGruposPorDocente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListarGruposPorDocente" message="tns:IService1_ListarGruposPorDocente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListarGruposPorDocenteResponse" message="tns:IService1_ListarGruposPorDocente_OutputMessage" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -466,6 +486,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetComunicado">
       <soap:operation soapAction="http://tempuri.org/IService1/GetComunicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MarcarComunicadoVisto">
+      <soap:operation soapAction="http://tempuri.org/IService1/MarcarComunicadoVisto" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -727,6 +756,15 @@
     </wsdl:operation>
     <wsdl:operation name="ObtenerDatosDocente">
       <soap:operation soapAction="http://tempuri.org/IService1/ObtenerDatosDocente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarGruposPorDocente">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListarGruposPorDocente" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

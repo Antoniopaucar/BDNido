@@ -52,6 +52,7 @@
     <Compile Include="clsUsuarioRol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prueba_A.cs" />
+    <Compile Include="GrupoAnualDetalle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

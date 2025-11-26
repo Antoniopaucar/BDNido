@@ -16,7 +16,7 @@ namespace clsDAC
         // Constructor privado
         private clsConexion()
         {
-            connectionString = ConfigurationManager.ConnectionStrings["MiConexionBD"].ConnectionString;
+            connectionString = ConfigurationManager.ConnectionStrings["Conexion"].ConnectionString;
         }
 
         // Patrón Singleton

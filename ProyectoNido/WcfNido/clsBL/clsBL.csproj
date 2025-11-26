@@ -50,6 +50,7 @@
     <Compile Include="clsBLSalon.cs" />
     <Compile Include="clsBLUsuario.cs" />
     <Compile Include="clsBLUsuarioRol.cs" />
+    <Compile Include="clsBLGrupoAnual.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
