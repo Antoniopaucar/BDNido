@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clsEntidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -134,6 +135,26 @@ namespace WcfNido
         //------------------------ GRUPO ANUAL ----------------------------------------------
         [OperationContract]
         List<clsEntidades.GrupoAnualDetalle> ListarGruposPorDocente(int idUsuario);
+
+
+
+        //-----------------TARIFARIO--------------------
+        [OperationContract]
+        List<clsTarifario> GetTarifario();
+
+        [OperationContract]
+        List<clsTarifario> FilTarifario(string texto);
+
+        [OperationContract]
+        void InsTarifario(clsTarifario tarifario);
+
+        [OperationContract]
+        void ModTarifario(clsTarifario tarifario);
+
+        [OperationContract]
+        void DelTarifario(int idTarifario);
+
+
 
         // TODO: agregue aquí sus operaciones de servicio
     }

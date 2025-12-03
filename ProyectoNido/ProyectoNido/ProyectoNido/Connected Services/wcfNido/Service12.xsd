@@ -174,4 +174,21 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="GrupoAnualDetalle" nillable="true" type="tns:GrupoAnualDetalle" />
+  <xs:complexType name="ArrayOfclsTarifario">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsTarifario" nillable="true" type="tns:clsTarifario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsTarifario" nillable="true" type="tns:ArrayOfclsTarifario" />
+  <xs:complexType name="clsTarifario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_Tarifario" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Periodo" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Valor" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsTarifario" nillable="true" type="tns:clsTarifario" />
 </xs:schema>

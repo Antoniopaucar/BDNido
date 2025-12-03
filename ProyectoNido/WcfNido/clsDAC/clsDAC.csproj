@@ -50,6 +50,7 @@
     <Compile Include="clsDacPermiso.cs" />
     <Compile Include="clsDacRol.cs" />
     <Compile Include="clsDacSalon.cs" />
+    <Compile Include="clsDacTarifario.cs" />
     <Compile Include="clsDacUsuario.cs" />
     <Compile Include="clsDacUsuarioRol.cs" />
     <Compile Include="clsDACGrupoAnual.cs" />

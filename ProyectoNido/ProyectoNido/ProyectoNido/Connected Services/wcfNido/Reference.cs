@@ -1388,6 +1388,131 @@ namespace ProyectoNido.wcfNido {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsTarifario", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.SerializableAttribute()]
+    public partial class clsTarifario : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescripcionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Id_TarifarioField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NombreField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private byte PeriodoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TipoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private decimal ValorField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descripcion {
+            get {
+                return this.DescripcionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
+                    this.DescripcionField = value;
+                    this.RaisePropertyChanged("Descripcion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id_Tarifario {
+            get {
+                return this.Id_TarifarioField;
+            }
+            set {
+                if ((this.Id_TarifarioField.Equals(value) != true)) {
+                    this.Id_TarifarioField = value;
+                    this.RaisePropertyChanged("Id_Tarifario");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nombre {
+            get {
+                return this.NombreField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
+                    this.NombreField = value;
+                    this.RaisePropertyChanged("Nombre");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public byte Periodo {
+            get {
+                return this.PeriodoField;
+            }
+            set {
+                if ((this.PeriodoField.Equals(value) != true)) {
+                    this.PeriodoField = value;
+                    this.RaisePropertyChanged("Periodo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Tipo {
+            get {
+                return this.TipoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TipoField, value) != true)) {
+                    this.TipoField = value;
+                    this.RaisePropertyChanged("Tipo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public decimal Valor {
+            get {
+                return this.ValorField;
+            }
+            set {
+                if ((this.ValorField.Equals(value) != true)) {
+                    this.ValorField = value;
+                    this.RaisePropertyChanged("Valor");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="wcfNido.IService1")]
     public interface IService1 {
@@ -1632,6 +1757,36 @@ namespace ProyectoNido.wcfNido {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListarGruposPorDocente", ReplyAction="http://tempuri.org/IService1/ListarGruposPorDocenteResponse")]
         System.Threading.Tasks.Task<ProyectoNido.wcfNido.GrupoAnualDetalle[]> ListarGruposPorDocenteAsync(int idUsuario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetTarifario", ReplyAction="http://tempuri.org/IService1/GetTarifarioResponse")]
+        ProyectoNido.wcfNido.clsTarifario[] GetTarifario();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetTarifario", ReplyAction="http://tempuri.org/IService1/GetTarifarioResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsTarifario[]> GetTarifarioAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/FilTarifario", ReplyAction="http://tempuri.org/IService1/FilTarifarioResponse")]
+        ProyectoNido.wcfNido.clsTarifario[] FilTarifario(string texto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/FilTarifario", ReplyAction="http://tempuri.org/IService1/FilTarifarioResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsTarifario[]> FilTarifarioAsync(string texto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsTarifario", ReplyAction="http://tempuri.org/IService1/InsTarifarioResponse")]
+        void InsTarifario(ProyectoNido.wcfNido.clsTarifario tarifario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsTarifario", ReplyAction="http://tempuri.org/IService1/InsTarifarioResponse")]
+        System.Threading.Tasks.Task InsTarifarioAsync(ProyectoNido.wcfNido.clsTarifario tarifario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModTarifario", ReplyAction="http://tempuri.org/IService1/ModTarifarioResponse")]
+        void ModTarifario(ProyectoNido.wcfNido.clsTarifario tarifario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModTarifario", ReplyAction="http://tempuri.org/IService1/ModTarifarioResponse")]
+        System.Threading.Tasks.Task ModTarifarioAsync(ProyectoNido.wcfNido.clsTarifario tarifario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelTarifario", ReplyAction="http://tempuri.org/IService1/DelTarifarioResponse")]
+        void DelTarifario(int idTarifario);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelTarifario", ReplyAction="http://tempuri.org/IService1/DelTarifarioResponse")]
+        System.Threading.Tasks.Task DelTarifarioAsync(int idTarifario);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -2029,6 +2184,46 @@ namespace ProyectoNido.wcfNido {
         
         public System.Threading.Tasks.Task<ProyectoNido.wcfNido.GrupoAnualDetalle[]> ListarGruposPorDocenteAsync(int idUsuario) {
             return base.Channel.ListarGruposPorDocenteAsync(idUsuario);
+        }
+        
+        public ProyectoNido.wcfNido.clsTarifario[] GetTarifario() {
+            return base.Channel.GetTarifario();
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsTarifario[]> GetTarifarioAsync() {
+            return base.Channel.GetTarifarioAsync();
+        }
+        
+        public ProyectoNido.wcfNido.clsTarifario[] FilTarifario(string texto) {
+            return base.Channel.FilTarifario(texto);
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsTarifario[]> FilTarifarioAsync(string texto) {
+            return base.Channel.FilTarifarioAsync(texto);
+        }
+        
+        public void InsTarifario(ProyectoNido.wcfNido.clsTarifario tarifario) {
+            base.Channel.InsTarifario(tarifario);
+        }
+        
+        public System.Threading.Tasks.Task InsTarifarioAsync(ProyectoNido.wcfNido.clsTarifario tarifario) {
+            return base.Channel.InsTarifarioAsync(tarifario);
+        }
+        
+        public void ModTarifario(ProyectoNido.wcfNido.clsTarifario tarifario) {
+            base.Channel.ModTarifario(tarifario);
+        }
+        
+        public System.Threading.Tasks.Task ModTarifarioAsync(ProyectoNido.wcfNido.clsTarifario tarifario) {
+            return base.Channel.ModTarifarioAsync(tarifario);
+        }
+        
+        public void DelTarifario(int idTarifario) {
+            base.Channel.DelTarifario(idTarifario);
+        }
+        
+        public System.Threading.Tasks.Task DelTarifarioAsync(int idTarifario) {
+            return base.Channel.DelTarifarioAsync(idTarifario);
         }
     }
 }

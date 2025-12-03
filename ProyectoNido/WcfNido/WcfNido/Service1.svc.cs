@@ -475,5 +475,70 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+
+        //------------------TARIFARIO----------------------------
+
+        public List<clsEntidades.clsTarifario> GetTarifario()
+        {
+            clsBL.clsBLTarifario xbl = new clsBL.clsBLTarifario();
+            return xbl.listar_tarifario();
+        }
+
+        public List<clsTarifario> FilTarifario(string texto)
+        {
+            clsBL.clsBLTarifario bl = new clsBL.clsBLTarifario();
+            return bl.filtrar_tarifario(texto);
+        }
+
+        public void InsTarifario(clsEntidades.clsTarifario tarifario)
+        {
+            try
+            {
+                clsBL.clsBLTarifario xbl = new clsBL.clsBLTarifario();
+                xbl.insertar_tarifario(tarifario);   // ahora el tipo coincide
+            }
+            catch (ArgumentException ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException("Error al insertar el tarifario: " + ex.Message);
+            }
+        }
+
+        public void ModTarifario(clsEntidades.clsTarifario tarifario)
+        {
+            try
+            {
+                clsBL.clsBLTarifario xbl = new clsBL.clsBLTarifario();
+                xbl.modificar_tarifario(tarifario);  // ahora también coincide
+            }
+            catch (ArgumentException ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException("Error al modificar el tarifario: " + ex.Message);
+            }
+        }
+
+        public void DelTarifario(int idTarifario)
+        {
+            try
+            {
+                clsBL.clsBLTarifario xbl = new clsBL.clsBLTarifario();
+                xbl.eliminar_tarifario(idTarifario);
+            }
+            catch (ArgumentException ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException("Error al eliminar el tarifario: " + ex.Message);
+            }
+        }
     }
 }

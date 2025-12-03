@@ -514,4 +514,66 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="GetTarifario">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTarifarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/clsEntidades" minOccurs="0" name="GetTarifarioResult" nillable="true" type="q31:ArrayOfclsTarifario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FilTarifario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="texto" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FilTarifarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/clsEntidades" minOccurs="0" name="FilTarifarioResult" nillable="true" type="q32:ArrayOfclsTarifario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsTarifario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/clsEntidades" minOccurs="0" name="tarifario" nillable="true" type="q33:clsTarifario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsTarifarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModTarifario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/clsEntidades" minOccurs="0" name="tarifario" nillable="true" type="q34:clsTarifario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModTarifarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DelTarifario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTarifario" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DelTarifarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

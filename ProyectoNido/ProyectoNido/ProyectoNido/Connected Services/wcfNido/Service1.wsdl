@@ -248,6 +248,36 @@
   <wsdl:message name="IService1_ListarGruposPorDocente_OutputMessage">
     <wsdl:part name="parameters" element="tns:ListarGruposPorDocenteResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_GetTarifario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTarifario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTarifario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTarifarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FilTarifario_InputMessage">
+    <wsdl:part name="parameters" element="tns:FilTarifario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FilTarifario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FilTarifarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsTarifario_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsTarifario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsTarifario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsTarifarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModTarifario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModTarifario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModTarifario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModTarifarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelTarifario_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelTarifario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelTarifario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelTarifarioResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -408,6 +438,26 @@
     <wsdl:operation name="ListarGruposPorDocente">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListarGruposPorDocente" message="tns:IService1_ListarGruposPorDocente_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListarGruposPorDocenteResponse" message="tns:IService1_ListarGruposPorDocente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTarifario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTarifario" message="tns:IService1_GetTarifario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTarifarioResponse" message="tns:IService1_GetTarifario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FilTarifario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/FilTarifario" message="tns:IService1_FilTarifario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/FilTarifarioResponse" message="tns:IService1_FilTarifario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsTarifario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsTarifario" message="tns:IService1_InsTarifario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsTarifarioResponse" message="tns:IService1_InsTarifario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModTarifario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModTarifario" message="tns:IService1_ModTarifario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModTarifarioResponse" message="tns:IService1_ModTarifario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelTarifario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelTarifario" message="tns:IService1_DelTarifario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelTarifarioResponse" message="tns:IService1_DelTarifario_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -765,6 +815,51 @@
     </wsdl:operation>
     <wsdl:operation name="ListarGruposPorDocente">
       <soap:operation soapAction="http://tempuri.org/IService1/ListarGruposPorDocente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTarifario">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTarifario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FilTarifario">
+      <soap:operation soapAction="http://tempuri.org/IService1/FilTarifario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsTarifario">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsTarifario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModTarifario">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModTarifario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelTarifario">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelTarifario" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

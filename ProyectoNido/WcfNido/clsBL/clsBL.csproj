@@ -51,6 +51,7 @@
     <Compile Include="clsBLUsuario.cs" />
     <Compile Include="clsBLUsuarioRol.cs" />
     <Compile Include="clsBLGrupoAnual.cs" />
+    <Compile Include="clsBLTarifario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

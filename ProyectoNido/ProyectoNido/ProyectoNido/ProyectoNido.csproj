@@ -105,6 +105,9 @@
     <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.GrupoAnualDetalle.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsTarifario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\wcfNido\Service1.disco" />
     <None Include="Connected Services\wcfNido\configuration91.svcinfo" />
     <None Include="Connected Services\wcfNido\configuration.svcinfo" />
@@ -125,6 +128,7 @@
     <Content Include="frm_Permiso.aspx" />
     <Content Include="frm_Rol.aspx" />
     <Content Include="frm_Salon.aspx" />
+    <Content Include="frm_Tarifario.aspx" />
     <Content Include="frm_Usuario.aspx" />
     <Content Include="frm_Usuario_Rol.aspx" />
     <Content Include="Img\ALUMNO.png" />
@@ -242,6 +246,13 @@
     </Compile>
     <Compile Include="frm_Salon.aspx.designer.cs">
       <DependentUpon>frm_Salon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Tarifario.aspx.cs">
+      <DependentUpon>frm_Tarifario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Tarifario.aspx.designer.cs">
+      <DependentUpon>frm_Tarifario.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Usuario.aspx.cs">
       <DependentUpon>frm_Usuario.aspx</DependentUpon>

@@ -48,6 +48,7 @@
     <Compile Include="clsPermiso.cs" />
     <Compile Include="clsRol.cs" />
     <Compile Include="clsSalon.cs" />
+    <Compile Include="clsTarifario.cs" />
     <Compile Include="clsUsuario.cs" />
     <Compile Include="clsUsuarioRol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
