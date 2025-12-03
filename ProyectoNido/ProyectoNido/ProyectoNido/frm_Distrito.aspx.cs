@@ -41,12 +41,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -71,11 +76,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -104,12 +115,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -120,12 +136,34 @@ namespace ProyectoNido
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
                 List<clsDistrito> lista = xdb.GetDistrito().ToList();
 
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.Nombre ?? "").ToLower().Contains(filtro) ||
+                            (x.Ubigeo ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
+
                 gvDistritos.DataSource = lista;
                 gvDistritos.DataBind();
             }
-            catch (Exception ex)
+            catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al cargar la lista de distritos: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error al cargar lista de distritos: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -142,8 +180,13 @@ namespace ProyectoNido
             // Aplicar filtro si existe texto
             if (!string.IsNullOrEmpty(filtro))
             {
+                filtro = filtro.ToLower();
+
                 lista = lista
-                    .Where(x => x.Nombre != null && x.Nombre.ToLower().Contains(filtro))
+                    .Where(x =>
+                        (x.Nombre != null && x.Nombre.ToLower().Contains(filtro)) ||
+                        (x.Ubigeo != null && x.Ubigeo.ToLower().Contains(filtro))
+                    )
                     .ToList();
             }
 
@@ -187,9 +230,19 @@ namespace ProyectoNido
                     }
 
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al consultar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "Alerta",
+                        $"alert('Error al consultar: {mensaje}');",
+                        true
+                    );
                 }
             }
             else if (e.CommandName == "Eliminar")
@@ -201,9 +254,19 @@ namespace ProyectoNido
 
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Distrito eliminado correctamente.');", true);
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al eliminar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "Alerta",
+                        $"alert('Error al eliminar: {mensaje}');",
+                        true
+                    );
                 }
             }
         }

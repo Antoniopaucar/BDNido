@@ -69,13 +69,13 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control txt_Clave.
+        /// Control txt_Contrasenia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Clave;
+        protected global::System.Web.UI.WebControls.TextBox txt_Contrasenia;
 
         /// <summary>
         /// Control Label10.
@@ -87,13 +87,13 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control txt_Clave2.
+        /// Control txt_Repetir_Contrasenia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Clave2;
+        protected global::System.Web.UI.WebControls.TextBox txt_Repetir_Contrasenia;
 
         /// <summary>
         /// Control Label5.
@@ -202,6 +202,24 @@ namespace ProyectoNido
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Ddl_Sexo;
+
+        /// <summary>
+        /// Control Label14.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label14;
+
+        /// <summary>
+        /// Control Ddl_Distrito.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Ddl_Distrito;
 
         /// <summary>
         /// Control Label11.

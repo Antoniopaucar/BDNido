@@ -35,9 +35,6 @@ namespace WcfNido
         [OperationContract]
         void ModUsuario(clsEntidades.clsUsuario User);
 
-        [OperationContract]
-        string ValClaveSegura(string usuario, string contrasenia, out bool exito);
-
         //----------------COMUNICADOS---------------------------------------------------
 
         [OperationContract]
@@ -118,8 +115,38 @@ namespace WcfNido
         void DelUsuarioRol(int id_user,int id_rol);
         [OperationContract]
         void InsUsuarioRol(clsEntidades.clsUsuarioRol xUr);
+
+        //------------------------ ROL PERMISO ----------------------------------------------
+
         [OperationContract]
-        void ModUsuarioRol(clsEntidades.clsUsuarioRol xUr);
+        List<clsEntidades.clsRolPermiso> GetRolPermiso();
+
+        [OperationContract]
+        void DelRolPermiso(int id_rol, int id_permiso);
+        [OperationContract]
+        void InsRolPermiso(clsEntidades.clsRolPermiso xRp);
+
+        //------------------------ USUARIO PERMISO ----------------------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsUsuarioPermiso> GetUsuarioPermiso();
+
+        [OperationContract]
+        void DelUsuarioPermiso(int id_user, int id_permiso);
+        [OperationContract]
+        void InsUsuarioPermiso(clsEntidades.clsUsuarioPermiso xUp);
+
+        //------------------------ APODERADO ----------------------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsApoderado> GetApoderado();
+
+        [OperationContract]
+        void DelApoderado(int Codigo);
+        [OperationContract]
+        void InsApoderado(clsEntidades.clsApoderado apo);
+        [OperationContract]
+        void ModApoderado(clsEntidades.clsApoderado apo);
 
         //------------------------ DOCENTE DATOS ----------------------------------------------
         [OperationContract]

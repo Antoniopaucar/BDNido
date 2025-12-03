@@ -11,12 +11,14 @@ namespace clsEntidades
         public int Id { get; set; }
         public string NombreUsuario { get; set; }
         public string Clave { get; set; }
+        public string ClaveII { get; set; }
         public string Nombres { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
         public string Dni { get; set; }
         public DateTime? FechaNacimiento { get; set; }
         public string Sexo { get; set; }
+        public clsDistrito Distrito { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
@@ -37,19 +39,21 @@ namespace clsEntidades
         public string VerificacionDomiciliaria { get; set; }
 
         public clsUsuario() { }
-        public clsUsuario(int id, string nombreUsuario, string password, string nombres, string apellidoP,
-            string apellidoM,string dni, DateTime? fecNacimiento,string sexo, string direccion, string telefono, 
+        public clsUsuario(int id, string nombreUsuario, string password, string passwordII, string nombres, string apellidoP,
+            string apellidoM,string dni, DateTime? fecNacimiento,string sexo,clsDistrito distrito,string direccion, string telefono, 
             string email, DateTime? fecha_bloqueo, DateTime? ultimo_intento, DateTime? ultimo_intento_exitoso)
         {
             Id = id;
             NombreUsuario = nombreUsuario;
             Clave = password;
+            ClaveII = passwordII;
             Nombres = nombres;
             ApellidoPaterno = apellidoP;
             ApellidoMaterno = apellidoM;
             Dni = dni;
             FechaNacimiento = fecNacimiento;
             Sexo = sexo;
+            Distrito = distrito;
             Direccion = direccion;
             Telefono = telefono;
             Email = email;

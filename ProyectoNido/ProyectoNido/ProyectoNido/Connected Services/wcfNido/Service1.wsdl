@@ -50,12 +50,6 @@
   <wsdl:message name="IService1_ModUsuario_OutputMessage">
     <wsdl:part name="parameters" element="tns:ModUsuarioResponse" />
   </wsdl:message>
-  <wsdl:message name="IService1_ValClaveSegura_InputMessage">
-    <wsdl:part name="parameters" element="tns:ValClaveSegura" />
-  </wsdl:message>
-  <wsdl:message name="IService1_ValClaveSegura_OutputMessage">
-    <wsdl:part name="parameters" element="tns:ValClaveSeguraResponse" />
-  </wsdl:message>
   <wsdl:message name="IService1_GetComunicado_InputMessage">
     <wsdl:part name="parameters" element="tns:GetComunicado" />
   </wsdl:message>
@@ -224,11 +218,65 @@
   <wsdl:message name="IService1_InsUsuarioRol_OutputMessage">
     <wsdl:part name="parameters" element="tns:InsUsuarioRolResponse" />
   </wsdl:message>
-  <wsdl:message name="IService1_ModUsuarioRol_InputMessage">
-    <wsdl:part name="parameters" element="tns:ModUsuarioRol" />
+  <wsdl:message name="IService1_GetRolPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolPermiso" />
   </wsdl:message>
-  <wsdl:message name="IService1_ModUsuarioRol_OutputMessage">
-    <wsdl:part name="parameters" element="tns:ModUsuarioRolResponse" />
+  <wsdl:message name="IService1_GetRolPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelRolPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelRolPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelRolPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelRolPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsRolPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsRolPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsRolPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsRolPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuarioPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsuarioPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsuarioPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarioPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuarioPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelUsuarioPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelUsuarioPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarioPermiso_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuarioPermiso" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsUsuarioPermiso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsUsuarioPermisoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetApoderado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetApoderado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetApoderado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetApoderadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelApoderado_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelApoderado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelApoderado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelApoderadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsApoderado_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsApoderado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsApoderado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsApoderadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModApoderado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModApoderado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModApoderado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModApoderadoResponse" />
   </wsdl:message>
   <wsdl:message name="IService1_ActualizarDatosDocente_InputMessage">
     <wsdl:part name="parameters" element="tns:ActualizarDatosDocente" />
@@ -276,10 +324,6 @@
     <wsdl:operation name="ModUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModUsuario" message="tns:IService1_ModUsuario_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModUsuarioResponse" message="tns:IService1_ModUsuario_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="ValClaveSegura">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValClaveSegura" message="tns:IService1_ValClaveSegura_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValClaveSeguraResponse" message="tns:IService1_ValClaveSegura_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetComunicado">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetComunicado" message="tns:IService1_GetComunicado_InputMessage" />
@@ -393,9 +437,45 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsUsuarioRol" message="tns:IService1_InsUsuarioRol_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsUsuarioRolResponse" message="tns:IService1_InsUsuarioRol_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="ModUsuarioRol">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModUsuarioRol" message="tns:IService1_ModUsuarioRol_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModUsuarioRolResponse" message="tns:IService1_ModUsuarioRol_OutputMessage" />
+    <wsdl:operation name="GetRolPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRolPermiso" message="tns:IService1_GetRolPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRolPermisoResponse" message="tns:IService1_GetRolPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelRolPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelRolPermiso" message="tns:IService1_DelRolPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelRolPermisoResponse" message="tns:IService1_DelRolPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsRolPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsRolPermiso" message="tns:IService1_InsRolPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsRolPermisoResponse" message="tns:IService1_InsRolPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuarioPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUsuarioPermiso" message="tns:IService1_GetUsuarioPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUsuarioPermisoResponse" message="tns:IService1_GetUsuarioPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarioPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelUsuarioPermiso" message="tns:IService1_DelUsuarioPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelUsuarioPermisoResponse" message="tns:IService1_DelUsuarioPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarioPermiso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsUsuarioPermiso" message="tns:IService1_InsUsuarioPermiso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsUsuarioPermisoResponse" message="tns:IService1_InsUsuarioPermiso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetApoderado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetApoderado" message="tns:IService1_GetApoderado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetApoderadoResponse" message="tns:IService1_GetApoderado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelApoderado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelApoderado" message="tns:IService1_DelApoderado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelApoderadoResponse" message="tns:IService1_DelApoderado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsApoderado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsApoderado" message="tns:IService1_InsApoderado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsApoderadoResponse" message="tns:IService1_InsApoderado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModApoderado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModApoderado" message="tns:IService1_ModApoderado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModApoderadoResponse" message="tns:IService1_ModApoderado_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="ActualizarDatosDocente">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ActualizarDatosDocente" message="tns:IService1_ActualizarDatosDocente_InputMessage" />
@@ -468,15 +548,6 @@
     </wsdl:operation>
     <wsdl:operation name="ModUsuario">
       <soap:operation soapAction="http://tempuri.org/IService1/ModUsuario" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ValClaveSegura">
-      <soap:operation soapAction="http://tempuri.org/IService1/ValClaveSegura" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -736,8 +807,89 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="ModUsuarioRol">
-      <soap:operation soapAction="http://tempuri.org/IService1/ModUsuarioRol" style="document" />
+    <wsdl:operation name="GetRolPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRolPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelRolPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelRolPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsRolPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsRolPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsuarioPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUsuarioPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelUsuarioPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelUsuarioPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsUsuarioPermiso">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsUsuarioPermiso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetApoderado">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetApoderado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelApoderado">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelApoderado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsApoderado">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsApoderado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModApoderado">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModApoderado" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

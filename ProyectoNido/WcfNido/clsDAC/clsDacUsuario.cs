@@ -28,7 +28,7 @@ namespace clsDAC
                         while (dr.Read())
                         {
                             clsEntidades.clsUsuario u = new clsEntidades.clsUsuario();
-                            
+                            u.Distrito = new clsEntidades.clsDistrito();
 
                             u.Id = Convert.ToInt32(dr["Id"]);
                             u.NombreUsuario =dr["NombreUsuario"].ToString();
@@ -39,6 +39,10 @@ namespace clsDAC
                             u.Dni = dr["Dni"].ToString();
                             u.FechaNacimiento = dr.IsDBNull(dr.GetOrdinal("FechaNacimiento")) ? (DateTime?)null : dr.GetDateTime(dr.GetOrdinal("FechaNacimiento"));
                             u.Sexo = dr["Sexo"].ToString();
+                            u.Distrito.Id = Convert.IsDBNull(dr["Id_Distrito"])
+                            ? 0
+                            : Convert.ToInt32(dr["Id_Distrito"]);
+                            u.Distrito.Nombre = dr["Nombre"].ToString();
                             u.Direccion = dr["Direccion"].ToString();
                             u.Telefono = dr["Telefono"].ToString();
                             u.Email = dr["Email"].ToString();
@@ -61,100 +65,106 @@ namespace clsDAC
 
         public void EliminarUsuario(int id)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("eliminar_usuarios", cn))
+            try 
+            { 
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    cmd.ExecuteNonQuery();
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("eliminar_usuarios", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id", id);
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void InsertarUsuario(clsEntidades.clsUsuario xusr)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try 
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("insertar_usuarios", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("insertar_usuarios", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@NombreUsuario",xusr.NombreUsuario);
-                    cmd.Parameters.AddWithValue("@Clave", clsUtilidades.clsHash.ObtenerSha256(xusr.Clave));
-                    cmd.Parameters.AddWithValue("@Nombres", xusr.Nombres);
-                    cmd.Parameters.AddWithValue("@ApPaterno", xusr.ApellidoPaterno);
-                    cmd.Parameters.AddWithValue("@ApMaterno", xusr.ApellidoMaterno);
-                    cmd.Parameters.AddWithValue("@Dni", xusr.Dni);
-                    cmd.Parameters.AddWithValue("@FechaNacimiento", xusr.FechaNacimiento);
-                    cmd.Parameters.AddWithValue("@Sexo", xusr.Sexo);
-                    cmd.Parameters.AddWithValue("@Direccion", xusr.Direccion);
-                    cmd.Parameters.AddWithValue("@Telefono", xusr.Telefono);
-                    cmd.Parameters.AddWithValue("@Email", xusr.Email);
+                        cmd.Parameters.AddWithValue("@NombreUsuario",xusr.NombreUsuario);
+                        cmd.Parameters.AddWithValue("@Clave", clsUtilidades.clsUtiles.ObtenerSha256(xusr.Clave));
+                        cmd.Parameters.AddWithValue("@Nombres", xusr.Nombres);
+                        cmd.Parameters.AddWithValue("@ApPaterno", xusr.ApellidoPaterno);
+                        cmd.Parameters.AddWithValue("@ApMaterno", xusr.ApellidoMaterno);
+                        cmd.Parameters.AddWithValue("@Dni", xusr.Dni);
+                        cmd.Parameters.AddWithValue("@FechaNacimiento", xusr.FechaNacimiento);
+                        cmd.Parameters.AddWithValue("@Sexo", xusr.Sexo);
+                        //cmd.Parameters.AddWithValue("@Id_Distrito", xusr.Distrito.Id);
 
-                    cmd.ExecuteNonQuery();
+                        cmd.Parameters.AddWithValue(
+                            "@Id_Distrito",
+                            xusr.Distrito == null ? (object)DBNull.Value : xusr.Distrito.Id
+                        );
+
+                        cmd.Parameters.AddWithValue("@Direccion", xusr.Direccion);
+                        cmd.Parameters.AddWithValue("@Telefono", xusr.Telefono);
+                        cmd.Parameters.AddWithValue("@Email", xusr.Email);
+
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void ModificarUsuario(clsEntidades.clsUsuario xusr)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try 
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("modificar_usuarios", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-
-                    cmd.Parameters.AddWithValue("@Id", xusr.Id);
-                    cmd.Parameters.AddWithValue("@NombreUsuario", xusr.NombreUsuario);
-                    cmd.Parameters.AddWithValue("@Clave", clsUtilidades.clsHash.ObtenerSha256(xusr.Clave));
-                    cmd.Parameters.AddWithValue("@Nombres", xusr.Nombres);
-                    cmd.Parameters.AddWithValue("@ApPaterno", xusr.ApellidoPaterno);
-                    cmd.Parameters.AddWithValue("@ApMaterno", xusr.ApellidoMaterno);
-                    cmd.Parameters.AddWithValue("@Dni", xusr.Dni);
-                    cmd.Parameters.AddWithValue("@FechaNacimiento", xusr.FechaNacimiento);
-                    cmd.Parameters.AddWithValue("@Sexo", xusr.Sexo);
-                    cmd.Parameters.AddWithValue("@Direccion", xusr.Direccion);
-                    cmd.Parameters.AddWithValue("@Telefono", xusr.Telefono);
-                    cmd.Parameters.AddWithValue("@Email", xusr.Email);
-                    cmd.Parameters.AddWithValue("@Activo", xusr.Activo);
-
-                    cmd.ExecuteNonQuery();
-                }
-            }
-        }
-
-        public (bool Exito, string Mensaje) ValidarContraseniaSegura(string usuario, string contrasena)
-        {
-            bool exito = false;
-            string mensaje = string.Empty;
-
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("ValidarContraseniaSegura", cn))
-                {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Usuario", usuario);
-                    cmd.Parameters.AddWithValue("@Contrasena", contrasena);
-
-                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("modificar_usuarios", cn))
                     {
-                        if (dr.Read())
-                        {
-                            exito = Convert.ToBoolean(dr["Exito"]);
-                            mensaje = dr["Mensaje"].ToString();
-                        }
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Id", xusr.Id);
+                        cmd.Parameters.AddWithValue("@NombreUsuario", xusr.NombreUsuario);
+                        cmd.Parameters.AddWithValue("@Clave", clsUtilidades.clsUtiles.ObtenerSha256(xusr.Clave));
+                        cmd.Parameters.AddWithValue("@Nombres", xusr.Nombres);
+                        cmd.Parameters.AddWithValue("@ApPaterno", xusr.ApellidoPaterno);
+                        cmd.Parameters.AddWithValue("@ApMaterno", xusr.ApellidoMaterno);
+                        cmd.Parameters.AddWithValue("@Dni", xusr.Dni);
+                        cmd.Parameters.AddWithValue("@FechaNacimiento", xusr.FechaNacimiento);
+                        cmd.Parameters.AddWithValue("@Sexo", xusr.Sexo);
+                        //cmd.Parameters.AddWithValue("@Id_Distrito", xusr.Distrito.Id);
+
+                        cmd.Parameters.AddWithValue(
+                            "@Id_Distrito",
+                            xusr.Distrito == null ? (object)DBNull.Value : xusr.Distrito.Id
+                        );
+
+                        cmd.Parameters.AddWithValue("@Direccion", xusr.Direccion);
+                        cmd.Parameters.AddWithValue("@Telefono", xusr.Telefono);
+                        cmd.Parameters.AddWithValue("@Email", xusr.Email);
+                        cmd.Parameters.AddWithValue("@Activo", xusr.Activo);
+
+                        cmd.ExecuteNonQuery();
                     }
                 }
             }
-
-            return (exito, mensaje);
+            catch (ArgumentException)
+            {
+                throw;
+            }
         }
-
         public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
             string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
             DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,

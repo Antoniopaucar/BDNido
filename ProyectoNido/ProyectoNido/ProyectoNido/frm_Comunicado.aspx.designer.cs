@@ -51,13 +51,13 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// Control Ddl_Usuario.
+        /// Control Ddl_Rol.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Ddl_Usuario;
+        protected global::System.Web.UI.WebControls.DropDownList Ddl_Rol;
 
         /// <summary>
         /// Control Label4.

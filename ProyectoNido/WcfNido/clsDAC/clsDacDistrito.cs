@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clsEntidades;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -41,50 +42,73 @@ namespace clsDAC
 
         public void EliminarDistrito(int id)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("eliminar_distritos", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    cmd.ExecuteNonQuery();
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("eliminar_distritos", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id", id);
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void InsertarDistrito(clsEntidades.clsDistrito xDis)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("insertar_distritos", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("insertar_distritos", cn))
+                    {
 
-                    cmd.Parameters.AddWithValue("@Ubigeo", xDis.Ubigeo);
-                    cmd.Parameters.AddWithValue("@Nombre", xDis.Nombre);
-                    
-                    cmd.ExecuteNonQuery();
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Ubigeo", xDis.Ubigeo);
+                        cmd.Parameters.AddWithValue("@Nombre", xDis.Nombre);
+
+                        cmd.ExecuteNonQuery();
+
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void ModificarDistrito(clsEntidades.clsDistrito xDis)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("modificar_distritos", cn))
+            try 
+            { 
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("modificar_distritos", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@Id", xDis.Id);
-                    cmd.Parameters.AddWithValue("@Ubigeo", xDis.Ubigeo);
-                    cmd.Parameters.AddWithValue("@Nombre", xDis.Nombre);
+                        cmd.Parameters.AddWithValue("@Id", xDis.Id);
+                        cmd.Parameters.AddWithValue("@Ubigeo", xDis.Ubigeo);
+                        cmd.Parameters.AddWithValue("@Nombre", xDis.Nombre);
 
-                    cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
     }

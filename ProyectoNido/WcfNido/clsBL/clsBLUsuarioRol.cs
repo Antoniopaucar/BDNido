@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,10 +23,10 @@ namespace clsBL
                 clsDAC.clsDacUsuarioRol xUr = new clsDAC.clsDacUsuarioRol();
                 xUr.EliminarUsuarioRol(id_user,id_rol);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_usuario_rol(clsEntidades.clsUsuarioRol xUr)
@@ -36,24 +37,10 @@ namespace clsBL
                 clsDAC.clsDacUsuarioRol db = new clsDAC.clsDacUsuarioRol();
                 db.InsertarUsuarioRol(xUr);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
-            }
-        }
-
-        public void modificar_usuario_rol(clsEntidades.clsUsuarioRol xUr)
-        {
-            try
-            {
-                clsDAC.clsDacUsuarioRol db = new clsDAC.clsDacUsuarioRol();
-                db.ModificarUsuarioRol(xUr);
-            }
-            catch (ArgumentException ex)
-            {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
     }

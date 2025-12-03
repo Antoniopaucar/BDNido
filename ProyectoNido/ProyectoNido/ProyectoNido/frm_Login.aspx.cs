@@ -69,32 +69,6 @@ namespace ProyectoNido
                 ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Error en el usuario o clave.');", true);
             }
 
-            //wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-
-            //string usuario = txtUsuario.Text.Trim();
-            //string clave = txtClave.Text.Trim();
-
-
-            //string resultadoUsuario = xdb.ValidarUsuario(usuario, clave);
-
-            //if (!string.IsNullOrEmpty(resultadoUsuario))
-            //{
-            //    // Mostrar alerta con el resultado
-            //    string script = $"alert('{resultadoUsuario}');";
-            //    ClientScript.RegisterStartupScript(this.GetType(), "alert", script, true);
-
-            //    if (resultadoUsuario.Equals("Todo OK"))
-            //    {
-            //        // Guardar usuario en sesión y redirigir al menú principal
-            //        Session["Usuario"] = usuario;
-            //        Response.Redirect("frm_Usuario.aspx");
-            //    }
-            //}
-            //else
-            //{
-            //    // Si no hay respuesta o hubo error
-            //    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Error en el usuario o clave.');", true);
-            //}
         }
 
         protected void btnSalir_Click(object sender, EventArgs e)

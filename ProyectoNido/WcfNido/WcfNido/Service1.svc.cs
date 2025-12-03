@@ -88,15 +88,6 @@ namespace WcfNido
             }
         }
 
-        public string ValClaveSegura(string usuario, string contrasenia, out bool exito)
-        {
-            clsBL.clsBLUsuario bl = new clsBL.clsBLUsuario();
-            var resultado = bl.validar_contrasenia_segura(usuario, contrasenia); // devuelve ResultadoValidacion
-
-            exito = resultado.Exito;       // asigna el valor booleano al out
-            return resultado.Mensaje;      // retorna el mensaje
-        }
-
         //------------------ COMUNICADO ----------------------------
         public List<clsComunicado> GetComunicado(int idUsuario)
         {
@@ -384,7 +375,6 @@ namespace WcfNido
             }
         }
         // --------------------------- USUARIO ROL -----------------------------------
-
         public List<clsUsuarioRol> GetUsuarioRol()
         {
             clsBL.clsBLUsuarioRol xbl = new clsBL.clsBLUsuarioRol();
@@ -416,13 +406,108 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+        // --------------------------- ROL PERMISO -----------------------------------
+        public List<clsRolPermiso> GetRolPermiso()
+        {
+            clsBL.clsBLRolPermiso xbl = new clsBL.clsBLRolPermiso();
+            return xbl.listar_rol_permiso();
+        }
 
-        public void ModUsuarioRol(clsUsuarioRol xUr)
+        public void DelRolPermiso(int id_rol, int id_permiso)
         {
             try
             {
-                clsBL.clsBLUsuarioRol xbl = new clsBL.clsBLUsuarioRol();
-                xbl.modificar_usuario_rol(xUr);
+                clsBL.clsBLRolPermiso xbl = new clsBL.clsBLRolPermiso();
+                xbl.eliminar_rol_permiso(id_rol,id_permiso);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsRolPermiso(clsRolPermiso xRp)
+        {
+            try
+            {
+                clsBL.clsBLRolPermiso xbl = new clsBL.clsBLRolPermiso();
+                xbl.insertar_rol_permiso(xRp);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+        //----------------------- USUARIO PERMISO --------------------------------
+        public List<clsUsuarioPermiso> GetUsuarioPermiso()
+        {
+            clsBL.clsBLUsuarioPermiso xbl = new clsBL.clsBLUsuarioPermiso();
+            return xbl.listar_usuario_permiso();
+        }
+        public void DelUsuarioPermiso(int id_user, int id_permiso)
+        {
+            try
+            {
+                clsBL.clsBLUsuarioPermiso xbl = new clsBL.clsBLUsuarioPermiso();
+                xbl.eliminar_usuario_permiso(id_user, id_permiso);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsUsuarioPermiso(clsUsuarioPermiso xUp)
+        {
+            try
+            {
+                clsBL.clsBLUsuarioPermiso xbl = new clsBL.clsBLUsuarioPermiso();
+                xbl.insertar_usuario_permiso(xUp);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+        //---------------------------- APODERADO -------------------------------------------------
+        public List<clsApoderado> GetApoderado()
+        {
+            clsBL.clsBLApoderado xbl = new clsBL.clsBLApoderado();
+            return xbl.listar_apoderados();
+        }
+
+        public void DelApoderado(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLApoderado xbl = new clsBL.clsBLApoderado();
+                xbl.eliminar_apoderado(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsApoderado(clsApoderado apo)
+        {
+            try
+            {
+                clsBL.clsBLApoderado xbl = new clsBL.clsBLApoderado();
+                xbl.insertar_apoderado(apo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void ModApoderado(clsApoderado apo)
+        {
+            try
+            {
+                clsBL.clsBLApoderado xbl = new clsBL.clsBLApoderado();
+                xbl.modificar_apoderado(apo);
             }
             catch (Exception ex)
             {

@@ -219,6 +219,7 @@ namespace ProyectoNido.wcfNido {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clsUsuario", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
     [System.SerializableAttribute()]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ProyectoNido.wcfNido.clsApoderado))]
     public partial class clsUsuario : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
@@ -240,10 +241,16 @@ namespace ProyectoNido.wcfNido {
         private string ClaveField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ClaveIIField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string CvField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string DireccionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsDistrito DistritoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string DniField;
@@ -375,6 +382,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ClaveII {
+            get {
+                return this.ClaveIIField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ClaveIIField, value) != true)) {
+                    this.ClaveIIField = value;
+                    this.RaisePropertyChanged("ClaveII");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Cv {
             get {
                 return this.CvField;
@@ -396,6 +416,19 @@ namespace ProyectoNido.wcfNido {
                 if ((object.ReferenceEquals(this.DireccionField, value) != true)) {
                     this.DireccionField = value;
                     this.RaisePropertyChanged("Direccion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsDistrito Distrito {
+            get {
+                return this.DistritoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DistritoField, value) != true)) {
+                    this.DistritoField = value;
+                    this.RaisePropertyChanged("Distrito");
                 }
             }
         }
@@ -646,6 +679,106 @@ namespace ProyectoNido.wcfNido {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsDistrito", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.SerializableAttribute()]
+    public partial class clsDistrito : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NombreField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UbigeoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nombre {
+            get {
+                return this.NombreField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
+                    this.NombreField = value;
+                    this.RaisePropertyChanged("Nombre");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Ubigeo {
+            get {
+                return this.UbigeoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UbigeoField, value) != true)) {
+                    this.UbigeoField = value;
+                    this.RaisePropertyChanged("Ubigeo");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsApoderado", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.SerializableAttribute()]
+    public partial class clsApoderado : ProyectoNido.wcfNido.clsUsuario {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CopiaDniField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CopiaDni {
+            get {
+                return this.CopiaDniField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CopiaDniField, value) != true)) {
+                    this.CopiaDniField = value;
+                    this.RaisePropertyChanged("CopiaDni");
+                }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clsComunicado", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
     [System.SerializableAttribute()]
     public partial class clsComunicado : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -667,6 +800,9 @@ namespace ProyectoNido.wcfNido {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string NombreField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsRol RolField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private ProyectoNido.wcfNido.clsUsuario UsuarioField;
@@ -750,6 +886,19 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsRol Rol {
+            get {
+                return this.RolField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RolField, value) != true)) {
+                    this.RolField = value;
+                    this.RaisePropertyChanged("Rol");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public ProyectoNido.wcfNido.clsUsuario Usuario {
             get {
                 return this.UsuarioField;
@@ -787,21 +936,21 @@ namespace ProyectoNido.wcfNido {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="clsDistrito", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsRol", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
     [System.SerializableAttribute()]
-    public partial class clsDistrito : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class clsRol : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescripcionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int IdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NombreField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UbigeoField;
+        private string NombreRolField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -810,6 +959,19 @@ namespace ProyectoNido.wcfNido {
             }
             set {
                 this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descripcion {
+            get {
+                return this.DescripcionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
+                    this.DescripcionField = value;
+                    this.RaisePropertyChanged("Descripcion");
+                }
             }
         }
         
@@ -827,27 +989,14 @@ namespace ProyectoNido.wcfNido {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nombre {
+        public string NombreRol {
             get {
-                return this.NombreField;
+                return this.NombreRolField;
             }
             set {
-                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
-                    this.NombreField = value;
-                    this.RaisePropertyChanged("Nombre");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Ubigeo {
-            get {
-                return this.UbigeoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UbigeoField, value) != true)) {
-                    this.UbigeoField = value;
-                    this.RaisePropertyChanged("Ubigeo");
+                if ((object.ReferenceEquals(this.NombreRolField, value) != true)) {
+                    this.NombreRolField = value;
+                    this.RaisePropertyChanged("NombreRol");
                 }
             }
         }
@@ -1050,83 +1199,6 @@ namespace ProyectoNido.wcfNido {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="clsRol", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
-    [System.SerializableAttribute()]
-    public partial class clsRol : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescripcionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NombreRolField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descripcion {
-            get {
-                return this.DescripcionField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
-                    this.DescripcionField = value;
-                    this.RaisePropertyChanged("Descripcion");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NombreRol {
-            get {
-                return this.NombreRolField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NombreRolField, value) != true)) {
-                    this.NombreRolField = value;
-                    this.RaisePropertyChanged("NombreRol");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="clsPermiso", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
     [System.SerializableAttribute()]
     public partial class clsPermiso : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -1236,6 +1308,160 @@ namespace ProyectoNido.wcfNido {
                 if ((object.ReferenceEquals(this.RolField, value) != true)) {
                     this.RolField = value;
                     this.RaisePropertyChanged("Rol");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsUsuario Usuario {
+            get {
+                return this.UsuarioField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UsuarioField, value) != true)) {
+                    this.UsuarioField = value;
+                    this.RaisePropertyChanged("Usuario");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsRolPermiso", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.SerializableAttribute()]
+    public partial class clsRolPermiso : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsPermiso PermisoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsRol RolField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TipoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsPermiso Permiso {
+            get {
+                return this.PermisoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PermisoField, value) != true)) {
+                    this.PermisoField = value;
+                    this.RaisePropertyChanged("Permiso");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsRol Rol {
+            get {
+                return this.RolField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RolField, value) != true)) {
+                    this.RolField = value;
+                    this.RaisePropertyChanged("Rol");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Tipo {
+            get {
+                return this.TipoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TipoField, value) != true)) {
+                    this.TipoField = value;
+                    this.RaisePropertyChanged("Tipo");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clsUsuarioPermiso", Namespace="http://schemas.datacontract.org/2004/07/clsEntidades")]
+    [System.SerializableAttribute()]
+    public partial class clsUsuarioPermiso : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsPermiso PermisoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TipoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private ProyectoNido.wcfNido.clsUsuario UsuarioField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public ProyectoNido.wcfNido.clsPermiso Permiso {
+            get {
+                return this.PermisoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PermisoField, value) != true)) {
+                    this.PermisoField = value;
+                    this.RaisePropertyChanged("Permiso");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Tipo {
+            get {
+                return this.TipoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TipoField, value) != true)) {
+                    this.TipoField = value;
+                    this.RaisePropertyChanged("Tipo");
                 }
             }
         }
@@ -1434,13 +1660,6 @@ namespace ProyectoNido.wcfNido {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModUsuario", ReplyAction="http://tempuri.org/IService1/ModUsuarioResponse")]
         System.Threading.Tasks.Task ModUsuarioAsync(ProyectoNido.wcfNido.clsUsuario User);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ValClaveSegura", ReplyAction="http://tempuri.org/IService1/ValClaveSeguraResponse")]
-        ProyectoNido.wcfNido.ValClaveSeguraResponse ValClaveSegura(ProyectoNido.wcfNido.ValClaveSeguraRequest request);
-        
-        // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ValClaveSegura", ReplyAction="http://tempuri.org/IService1/ValClaveSeguraResponse")]
-        System.Threading.Tasks.Task<ProyectoNido.wcfNido.ValClaveSeguraResponse> ValClaveSeguraAsync(ProyectoNido.wcfNido.ValClaveSeguraRequest request);
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetComunicado", ReplyAction="http://tempuri.org/IService1/GetComunicadoResponse")]
         ProyectoNido.wcfNido.clsComunicado[] GetComunicado(int idUsuario);
         
@@ -1609,11 +1828,65 @@ namespace ProyectoNido.wcfNido {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsUsuarioRol", ReplyAction="http://tempuri.org/IService1/InsUsuarioRolResponse")]
         System.Threading.Tasks.Task InsUsuarioRolAsync(ProyectoNido.wcfNido.clsUsuarioRol xUr);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModUsuarioRol", ReplyAction="http://tempuri.org/IService1/ModUsuarioRolResponse")]
-        void ModUsuarioRol(ProyectoNido.wcfNido.clsUsuarioRol xUr);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetRolPermiso", ReplyAction="http://tempuri.org/IService1/GetRolPermisoResponse")]
+        ProyectoNido.wcfNido.clsRolPermiso[] GetRolPermiso();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModUsuarioRol", ReplyAction="http://tempuri.org/IService1/ModUsuarioRolResponse")]
-        System.Threading.Tasks.Task ModUsuarioRolAsync(ProyectoNido.wcfNido.clsUsuarioRol xUr);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetRolPermiso", ReplyAction="http://tempuri.org/IService1/GetRolPermisoResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsRolPermiso[]> GetRolPermisoAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelRolPermiso", ReplyAction="http://tempuri.org/IService1/DelRolPermisoResponse")]
+        void DelRolPermiso(int id_rol, int id_permiso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelRolPermiso", ReplyAction="http://tempuri.org/IService1/DelRolPermisoResponse")]
+        System.Threading.Tasks.Task DelRolPermisoAsync(int id_rol, int id_permiso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsRolPermiso", ReplyAction="http://tempuri.org/IService1/InsRolPermisoResponse")]
+        void InsRolPermiso(ProyectoNido.wcfNido.clsRolPermiso xRp);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsRolPermiso", ReplyAction="http://tempuri.org/IService1/InsRolPermisoResponse")]
+        System.Threading.Tasks.Task InsRolPermisoAsync(ProyectoNido.wcfNido.clsRolPermiso xRp);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/GetUsuarioPermisoResponse")]
+        ProyectoNido.wcfNido.clsUsuarioPermiso[] GetUsuarioPermiso();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/GetUsuarioPermisoResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsUsuarioPermiso[]> GetUsuarioPermisoAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/DelUsuarioPermisoResponse")]
+        void DelUsuarioPermiso(int id_user, int id_permiso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/DelUsuarioPermisoResponse")]
+        System.Threading.Tasks.Task DelUsuarioPermisoAsync(int id_user, int id_permiso);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/InsUsuarioPermisoResponse")]
+        void InsUsuarioPermiso(ProyectoNido.wcfNido.clsUsuarioPermiso xUp);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsUsuarioPermiso", ReplyAction="http://tempuri.org/IService1/InsUsuarioPermisoResponse")]
+        System.Threading.Tasks.Task InsUsuarioPermisoAsync(ProyectoNido.wcfNido.clsUsuarioPermiso xUp);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetApoderado", ReplyAction="http://tempuri.org/IService1/GetApoderadoResponse")]
+        ProyectoNido.wcfNido.clsApoderado[] GetApoderado();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetApoderado", ReplyAction="http://tempuri.org/IService1/GetApoderadoResponse")]
+        System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsApoderado[]> GetApoderadoAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelApoderado", ReplyAction="http://tempuri.org/IService1/DelApoderadoResponse")]
+        void DelApoderado(int Codigo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DelApoderado", ReplyAction="http://tempuri.org/IService1/DelApoderadoResponse")]
+        System.Threading.Tasks.Task DelApoderadoAsync(int Codigo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsApoderado", ReplyAction="http://tempuri.org/IService1/InsApoderadoResponse")]
+        void InsApoderado(ProyectoNido.wcfNido.clsApoderado apo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsApoderado", ReplyAction="http://tempuri.org/IService1/InsApoderadoResponse")]
+        System.Threading.Tasks.Task InsApoderadoAsync(ProyectoNido.wcfNido.clsApoderado apo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModApoderado", ReplyAction="http://tempuri.org/IService1/ModApoderadoResponse")]
+        void ModApoderado(ProyectoNido.wcfNido.clsApoderado apo);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModApoderado", ReplyAction="http://tempuri.org/IService1/ModApoderadoResponse")]
+        System.Threading.Tasks.Task ModApoderadoAsync(ProyectoNido.wcfNido.clsApoderado apo);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ActualizarDatosDocente", ReplyAction="http://tempuri.org/IService1/ActualizarDatosDocenteResponse")]
         void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria);
@@ -1632,46 +1905,6 @@ namespace ProyectoNido.wcfNido {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListarGruposPorDocente", ReplyAction="http://tempuri.org/IService1/ListarGruposPorDocenteResponse")]
         System.Threading.Tasks.Task<ProyectoNido.wcfNido.GrupoAnualDetalle[]> ListarGruposPorDocenteAsync(int idUsuario);
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="ValClaveSegura", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class ValClaveSeguraRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public string usuario;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public string contrasenia;
-        
-        public ValClaveSeguraRequest() {
-        }
-        
-        public ValClaveSeguraRequest(string usuario, string contrasenia) {
-            this.usuario = usuario;
-            this.contrasenia = contrasenia;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="ValClaveSeguraResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
-    public partial class ValClaveSeguraResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public string ValClaveSeguraResult;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public bool exito;
-        
-        public ValClaveSeguraResponse() {
-        }
-        
-        public ValClaveSeguraResponse(string ValClaveSeguraResult, bool exito) {
-            this.ValClaveSeguraResult = ValClaveSeguraResult;
-            this.exito = exito;
-        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -1755,24 +1988,6 @@ namespace ProyectoNido.wcfNido {
         
         public System.Threading.Tasks.Task ModUsuarioAsync(ProyectoNido.wcfNido.clsUsuario User) {
             return base.Channel.ModUsuarioAsync(User);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ProyectoNido.wcfNido.ValClaveSeguraResponse ProyectoNido.wcfNido.IService1.ValClaveSegura(ProyectoNido.wcfNido.ValClaveSeguraRequest request) {
-            return base.Channel.ValClaveSegura(request);
-        }
-        
-        public string ValClaveSegura(string usuario, string contrasenia, out bool exito) {
-            ProyectoNido.wcfNido.ValClaveSeguraRequest inValue = new ProyectoNido.wcfNido.ValClaveSeguraRequest();
-            inValue.usuario = usuario;
-            inValue.contrasenia = contrasenia;
-            ProyectoNido.wcfNido.ValClaveSeguraResponse retVal = ((ProyectoNido.wcfNido.IService1)(this)).ValClaveSegura(inValue);
-            exito = retVal.exito;
-            return retVal.ValClaveSeguraResult;
-        }
-        
-        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.ValClaveSeguraResponse> ValClaveSeguraAsync(ProyectoNido.wcfNido.ValClaveSeguraRequest request) {
-            return base.Channel.ValClaveSeguraAsync(request);
         }
         
         public ProyectoNido.wcfNido.clsComunicado[] GetComunicado(int idUsuario) {
@@ -1999,12 +2214,84 @@ namespace ProyectoNido.wcfNido {
             return base.Channel.InsUsuarioRolAsync(xUr);
         }
         
-        public void ModUsuarioRol(ProyectoNido.wcfNido.clsUsuarioRol xUr) {
-            base.Channel.ModUsuarioRol(xUr);
+        public ProyectoNido.wcfNido.clsRolPermiso[] GetRolPermiso() {
+            return base.Channel.GetRolPermiso();
         }
         
-        public System.Threading.Tasks.Task ModUsuarioRolAsync(ProyectoNido.wcfNido.clsUsuarioRol xUr) {
-            return base.Channel.ModUsuarioRolAsync(xUr);
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsRolPermiso[]> GetRolPermisoAsync() {
+            return base.Channel.GetRolPermisoAsync();
+        }
+        
+        public void DelRolPermiso(int id_rol, int id_permiso) {
+            base.Channel.DelRolPermiso(id_rol, id_permiso);
+        }
+        
+        public System.Threading.Tasks.Task DelRolPermisoAsync(int id_rol, int id_permiso) {
+            return base.Channel.DelRolPermisoAsync(id_rol, id_permiso);
+        }
+        
+        public void InsRolPermiso(ProyectoNido.wcfNido.clsRolPermiso xRp) {
+            base.Channel.InsRolPermiso(xRp);
+        }
+        
+        public System.Threading.Tasks.Task InsRolPermisoAsync(ProyectoNido.wcfNido.clsRolPermiso xRp) {
+            return base.Channel.InsRolPermisoAsync(xRp);
+        }
+        
+        public ProyectoNido.wcfNido.clsUsuarioPermiso[] GetUsuarioPermiso() {
+            return base.Channel.GetUsuarioPermiso();
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsUsuarioPermiso[]> GetUsuarioPermisoAsync() {
+            return base.Channel.GetUsuarioPermisoAsync();
+        }
+        
+        public void DelUsuarioPermiso(int id_user, int id_permiso) {
+            base.Channel.DelUsuarioPermiso(id_user, id_permiso);
+        }
+        
+        public System.Threading.Tasks.Task DelUsuarioPermisoAsync(int id_user, int id_permiso) {
+            return base.Channel.DelUsuarioPermisoAsync(id_user, id_permiso);
+        }
+        
+        public void InsUsuarioPermiso(ProyectoNido.wcfNido.clsUsuarioPermiso xUp) {
+            base.Channel.InsUsuarioPermiso(xUp);
+        }
+        
+        public System.Threading.Tasks.Task InsUsuarioPermisoAsync(ProyectoNido.wcfNido.clsUsuarioPermiso xUp) {
+            return base.Channel.InsUsuarioPermisoAsync(xUp);
+        }
+        
+        public ProyectoNido.wcfNido.clsApoderado[] GetApoderado() {
+            return base.Channel.GetApoderado();
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoNido.wcfNido.clsApoderado[]> GetApoderadoAsync() {
+            return base.Channel.GetApoderadoAsync();
+        }
+        
+        public void DelApoderado(int Codigo) {
+            base.Channel.DelApoderado(Codigo);
+        }
+        
+        public System.Threading.Tasks.Task DelApoderadoAsync(int Codigo) {
+            return base.Channel.DelApoderadoAsync(Codigo);
+        }
+        
+        public void InsApoderado(ProyectoNido.wcfNido.clsApoderado apo) {
+            base.Channel.InsApoderado(apo);
+        }
+        
+        public System.Threading.Tasks.Task InsApoderadoAsync(ProyectoNido.wcfNido.clsApoderado apo) {
+            return base.Channel.InsApoderadoAsync(apo);
+        }
+        
+        public void ModApoderado(ProyectoNido.wcfNido.clsApoderado apo) {
+            base.Channel.ModApoderado(apo);
+        }
+        
+        public System.Threading.Tasks.Task ModApoderadoAsync(ProyectoNido.wcfNido.clsApoderado apo) {
+            return base.Channel.ModApoderadoAsync(apo);
         }
         
         public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno, string dni, System.Nullable<System.DateTime> fechaNacimiento, string sexo, string direccion, string email, System.Nullable<System.DateTime> fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica, string fotos, string verificacionDomiciliaria) {

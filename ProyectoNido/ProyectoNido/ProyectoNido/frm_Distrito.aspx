@@ -39,12 +39,12 @@
     <tr>
         <td>
             <asp:Button ID="btn_Agregar" runat="server" Text="AGREGAR" 
-                OnClientClick="return confirm('¿Deseas agregar este Distrito?') && validarCamposTabla('tablaDistritos','txt_Ubigeo');" 
+                OnClientClick="return confirm('¿Deseas agregar este Distrito?') && validarCamposTabla('tablaDistritos','');" 
                 OnClick="btn_Agregar_Click" class="btn btn-exito" />
         </td>
         <td>
             <asp:Button ID="btn_Modificar" runat="server" Text="MODIFICAR" 
-                OnClientClick="return confirm('¿Deseas modificar este Distrito?') && validarCamposTabla('tablaDistritos','txt_Ubigeo');" 
+                OnClientClick="return confirm('¿Deseas modificar este Distrito?') && validarCamposTabla('tablaDistritos','');" 
                 OnClick="btn_Modificar_Click" class="btn btn-primario" />
         </td>
         <td>
@@ -62,7 +62,7 @@
 
 <div style="width: 40%; margin: 20px auto; text-align: center;">
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre..." />
+        <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre o ubigeo..." />
         <asp:Button ID="btnFiltrar" runat="server" Text="FILTRAR" CssClass="btn btn-info" OnClick="btnFiltrar_Click" />
     </div>
     <div style="margin-top: 10px;">

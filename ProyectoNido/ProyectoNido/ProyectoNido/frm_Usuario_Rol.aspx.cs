@@ -16,8 +16,6 @@ namespace ProyectoNido
             if (!IsPostBack)
             {
                 CargarGrid();
-                this.btn_Modificar.Enabled = false;
-                this.btn_Eliminar.Enabled = false;
 
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
                 List<clsUsuario> listaUser = xdb.GetUsuario().ToList();
@@ -54,6 +52,26 @@ namespace ProyectoNido
 
                 xdb.InsUsuarioRol(xUsr);
 
+                switch (xUsr.Rol.Id)
+                {
+                    case 2:
+                        //clsProfesor xPro = new clsProfesor();
+                        //xPro.Id = xUsr.Usuario.Id;
+                        //xdb.InsProfesor(xPro);
+                        break;
+
+                     case 3:
+                        clsApoderado xApo = new clsApoderado();
+                        xApo.Id = xUsr.Usuario.Id;
+                        xdb.InsApoderado(xApo);
+                        break;
+
+                    default:
+                        // opcional: acción por defecto
+                        break;
+                }
+
+
                 LimpiarCampos();
                 CargarGrid();
 
@@ -61,43 +79,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
-            }
-        }
-
-        protected void btn_Modificar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-
-                clsUsuarioRol xUsr = new clsUsuarioRol();
-
-                xUsr.Usuario = new clsUsuario();
-                xUsr.Rol = new clsRol();
-
-                xUsr.Usuario.Id = int.Parse(Ddl_Usuario.SelectedValue);
-                xUsr.Rol.Id = int.Parse(Ddl_Rol.SelectedValue);
-
-                xdb.ModUsuarioRol(xUsr);
-
-                LimpiarCampos();
-                CargarGrid();
-
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario Rol modificado correctamente.');", true);
-            }
-            catch (System.ServiceModel.FaultException fex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -106,97 +98,63 @@ namespace ProyectoNido
             LimpiarCampos();
         }
 
-        protected void btn_Eliminar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-
-                clsUsuarioRol xUsr = new clsUsuarioRol();
-                
-                xUsr.Usuario.Id = int.Parse(Ddl_Usuario.SelectedValue);
-                xUsr.Rol.Id = int.Parse(Ddl_Rol.SelectedValue);
-
-                xdb.DelUsuarioRol(xUsr.Usuario.Id,xUsr.Rol.Id);
-
-                LimpiarCampos();
-                CargarGrid();
-
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario Rol eliminado correctamente.');", true);
-            }
-            catch (System.ServiceModel.FaultException fex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
-            }
-        }
-
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
+            string filtro = txtBuscar.Text.Trim().ToLower();
 
-        }
+            wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+            var lista = xdb.GetUsuarioRol().ToList();
 
-        private void CargarGrid(string filtro = "")
-        {
-            try
+            if (!string.IsNullOrEmpty(filtro))
             {
-                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-                List<clsUsuarioRol> lista = xdb.GetUsuarioRol().ToList();
+                lista = lista
+                    .Where(x =>
+                        (x.Usuario.NombreUsuario ?? "").ToLower().Contains(filtro) ||
+                        (x.Rol.NombreRol ?? "").ToLower().Contains(filtro)
+                    )
+                    .ToList();
+            }
 
-                gvUsuarioRol.DataSource = lista;
-                gvUsuarioRol.DataBind();
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al cargar la lista de Usuario Rol: {ex.Message}');", true);
-            }
+            lblMensaje.Text = lista.Count == 0
+                ? "No se encontraron resultados para el filtro ingresado."
+                : "";
+
+            gvUsuarioRol.DataSource = lista;
+            gvUsuarioRol.DataBind();
         }
 
         protected void gvUsuarioRol_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             try
             {
-                // El CommandArgument contendrá ambos Ids separados por un guion, por ejemplo: "3-2"
-                string[] argumentos = e.CommandArgument.ToString().Split('-');
-                int idUsuario = Convert.ToInt32(argumentos[0]);
-                int idRol = Convert.ToInt32(argumentos[1]);
-
-                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-
-                if (e.CommandName == "Consultar")
+                if (e.CommandName == "Eliminar")
                 {
-                    var lista = xdb.GetUsuarioRol().ToList();
+                    string[] argumentos = e.CommandArgument.ToString().Split('-');
+                    int idUsuario = Convert.ToInt32(argumentos[0]);
+                    int idRol = Convert.ToInt32(argumentos[1]);
 
-                    // Buscar la relación exacta usuario-rol
-                    var userRol = lista.FirstOrDefault(u => u.Usuario.Id == idUsuario && u.Rol.Id == idRol);
+                    wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+                    xdb.DelUsuarioRol(idUsuario, idRol);
 
-                    if (userRol != null)
-                    {
-                        // Control de botones
-                        btn_Agregar.Enabled = false;
-                        btn_Modificar.Enabled = true;
-                        btn_Eliminar.Enabled = true;
-
-                        // Cargar valores en los dropdown
-                        Ddl_Usuario.SelectedValue = userRol.Usuario.Id.ToString();
-                        Ddl_Rol.SelectedValue = userRol.Rol.Id.ToString();
-                    }
-                }
-                else if (e.CommandName == "Eliminar")
-                {
-                    xdb.DelUsuarioRol(idUsuario, idRol); // Llama al método WCF
                     CargarGrid();
 
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario-Rol eliminado correctamente.');", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert",
+                        "alert('Usuario-Rol eliminado correctamente.');", true);
                 }
             }
-            catch (Exception ex)
+            catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -207,11 +165,47 @@ namespace ProyectoNido
             CargarGrid(filtro);
         }
 
+        private void CargarGrid(string filtro = "")
+        {
+            try
+            {
+                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+                List<clsUsuarioRol> lista = xdb.GetUsuarioRol().ToList();
+
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.Usuario.NombreUsuario ?? "").ToLower().Contains(filtro) ||
+                            (x.Rol.NombreRol ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
+
+                gvUsuarioRol.DataSource = lista;
+                gvUsuarioRol.DataBind();
+            }
+            catch (System.ServiceModel.FaultException fex)
+            {
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
+            }
+        }
+
         private void LimpiarCampos()
         {
             this.btn_Agregar.Enabled = true;
-            this.btn_Modificar.Enabled = false;
-            this.btn_Eliminar.Enabled = false;
 
             clsValidacion.LimpiarControles(this);
         }

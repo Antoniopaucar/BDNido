@@ -11,7 +11,7 @@ namespace clsBL
     {
         public List<clsEntidades.clsLogin> validarusuario(clsEntidades.clsLogin login)
         {
-            string claveHash = clsUtilidades.clsHash.ObtenerSha256(login.clave);
+            string claveHash = clsUtilidades.clsUtiles.ObtenerSha256(login.clave);
             clsDAC.clsDacLogin dblogin = new clsDAC.clsDacLogin();
             return dblogin.UsuarioExiste(login.Usuario, claveHash);
         }

@@ -10,6 +10,7 @@ namespace clsEntidades
     {
         public int Id { get; set; }
         public clsUsuario Usuario { get; set; }
+        public clsRol Rol { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public DateTime? FechaCreacion { get; set; }
@@ -18,10 +19,11 @@ namespace clsEntidades
 
         public clsComunicado() {}
 
-        public clsComunicado(int id, clsUsuario usuario, string nombre, string descripcion, DateTime? fechaFinal)
+        public clsComunicado(int id, clsUsuario usuario,clsRol rol ,string nombre, string descripcion, DateTime? fechaFinal)
         {
             Id = id;
             Usuario = usuario;
+            Rol = rol;
             Nombre = nombre;
             Descripcion = descripcion;
             FechaCreacion = DateTime.Now;

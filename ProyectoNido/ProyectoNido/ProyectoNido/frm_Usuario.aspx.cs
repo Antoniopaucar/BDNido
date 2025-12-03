@@ -3,6 +3,7 @@ using ProyectoNido.wcfNido;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Security.Claims;
 using System.ServiceModel;
 using System.Web;
@@ -20,6 +21,16 @@ namespace ProyectoNido
                 CargarGrid();
                 this.btn_Modificar.Enabled = false;
                 this.btn_Eliminar.Enabled = false;
+                this.chb_Activo.Checked = true;
+
+                wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+                List<clsDistrito> lista = xdb.GetDistrito().ToList();
+
+                Ddl_Distrito.DataSource = lista;
+                Ddl_Distrito.DataTextField = "Nombre";
+                Ddl_Distrito.DataValueField = "Id";
+                Ddl_Distrito.DataBind();
+                Ddl_Distrito.Items.Insert(0, new ListItem("-- Seleccione un Distrito --", ""));
 
                 // Cargar sexos (sin clase ni BD)
                 Ddl_Sexo.Items.Clear();
@@ -31,52 +42,38 @@ namespace ProyectoNido
 
         protected void btn_Agregar_Click(object sender, EventArgs e)
         {
-            string usuario = txt_NombreUsuario.Text.Trim();
-            string clave = txt_Clave.Text.Trim();
-            string clave2 = txt_Clave2.Text.Trim();
-
-            if (clave != clave2)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Las contraseñas no coinciden.');", true);
-                return;
-            }
-
-            // Validación con tu clase clsValidacion
-            string errorUsuario = clsValidacion.ValidarUser(usuario);
-            string errorClave = clsValidacion.ValidarContrasenia(clave);
-
-            if (errorUsuario != null)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('{errorUsuario}');", true);
-                return;
-            }
-
-            if (errorClave != null)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('{errorClave}');", true);
-                return;
-            }
-
             try
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
 
-                clsUsuario xusuario = new clsUsuario
-                {
-                    NombreUsuario = usuario,
-                    Clave = clave,
-                    Nombres = txt_Nombres.Text.Trim(),
-                    ApellidoPaterno = txt_ApellidoPaterno.Text.Trim(),
-                    ApellidoMaterno = txt_ApellidoMaterno.Text.Trim(),
-                    Dni = txt_Dni.Text.Trim(),
-                    FechaNacimiento = DateTime.TryParse(txt_Fecha_Nacimiento.Text.Trim(), out DateTime f) ? f : (DateTime?)null,
-                    Sexo = Ddl_Sexo.SelectedValue,
-                    Direccion = txt_Direccion.Text.Trim(),
-                    Telefono = txt_Telefono.Text.Trim(),
-                    Email = txt_Email.Text.Trim()
-                };
-                
 
+                clsUsuario xusuario = new clsUsuario();
+                xusuario.Distrito = new clsDistrito();
+
+                xusuario.NombreUsuario = txt_NombreUsuario.Text.Trim();
+                xusuario.Clave = txt_Contrasenia.Text.Trim();
+                xusuario.ClaveII = txt_Repetir_Contrasenia.Text.Trim();
+                xusuario.Nombres = txt_Nombres.Text.Trim();
+                xusuario.ApellidoPaterno = txt_ApellidoPaterno.Text.Trim();
+                xusuario.ApellidoMaterno = txt_ApellidoMaterno.Text.Trim();
+                xusuario.Dni = txt_Dni.Text.Trim();
+                xusuario.FechaNacimiento = DateTime.TryParse(txt_Fecha_Nacimiento.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
+                xusuario.Sexo = string.IsNullOrEmpty(Ddl_Sexo.SelectedValue)
+                ? null
+                : Ddl_Sexo.SelectedValue;
+                if (string.IsNullOrEmpty(Ddl_Distrito.SelectedValue))
+                {
+                    xusuario.Distrito = null;   // ← distrito NO seleccionado
+                }
+                else
+                {
+                    xusuario.Distrito.Id = Convert.ToInt32(Ddl_Distrito.SelectedValue);
+                }
+
+                xusuario.Direccion = txt_Direccion.Text.Trim();
+                xusuario.Telefono = txt_Telefono.Text.Trim();
+                xusuario.Email = txt_Email.Text.Trim();
+                
                 xdb.InsUsuarios(xusuario);
 
                 LimpiarCampos();
@@ -86,68 +83,36 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-        
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
         protected void btn_Modificar_Click(object sender, EventArgs e)
         {
-            string usuario = txt_NombreUsuario.Text.Trim();
-            string clave = txt_Clave.Text.Trim();
-            string clave2 = txt_Clave2.Text.Trim();
-
-            if (clave != clave2)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Las contraseñas no coinciden.');", true);
-                return;
-            }
-
-            // Validación con tu clase clsValidacion
-            string errorUsuario = clsValidacion.ValidarUser(usuario);
-
-            if (errorUsuario != null)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('{errorUsuario}');", true);
-                return;
-            }
-
-            if (!string.IsNullOrEmpty(clave))
-            {
-                string errorClave = clsValidacion.ValidarContrasenia(clave);
-
-                if (errorClave != null)
-                {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('{errorClave}');", true);
-                    return;
-                }
-            }
-
             try
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
 
-                //bool exito;
-                //string mensaje = xdb.ValClaveSegura(usuario, clave, out exito);
-
-                //if (!exito)
-                //{
-                //    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('{mensaje}');", true);
-                //    return;
-                //}
-
                 clsUsuario xusuario = new clsUsuario();
+                xusuario.Distrito = new clsDistrito();
 
                 xusuario.Id = Convert.ToInt32(this.txt_IdUsuario.Text.Trim());
-                xusuario.NombreUsuario = usuario;
+                xusuario.NombreUsuario = txt_NombreUsuario.Text.Trim();
 
-                if (!string.IsNullOrEmpty(clave))
+                if (!string.IsNullOrEmpty(xusuario.Clave))
                 {
-                    xusuario.Clave = clave;
+                    xusuario.Clave = txt_Contrasenia.Text.Trim();
+                    xusuario.ClaveII = txt_Repetir_Contrasenia.Text.Trim();
                 }
                 
                 xusuario.Nombres = txt_Nombres.Text.Trim();
@@ -155,12 +120,21 @@ namespace ProyectoNido
                 xusuario.ApellidoMaterno = txt_ApellidoMaterno.Text.Trim();
                 xusuario.Dni = txt_Dni.Text.Trim();
                 xusuario.FechaNacimiento = DateTime.TryParse(txt_Fecha_Nacimiento.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
-                xusuario.Sexo = Ddl_Sexo.SelectedValue;
+                xusuario.Sexo = string.IsNullOrEmpty(Ddl_Sexo.SelectedValue)
+                    ? null
+                    : Ddl_Sexo.SelectedValue;
+                if (string.IsNullOrEmpty(Ddl_Distrito.SelectedValue))
+                {
+                    xusuario.Distrito = null;   // ← distrito NO seleccionado
+                }
+                else
+                {
+                    xusuario.Distrito.Id = Convert.ToInt32(Ddl_Distrito.SelectedValue);
+                }
                 xusuario.Direccion = txt_Direccion.Text.Trim();
                 xusuario.Telefono = txt_Telefono.Text.Trim();
                 xusuario.Email = txt_Email.Text.Trim();
                 xusuario.Activo = this.chb_Activo.Checked;
-                
 
                 xdb.ModUsuario(xusuario);
 
@@ -171,11 +145,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -204,14 +184,18 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
-        
         }
 
         private void CargarGrid(string filtro = "")
@@ -221,12 +205,37 @@ namespace ProyectoNido
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
                 List<clsUsuario> lista = xdb.GetUsuario().ToList();
 
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.NombreUsuario ?? "").ToLower().Contains(filtro) ||
+                            (x.Nombres ?? "").ToLower().Contains(filtro) ||
+                            (x.ApellidoPaterno ?? "").ToLower().Contains(filtro) ||
+                            (x.ApellidoMaterno ?? "").ToLower().Contains(filtro) ||
+                            (x.Dni ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
+
                 gvUsuarios.DataSource = lista;
                 gvUsuarios.DataBind();
             }
-            catch (Exception ex)
+            catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al cargar la lista de usuarios: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error al cargar lista de Usuario: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -243,8 +252,16 @@ namespace ProyectoNido
             // Aplicar filtro si existe texto
             if (!string.IsNullOrEmpty(filtro))
             {
+                filtro = filtro.ToLower();
+
                 lista = lista
-                    .Where(x => x.NombreUsuario != null && x.NombreUsuario.ToLower().Contains(filtro))
+                    .Where(x =>
+                        (x.NombreUsuario != null && x.NombreUsuario.ToLower().Contains(filtro)) ||
+                        (x.Nombres != null && x.Nombres.ToLower().Contains(filtro)) ||
+                        (x.ApellidoPaterno != null && x.ApellidoPaterno.ToLower().Contains(filtro)) ||
+                        (x.ApellidoMaterno != null && x.ApellidoMaterno.ToLower().Contains(filtro)) ||
+                        (x.Dni != null && x.Dni.ToLower().Contains(filtro))
+                    )
                     .ToList();
             }
 
@@ -286,11 +303,20 @@ namespace ProyectoNido
                         txt_Nombres.Text = user.Nombres;
                         txt_ApellidoPaterno.Text = user.ApellidoPaterno;
                         txt_ApellidoMaterno.Text = user.ApellidoMaterno;
-                        txt_Clave.Text = user.Clave;
-                        txt_Clave2.Text = user.Clave;
+                        txt_Contrasenia.Text = user.Clave;
+                        txt_Repetir_Contrasenia.Text = user.ClaveII;
                         txt_Dni.Text = user.Dni;
                         txt_Fecha_Nacimiento.Text = user.FechaNacimiento.HasValue ? user.FechaNacimiento.Value.ToString("yyyy-MM-dd") : string.Empty;
                         Ddl_Sexo.SelectedValue = user.Sexo;
+
+                        if (user.Distrito.Id.ToString() != "0")
+                        {
+                            Ddl_Distrito.SelectedValue = user.Distrito.Id.ToString();
+                        }
+                        else
+                        {
+                            Ddl_Distrito.SelectedIndex = -1;
+                        }
                         txt_Direccion.Text = user.Direccion;
                         txt_Telefono.Text = user.Telefono;
                         txt_Email.Text = user.Email;
@@ -299,9 +325,19 @@ namespace ProyectoNido
                     }
 
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al consultar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "alertError",
+                        $"alert('Error al consultar: {mensaje}');",
+                        true
+                    );
                 }
             }
             else if (e.CommandName == "Eliminar")
@@ -313,9 +349,19 @@ namespace ProyectoNido
 
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario eliminado correctamente.');", true);
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al eliminar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "alertError",
+                        $"alert('Error al eliminar: {mensaje}');",
+                        true
+                    );
                 }
             }
         }
@@ -334,6 +380,7 @@ namespace ProyectoNido
             this.btn_Eliminar.Enabled = false;
 
             clsValidacion.LimpiarControles(this);
+            this.chb_Activo.Checked = true;
         }
     }
 }

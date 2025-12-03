@@ -33,7 +33,7 @@
                 <asp:Label ID="Label7" runat="server" Text="Contraseña:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txt_Clave" runat="server" TextMode="Password" onkeypress="return SinEspacios(event);" MaxLength="15"></asp:TextBox>
+                <asp:TextBox ID="txt_Contrasenia" runat="server" TextMode="Password" onkeypress="return SinEspacios(event);" MaxLength="15"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -43,7 +43,7 @@
                 <asp:Label ID="Label10" runat="server" Text="Repetir Contraseña:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txt_Clave2" runat="server" TextMode="Password" onkeypress="return SinEspacios(event);" MaxLength="15"></asp:TextBox>
+                <asp:TextBox ID="txt_Repetir_Contrasenia" runat="server" TextMode="Password" onkeypress="return SinEspacios(event);" MaxLength="15"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -104,6 +104,16 @@
         </tr>
         <tr>
             <td>
+                <asp:Label ID="Label14" runat="server" Text="Distrito:"></asp:Label>
+            </td>
+            <td>
+                <asp:DropDownList ID="Ddl_Distrito" runat="server"></asp:DropDownList>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
                 <asp:Label ID="Label11" runat="server" Text="Direccion:"></asp:Label>
             </td>
             <td colspan="3">
@@ -139,12 +149,12 @@
         <tr>
             <td>
                 <asp:Button ID="btn_Agregar" runat="server" Text="AGREGAR" 
-                    OnClientClick="return confirm('¿Deseas agregar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_ApellidoMaterno,txt_Direccion,txt_Telefono,txt_Email');" 
+                    OnClientClick="return confirm('¿Deseas agregar este Usuario?') && validarCamposTabla('tablaUsuarios',',txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,txt_ApellidoMaterno,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
                     OnClick="btn_Agregar_Click" class="btn btn-exito" />
             </td>
             <td>
                 <asp:Button ID="btn_Modificar" runat="server" Text="MODIFICAR" 
-                    OnClientClick="return confirm('¿Deseas modificar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_Clave,txt_Clave2,txt_ApellidoMaterno,txt_Direccion,txt_Telefono,txt_Email');" 
+                    OnClientClick="return confirm('¿Deseas modificar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_Contrasenia,txt_Repetir_Contrasenia,txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,txt_ApellidoMaterno,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
                     OnClick="btn_Modificar_Click" class="btn btn-primario" />
             </td>
             <td>
@@ -161,14 +171,13 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
     <div style="width: 40%; margin: 20px auto; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 10px;">
-            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre de usuario..." />
+            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre de usuario, nombres, apellidos y dni ..." />
             <asp:Button ID="btnFiltrar" runat="server" Text="FILTRAR" CssClass="btn btn-info" OnClick="btnFiltrar_Click" />
         </div>
         <div style="margin-top: 10px;">
             <asp:Label ID="lblMensaje" runat="server" ForeColor="Black" Font-Bold="true" />
         </div>
     </div>
-
 
         <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False" AllowPaging="True" PageSize="4"
             OnPageIndexChanging="gvUsuarios_PageIndexChanging"
@@ -199,6 +208,5 @@
                 </asp:TemplateField>
             </Columns>
         </asp:GridView>
-
 
 </asp:Content>

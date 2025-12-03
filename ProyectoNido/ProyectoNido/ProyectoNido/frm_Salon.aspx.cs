@@ -43,12 +43,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -75,11 +80,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -108,12 +119,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alerta",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -152,12 +168,33 @@ namespace ProyectoNido
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
                 List<clsSalon> lista = xdb.GetSalon().ToList();
 
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.Nombre ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
+
                 gvSalon.DataSource = lista;
                 gvSalon.DataBind();
             }
-            catch (Exception ex)
+            catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al cargar la lista de salones: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error al cargar lista de salones: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -193,9 +230,19 @@ namespace ProyectoNido
                     }
 
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al consultar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "alertError",
+                        $"alert('Error al consultar: {mensaje}');",
+                        true
+                    );
                 }
             }
             else if (e.CommandName == "Eliminar")
@@ -207,9 +254,19 @@ namespace ProyectoNido
 
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Salon eliminado correctamente.');", true);
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al eliminar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "Alert",
+                        $"alert('Error al eliminar: {mensaje}');",
+                        true
+                    );
                 }
             }
         }

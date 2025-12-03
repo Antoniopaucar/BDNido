@@ -11,22 +11,27 @@ namespace ProyectoNido
 {
     public partial class frm_Comunicado : System.Web.UI.Page
     {
+        private int Id_Usuario;
         protected void Page_Load(object sender, EventArgs e)
         {
+            Id_Usuario = Convert.ToInt32(Session["IdUsuario"]);
+
             if (!IsPostBack)
             {
+                txt_Fecha_Creacion.Text = DateTime.Now.ToString("yyyy-MM-dd");
                 CargarGrid();
                 this.btn_Modificar.Enabled = false;
                 this.btn_Eliminar.Enabled = false;
+                
 
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-                List<clsUsuario> lista = xdb.GetUsuario().ToList();
+                List<clsRol> lista = xdb.GetRol().ToList();
 
-                Ddl_Usuario.DataSource = lista;
-                Ddl_Usuario.DataTextField = "NombreUsuario";
-                Ddl_Usuario.DataValueField = "Id";
-                Ddl_Usuario.DataBind();
-                Ddl_Usuario.Items.Insert(0, new ListItem("-- Seleccione un Usuario --", ""));
+                Ddl_Rol.DataSource = lista;
+                Ddl_Rol.DataTextField = "NombreRol";
+                Ddl_Rol.DataValueField = "Id";
+                Ddl_Rol.DataBind();
+                Ddl_Rol.Items.Insert(0, new ListItem("-- Seleccione a quien va dirigido --", ""));
             }
         }
 
@@ -39,8 +44,10 @@ namespace ProyectoNido
                 clsComunicado xCom = new clsComunicado();
 
                 xCom.Usuario = new clsUsuario();
-
-                xCom.Usuario.Id = int.Parse(Ddl_Usuario.SelectedValue);
+                xCom.Rol = new clsRol();
+                
+                xCom.Usuario.Id = Id_Usuario;
+                xCom.Rol.Id = int.Parse(Ddl_Rol.SelectedValue);
                 xCom.Nombre = txt_Nombre.Text.Trim();
                 xCom.Descripcion = txt_Descripcion.Text.Trim();
                 xCom.FechaFinal = DateTime.TryParse(txt_Fecha_Final.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
@@ -54,12 +61,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "Alert",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -71,9 +83,11 @@ namespace ProyectoNido
 
                 clsComunicado xCom = new clsComunicado();
                 xCom.Usuario = new clsUsuario();
+                xCom.Rol = new clsRol();
 
                 xCom.Id = Convert.ToInt32(this.txt_IdComunicado.Text.Trim());
-                xCom.Usuario.Id = int.Parse(Ddl_Usuario.SelectedValue);
+                xCom.Usuario.Id = Id_Usuario;
+                xCom.Rol.Id = int.Parse(Ddl_Rol.SelectedValue);
                 xCom.Nombre = txt_Nombre.Text.Trim();
                 xCom.Descripcion = txt_Descripcion.Text.Trim();
                 xCom.FechaFinal = DateTime.TryParse(txt_Fecha_Final.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
@@ -87,11 +101,17 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
             }
         }
 
@@ -120,12 +140,18 @@ namespace ProyectoNido
             }
             catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: {fex.Message}');", true);
-            }
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
 
-            catch (Exception ex)
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error inesperado: {ex.Message}');", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error: {mensaje}');",
+                    true
+                );
+
             }
         }
 
@@ -134,15 +160,38 @@ namespace ProyectoNido
             try
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-                int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
-                List<clsComunicado> lista = xdb.GetComunicado(idUsuario).ToList();
+                //Id_Usuario = Convert.ToInt32(Session["IdUsuario"]);
+                List<clsComunicado> lista = xdb.GetComunicado(Id_Usuario).ToList();
+
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.Nombre ?? "").ToLower().Contains(filtro) ||
+                            (x.Rol.NombreRol ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
 
                 gvComunicados.DataSource = lista;
                 gvComunicados.DataBind();
             }
-            catch (Exception ex)
+            catch (System.ServiceModel.FaultException fex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al cargar la lista de comunicados: {ex.Message}');", true);
+                string mensaje = fex.Message
+                .Replace("'", "\\'")
+                .Replace(Environment.NewLine, " ");
+
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    this.GetType(),
+                    "alertError",
+                    $"alert('Error al cargar lista de comunicados: {mensaje}');",
+                    true
+                );
+
             }
         }
 
@@ -154,14 +203,19 @@ namespace ProyectoNido
             wcfNido.Service1Client xdb = new wcfNido.Service1Client();
 
             // Obtener la lista desde el servicio
-            int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
-            var lista = xdb.GetComunicado(idUsuario).ToList();
+            //Id_Usuario = Convert.ToInt32(Session["IdUsuario"]);
+            var lista = xdb.GetComunicado(Id_Usuario).ToList();
 
             // Aplicar filtro si existe texto
             if (!string.IsNullOrEmpty(filtro))
             {
+                filtro = filtro.ToLower();
+
                 lista = lista
-                    .Where(x => x.Nombre != null && x.Nombre.ToLower().Contains(filtro))
+                    .Where(x =>
+                        (x.Nombre != null && x.Nombre.ToLower().Contains(filtro)) ||
+                        (x.Rol.NombreRol != null && x.Rol.NombreRol.ToLower().Contains(filtro))
+                    )
                     .ToList();
             }
 
@@ -185,8 +239,8 @@ namespace ProyectoNido
                 try
                 {
                     // Obtener todos los usuarios desde el servicio
-                    int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
-                    var lista = xdb.GetComunicado(idUsuario); // 
+                    //Id_Usuario = Convert.ToInt32(Session["IdUsuario"]);
+                    var lista = xdb.GetComunicado(Id_Usuario); // 
 
                     // Buscar el usuario correspondiente al ID
                     var Comu = lista.FirstOrDefault(u => u.Id == id);
@@ -200,7 +254,8 @@ namespace ProyectoNido
                         this.btn_Eliminar.Enabled = true;
 
                         txt_IdComunicado.Text = Comu.Id.ToString();
-                        Ddl_Usuario.SelectedValue = Comu.Usuario.Id.ToString();
+                        //Id_Usuario = Convert.ToInt32(Comu.Usuario.Id.ToString());
+                        Ddl_Rol.SelectedValue = Comu.Rol.Id.ToString();
                         txt_Nombre.Text = Comu.Nombre;
                         txt_Descripcion.Text = Comu.Descripcion;
                         txt_Fecha_Creacion.Text = Comu.FechaCreacion.HasValue ? Comu.FechaCreacion.Value.ToString("yyyy-MM-dd") : string.Empty;
@@ -209,9 +264,20 @@ namespace ProyectoNido
                     }
 
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al consultar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "alertError",
+                        $"alert('Error al consultar: {mensaje}');",
+                        true
+                    );
+
                 }
             }
             else if (e.CommandName == "Eliminar")
@@ -223,9 +289,20 @@ namespace ProyectoNido
 
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Comunicado eliminado correctamente.');", true);
                 }
-                catch (Exception ex)
+                catch (System.ServiceModel.FaultException fex)
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error al eliminar: {ex.Message}');", true);
+                    string mensaje = fex.Message
+                    .Replace("'", "\\'")
+                    .Replace(Environment.NewLine, " ");
+
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "alertError",
+                        $"alert('Error al eliminar: {mensaje}');",
+                        true
+                    );
+
                 }
             }
         }
@@ -244,6 +321,7 @@ namespace ProyectoNido
             this.btn_Eliminar.Enabled = false;
 
             clsValidacion.LimpiarControles(this);
+            txt_Fecha_Creacion.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
     }
 }

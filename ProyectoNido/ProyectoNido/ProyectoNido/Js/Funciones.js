@@ -43,12 +43,15 @@ function validarCamposTabla(tablaId, excluidosCSV = '') {
 
     var controles = tabla.querySelectorAll("input, select, textarea");
     var camposVacios = [];
-    var excluidos = excluidosCSV.split(',').map(id => id.trim().toLowerCase());
+
+    var excluidos = (excluidosCSV || '')
+        .split(',')
+        .map(id => id.trim().toLowerCase())
+        .filter(Boolean);
 
     controles.forEach(function (control) {
-        var idControl = control.id.toLowerCase();
+        var idControl = (control.id || '').toLowerCase();
 
-        // Si el ID contiene alguno de los excluidos
         var excluido = excluidos.some(function (ex) {
             return idControl.includes(ex);
         });
@@ -64,9 +67,31 @@ function validarCamposTabla(tablaId, excluidosCSV = '') {
             return;
         }
 
-        if (control.value.trim() === "") {
+        var esSelect = control.tagName.toLowerCase() === "select";
+
+        var esVacio =
+            (esSelect && (control.value === "" || control.value === "0")) ||
+            (!esSelect && control.value.trim() === "");
+
+        if (esVacio) {
             var label = document.querySelector("label[for='" + control.id + "']");
-            var nombreCampo = label ? label.innerText : control.name || control.id;
+            var nombreCampo;
+
+            if (label) {
+                nombreCampo = label.innerText;
+            } else {
+                var raw = control.name || control.id;
+
+                raw = raw.replace(/^ctl00\$contentplaceholder2\$/i, "")
+                    .replace(/^txt_/i, "")
+                    .replace(/^ddl_/i, "")
+                    .replace(/^hdn_/i, "")
+                    .replace(/^chk_/i, "")
+                    .replace(/^rbt_/i, "");
+
+                nombreCampo = raw;
+            }
+
             camposVacios.push(nombreCampo);
         }
     });
@@ -78,7 +103,6 @@ function validarCamposTabla(tablaId, excluidosCSV = '') {
 
     return true;
 }
-
 function SinEspacios(e) {
     var tecla = e.key; // la tecla presionada
     if (tecla === " ") { // si es espacio

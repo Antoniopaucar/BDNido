@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,9 +23,10 @@ namespace clsBL
                 clsDAC.clsDacComunicado db = new clsDAC.clsDacComunicado();
                 db.MarcarComunicadoVisto(idComunicado, idUsuario);
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
@@ -35,10 +37,10 @@ namespace clsBL
                 clsDAC.clsDacComunicado xcoms = new clsDAC.clsDacComunicado();
                 xcoms.EliminarComunicado(xcodigo);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_comunicado(clsEntidades.clsComunicado xcom)
@@ -49,10 +51,10 @@ namespace clsBL
                 clsDAC.clsDacComunicado db = new clsDAC.clsDacComunicado();
                 db.InsertarComunicado(xcom);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
@@ -63,10 +65,10 @@ namespace clsBL
                 clsDAC.clsDacComunicado db = new clsDAC.clsDacComunicado();
                 db.ModificarComunicado(xCom);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
     }

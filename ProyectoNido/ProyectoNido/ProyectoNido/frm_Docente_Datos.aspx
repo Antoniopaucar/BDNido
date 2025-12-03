@@ -86,7 +86,7 @@
                             <asp:HyperLink ID="lnkEvaluacionPsicologica" runat="server" Target="_blank" Visible="false"
                                 CssClass="archivo-existente"></asp:HyperLink>
                             <asp:Label ID="lblEvaluacionPsicologica" runat="server" Text="Sin archivo guardado"
-                                CssClass="sin-archivo"></asp:Label>
+                                CssClass="sin-archivo" Height="16px"></asp:Label>
                         </div>
                     </td>
                 </tr>

@@ -69,15 +69,6 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.Button btn_Agregar;
 
         /// <summary>
-        /// Control btn_Modificar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Modificar;
-
-        /// <summary>
         /// Control btn_Limpiar.
         /// </summary>
         /// <remarks>
@@ -85,15 +76,6 @@ namespace ProyectoNido
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Limpiar;
-
-        /// <summary>
-        /// Control btn_Eliminar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Eliminar;
 
         /// <summary>
         /// Control txtBuscar.

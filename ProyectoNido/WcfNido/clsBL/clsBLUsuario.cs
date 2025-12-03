@@ -1,7 +1,9 @@
 ﻿using clsUtilidades;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,56 +25,77 @@ namespace clsBL
                 clsDAC.clsDacUsuario xusuarios = new clsDAC.clsDacUsuario();
                 xusuarios.EliminarUsuario(xcodigo);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_usuario(clsEntidades.clsUsuario xusuario)
         {
-
             try
             {
-                //if (xusuario.Clave == "12345")
-                //{
-                //    throw new ArgumentException("Error en la clave, es muy facil ");
-                //}
+                if (xusuario.Clave!= xusuario.ClaveII)
+                {
+                    throw new ArgumentException("Las contraseñas no coinciden.");
+                }
+
+                string errorUsuario = clsUtiles.ValidarUser(xusuario.NombreUsuario);
+                string errorClave = clsUtiles.ValidarContrasenia(xusuario.Clave);
+
+                if (errorUsuario != null)
+                {
+                    throw new ArgumentException(errorUsuario);
+                }
+
+                if (errorClave != null)
+                {
+                    throw new ArgumentException(errorClave);
+                }
 
                 clsDAC.clsDacUsuario db = new clsDAC.clsDacUsuario();
                 db.InsertarUsuario(xusuario);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
-        public void modificar_usuario(clsEntidades.clsUsuario xUser)
+        public void modificar_usuario(clsEntidades.clsUsuario xusuario)
         {
             try
             {
-                clsDAC.clsDacUsuario db = new clsDAC.clsDacUsuario();
-                db.ModificarUsuario(xUser);
-            }
-            catch (ArgumentException ex)
-            {
-                //throw new ApplicationException(ex.Message);
-                throw;
-            }
-        }
+                if (xusuario.Clave != xusuario.ClaveII)
+                {
+                    throw new ArgumentException("Las contraseñas no coinciden.");
+                }
 
-        public (bool Exito, string Mensaje) validar_contrasenia_segura(string usuario, string contrasenia)
-        {
-            try
-            {
+                string errorUsuario = clsUtiles.ValidarUser(xusuario.NombreUsuario);
+
+                if (errorUsuario != null)
+                {
+                    throw new ArgumentException(errorUsuario);
+                }
+
+                if (!string.IsNullOrEmpty(xusuario.Clave))
+                {
+                    string errorClave = clsUtiles.ValidarContrasenia(xusuario.Clave);
+
+                    if (errorClave != null)
+                    {
+                        throw new ArgumentException(errorClave);
+                    }
+                }
+
                 clsDAC.clsDacUsuario db = new clsDAC.clsDacUsuario();
-                return db.ValidarContraseniaSegura(usuario, contrasenia);
+                db.ModificarUsuario(xusuario);
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                return (false, "Error al validar la contraseña: " + ex.Message);
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 

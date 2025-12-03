@@ -78,9 +78,6 @@
     <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsLogin.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.ValClaveSeguraResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
     <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsComunicado.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -105,6 +102,15 @@
     <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.GrupoAnualDetalle.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsRolPermiso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsUsuarioPermiso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\wcfNido\ProyectoNido.wcfNido.clsApoderado.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Connected Services\wcfNido\Service1.disco" />
     <None Include="Connected Services\wcfNido\configuration91.svcinfo" />
     <None Include="Connected Services\wcfNido\configuration.svcinfo" />
@@ -114,6 +120,7 @@
     </None>
     <Content Include="CSS\EstiloLogin.css" />
     <Content Include="CSS\Estilos.css" />
+    <Content Include="frm_Apoderado.aspx" />
     <Content Include="frm_Comunicado.aspx" />
     <Content Include="frm_Distrito.aspx" />
     <Content Include="frm_Docente_Comunicado.aspx" />
@@ -123,7 +130,9 @@
     <Content Include="frm_Login.aspx" />
     <Content Include="frm_Nivel.aspx" />
     <Content Include="frm_Permiso.aspx" />
+    <Content Include="frm_Permiso_Usuario.aspx" />
     <Content Include="frm_Rol.aspx" />
+    <Content Include="frm_Rol_Permiso.aspx" />
     <Content Include="frm_Salon.aspx" />
     <Content Include="frm_Usuario.aspx" />
     <Content Include="frm_Usuario_Rol.aspx" />
@@ -165,6 +174,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Apoderado.aspx.cs">
+      <DependentUpon>frm_Apoderado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Apoderado.aspx.designer.cs">
+      <DependentUpon>frm_Apoderado.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Comunicado.aspx.cs">
       <DependentUpon>frm_Comunicado.aspx</DependentUpon>
@@ -229,12 +245,26 @@
     <Compile Include="frm_Permiso.aspx.designer.cs">
       <DependentUpon>frm_Permiso.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frm_Permiso_Usuario.aspx.cs">
+      <DependentUpon>frm_Permiso_Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Permiso_Usuario.aspx.designer.cs">
+      <DependentUpon>frm_Permiso_Usuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frm_Rol.aspx.cs">
       <DependentUpon>frm_Rol.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frm_Rol.aspx.designer.cs">
       <DependentUpon>frm_Rol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Rol_Permiso.aspx.cs">
+      <DependentUpon>frm_Rol_Permiso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Rol_Permiso.aspx.designer.cs">
+      <DependentUpon>frm_Rol_Permiso.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Salon.aspx.cs">
       <DependentUpon>frm_Salon.aspx</DependentUpon>

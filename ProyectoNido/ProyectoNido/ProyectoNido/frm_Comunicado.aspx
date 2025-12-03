@@ -20,10 +20,10 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="Label14" runat="server" Text="Usuario:"></asp:Label>
+                <asp:Label ID="Label14" runat="server" Text="Dirigido A:"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="Ddl_Usuario" runat="server"></asp:DropDownList>
+                <asp:DropDownList ID="Ddl_Rol" runat="server"></asp:DropDownList>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -51,7 +51,7 @@
                 <asp:Label ID="Label15" runat="server" Text="Fecha Creacion:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txt_Fecha_Creacion" runat="server" CssClass="full-width-textbox" TextMode="Date" Enabled="false"></asp:TextBox>
+                <asp:TextBox ID="txt_Fecha_Creacion" runat="server" CssClass="full-width-textbox" TextMode="Date" ReadOnly="true"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -91,7 +91,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
     <div style="width: 40%; margin: 20px auto; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 10px;">
-            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre..." />
+            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre o Rol ..." />
             <asp:Button ID="btnFiltrar" runat="server" Text="FILTRAR" CssClass="btn btn-info" OnClick="btnFiltrar_Click" />
         </div>
         <div style="margin-top: 10px;">
@@ -106,7 +106,7 @@
         CssClass="gridview-style sticky-header"> 
         <Columns>
             <asp:BoundField DataField="Id" HeaderText="ID" />
-            <asp:BoundField DataField="Usuario.NombreUsuario" HeaderText="Usuario" />
+            <asp:BoundField DataField="Rol.NombreRol" HeaderText="Dirigido A" />
             <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
             <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
             <asp:BoundField DataField="FechaCreacion" HeaderText="Fecha de Creacion" />

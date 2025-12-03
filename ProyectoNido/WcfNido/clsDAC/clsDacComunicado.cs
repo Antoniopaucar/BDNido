@@ -26,18 +26,17 @@ namespace clsDAC
                         {
                             clsEntidades.clsComunicado c = new clsEntidades.clsComunicado();
                             c.Usuario = new clsEntidades.clsUsuario();
+                            c.Rol= new clsEntidades.clsRol();
 
                             c.Id = Convert.ToInt32(dr["Id_Comunicado"]);
                             c.Usuario.Id = Convert.ToInt32(dr["Id_Usuario"]);
                             c.Usuario.NombreUsuario = dr["NombreUsuario"].ToString();
-                            c.Usuario.Nombres = dr["Nombres"].ToString();
-                            c.Usuario.ApellidoPaterno = dr["ApPaterno"].ToString();
-                            c.Usuario.ApellidoMaterno = dr["ApMaterno"].ToString();
+                            c.Rol.Id = Convert.ToInt32(dr["Id_Rol"]);
+                            c.Rol.NombreRol = dr["NombreRol"].ToString();
                             c.Nombre = dr["Nombre"].ToString();
                             c.Descripcion = dr["Descripcion"].ToString();
                             c.FechaCreacion = dr.GetDateTime(dr.GetOrdinal("FechaCreacion"));
                             c.FechaFinal = dr.IsDBNull(dr.GetOrdinal("FechaFinal")) ? (DateTime?)null : dr.GetDateTime(dr.GetOrdinal("FechaFinal"));
-                            c.Visto = Convert.ToInt32(dr["Visto"]) == 1;
 
                             lista.Add(c);
                         }
@@ -50,68 +49,98 @@ namespace clsDAC
 
         public void EliminarComunicado(int id)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("eliminar_comunicados", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    cmd.ExecuteNonQuery();
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("eliminar_comunicados", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id", id);
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void InsertarComunicado(clsEntidades.clsComunicado xcom)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("insertar_comunicados", cn))
+            try
+            { 
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("insertar_comunicados", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@Id_Usuario", xcom.Usuario.Id);
-                    cmd.Parameters.AddWithValue("@Nombre", xcom.Nombre);
-                    cmd.Parameters.AddWithValue("@Descripcion", xcom.Descripcion);
-                    cmd.Parameters.AddWithValue("@FechaFinal", xcom.FechaFinal);
+                        cmd.Parameters.AddWithValue("@Id_Usuario", xcom.Usuario.Id);
+                        cmd.Parameters.AddWithValue("@Id_Rol", xcom.Rol.Id);
+                        cmd.Parameters.AddWithValue("@Nombre", xcom.Nombre);
+                        cmd.Parameters.AddWithValue("@Descripcion", xcom.Descripcion);
+                        cmd.Parameters.AddWithValue("@FechaFinal", xcom.FechaFinal);
 
-                    cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void ModificarComunicado(clsEntidades.clsComunicado xcom)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("modificar_comunicados", cn))
+            try
+            { 
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("modificar_comunicados", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@Id", xcom.Id);
-                    cmd.Parameters.AddWithValue("@Id_Usuario", xcom.Usuario.Id);
-                    cmd.Parameters.AddWithValue("@Nombre", xcom.Nombre);
-                    cmd.Parameters.AddWithValue("@Descripcion", xcom.Descripcion);
-                    cmd.Parameters.AddWithValue("@FechaFinal", xcom.FechaFinal);
+                        cmd.Parameters.AddWithValue("@Id", xcom.Id);
+                        cmd.Parameters.AddWithValue("@Id_Usuario", xcom.Usuario.Id);
+                        cmd.Parameters.AddWithValue("@Id_Rol", xcom.Rol.Id);
+                        cmd.Parameters.AddWithValue("@Nombre", xcom.Nombre);
+                        cmd.Parameters.AddWithValue("@Descripcion", xcom.Descripcion);
+                        cmd.Parameters.AddWithValue("@FechaFinal", xcom.FechaFinal);
 
-                    cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
         public void MarcarComunicadoVisto(int idComunicado, int idUsuario)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("sp_MarcarComunicadoVisto", cn))
+            try
+            { 
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id_Comunicado", idComunicado);
-                    cmd.Parameters.AddWithValue("@Id_Usuario", idUsuario);
-                    cmd.ExecuteNonQuery();
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("sp_MarcarComunicadoVisto", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id_Comunicado", idComunicado);
+                        cmd.Parameters.AddWithValue("@Id_Usuario", idUsuario);
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
     }

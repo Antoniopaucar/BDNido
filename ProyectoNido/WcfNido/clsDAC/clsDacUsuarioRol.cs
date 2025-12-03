@@ -44,51 +44,49 @@ namespace clsDAC
 
         public void EliminarUsuarioRol(int id_user,int id_rol)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try 
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("eliminar_usuario_rol", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id_Usuario", id_user);
-                    cmd.Parameters.AddWithValue("@Id_Rol", id_rol);
-                    cmd.ExecuteNonQuery();
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("eliminar_usuario_rol", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id_Usuario", id_user);
+                        cmd.Parameters.AddWithValue("@Id_Rol", id_rol);
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
         public void InsertarUsuarioRol(clsEntidades.clsUsuarioRol xUr)
         {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+            try 
             {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("insertar_usuario_rol", cn))
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
                 {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("insertar_usuario_rol", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
-                    cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
+                        cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
+                        cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
 
-                    cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
         }
 
-        public void ModificarUsuarioRol(clsEntidades.clsUsuarioRol xUr)
-        {
-            using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
-            {
-                cn.Open();
-                using (SqlCommand cmd = new SqlCommand("modificar_usuario_rol", cn))
-                {
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-
-                    cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
-                    cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
-
-                    cmd.ExecuteNonQuery();
-                }
-            }
-        }
     }
 }

@@ -31,21 +31,17 @@
         <tr>
             <td>
                 <asp:Button ID="btn_Agregar" runat="server" Text="AGREGAR" 
-                    OnClientClick="return confirm('¿Deseas agregar este Usuario Rol?') && validarCamposTabla('tablaUsuarioRol');" 
+                    OnClientClick="return confirm('¿Deseas agregar este Usuario Rol?') && validarCamposTabla('tablaUsuarioRol','');" 
                     OnClick="btn_Agregar_Click" class="btn btn-exito" />
             </td>
             <td>
-                <asp:Button ID="btn_Modificar" runat="server" Text="MODIFICAR" 
-                    OnClientClick="return confirm('¿Deseas modificar este Usuario Rol?') && validarCamposTabla('tablaUsuarioRol');" 
-                    OnClick="btn_Modificar_Click" class="btn btn-primario" />
+
             </td>
             <td>
                 <asp:Button ID="btn_Limpiar" runat="server" Text="LIMPIAR" OnClick="btn_Limpiar_Click" class="btn btn-advertencia" />
             </td>
             <td>
-                <asp:Button ID="btn_Eliminar" runat="server" Text="ELIMINAR" 
-                    OnClientClick="return confirm('¿Deseas eliminar este Usuario Rol?');"
-                    OnClick="btn_Eliminar_Click" class="btn btn-peligro" />
+
             </td>
         </tr>
     </table>
@@ -54,7 +50,7 @@
 
  <div style="width: 40%; margin: 20px auto; text-align: center;">
      <div style="display: flex; justify-content: center; gap: 10px;">
-         <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por Usuario..." />
+         <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por Usuario o Rol..." />
          <asp:Button ID="btnFiltrar" runat="server" Text="FILTRAR" CssClass="btn btn-info" OnClick="btnFiltrar_Click" />
      </div>
      <div style="margin-top: 10px;">
@@ -72,15 +68,10 @@
         <asp:BoundField DataField="Rol.NombreRol" HeaderText="Rol" />
         <asp:TemplateField HeaderText="Acciones">
             <ItemTemplate>
-                <asp:Button ID="btnConsultar" runat="server" Text="Consultar" 
-                    CommandName="Consultar"
-                    CommandArgument='<%# Eval("Usuario.Id") + "," + Eval("Rol.Id") %>' 
-                    CssClass="btn btn-info btn-sm" />
-
                 <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" 
                     CommandName="Eliminar"
-                    CommandArgument='<%# Eval("Usuario.Id") + "," + Eval("Rol.Id") %>' 
-                    CssClass="btn btn-danger btn-sm"
+                    CommandArgument='<%# Eval("Usuario.Id") + "-" + Eval("Rol.Id") %>'
+                    CssClass="btn btn-peligro btn-sm"
                     OnClientClick="return confirm('¿Deseas eliminar este Usuario Rol?');" />
             </ItemTemplate>
         </asp:TemplateField>

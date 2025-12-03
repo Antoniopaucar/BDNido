@@ -148,6 +148,17 @@ namespace ProyectoNido
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
                 List<clsNivel> lista = xdb.GetNivel().ToList();
 
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtro = filtro.ToLower();
+
+                    lista = lista
+                        .Where(x =>
+                            (x.Nombre ?? "").ToLower().Contains(filtro)
+                        )
+                        .ToList();
+                }
+
                 gvNivel.DataSource = lista;
                 gvNivel.DataBind();
             }
