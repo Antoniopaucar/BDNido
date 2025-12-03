@@ -821,7 +821,7 @@ select * from Permiso
 select * from Nivel
 
 ----------------------------DOCENTE------------------
-CREATE PROCEDURE [dbo].[modificar_profesor]
+alter PROCEDURE [dbo].[modificar_profesor]
     @Id_Usuario INT,
     @FechaIngreso DATE,
     @TituloProfesional VARCHAR(100),
@@ -866,7 +866,9 @@ BEGIN
     LEFT JOIN Profesor p ON u.Id = p.Id_Usuario
     WHERE u.Id = @Id_Usuario;
 END
-alter PROCEDURE [dbo].[actualizar_datos_docente]
+
+
+create PROCEDURE [dbo].[actualizar_datos_docente]
     @Id_Usuario              INT,           -- docente logueado
     @Nombres                 VARCHAR(100),
     @ApPaterno               VARCHAR(50),
@@ -929,7 +931,7 @@ END;
 GO
 
 
-CREATE PROCEDURE [dbo].[modificar_profesor]
+alter PROCEDURE [dbo].[modificar_profesor]
     @Id_Usuario INT,
     @FechaIngreso DATE,
     @TituloProfesional VARCHAR(100),
@@ -951,3 +953,113 @@ END
 GO
 
 
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+select * from Tarifario
+
+CREATE OR ALTER PROC dbo.listar_tarifario
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        Id_Tarifario,
+        Tipo,
+        Nombre,
+        Descripcion,
+        Periodo,
+        Valor
+    FROM Tarifario
+    ORDER BY Nombre;
+END;
+GO
+
+CREATE OR ALTER PROC dbo.insertar_tarifario
+    @Tipo CHAR(1),
+    @Nombre VARCHAR(100),
+    @Descripcion VARCHAR(200) = NULL,
+    @Periodo TINYINT,
+    @Valor DECIMAL(6,2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        INSERT INTO Tarifario (Tipo, Nombre, Descripcion, Periodo, Valor)
+        VALUES (@Tipo, @Nombre, @Descripcion, @Periodo, @Valor);
+    END TRY
+    BEGIN CATCH
+        THROW;
+    END CATCH
+END;
+GO
+
+CREATE OR ALTER PROC dbo.modificar_tarifario
+    @Id_Tarifario INT,
+    @Tipo CHAR(1),
+    @Nombre VARCHAR(100),
+    @Descripcion VARCHAR(200) = NULL,
+    @Periodo TINYINT,
+    @Valor DECIMAL(6,2)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        UPDATE Tarifario
+        SET Tipo = @Tipo,
+            Nombre = @Nombre,
+            Descripcion = @Descripcion,
+            Periodo = @Periodo,
+            Valor = @Valor
+        WHERE Id_Tarifario = @Id_Tarifario;
+    END TRY
+    BEGIN CATCH
+        THROW;
+    END CATCH
+END;
+GO
+
+CREATE OR ALTER PROC dbo.eliminar_tarifario
+    @Id_Tarifario INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        DELETE FROM Tarifario
+        WHERE Id_Tarifario = @Id_Tarifario;
+    END TRY
+    BEGIN CATCH
+        THROW;
+    END CATCH
+END;
+GO
+
+
+CREATE OR ALTER PROC dbo.tarifario_filtrar
+    @TextoBuscar VARCHAR(100) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        Id_Tarifario,
+        Tipo,
+        Nombre,
+        Descripcion,
+        Periodo,
+        Valor
+    FROM Tarifario
+    WHERE 
+        (@TextoBuscar IS NULL OR @TextoBuscar = '' OR 
+         Nombre LIKE '%' + @TextoBuscar + '%')
+    ORDER BY Nombre;
+END;
+GO
