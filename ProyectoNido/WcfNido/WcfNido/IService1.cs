@@ -223,6 +223,16 @@ namespace WcfNido
         [OperationContract]
         void ModGrupoServicio(clsGrupoServicio grupo);
 
+        //-----------------ALUMNO--------------------
+
+        [OperationContract]
+        List<clsEntidades.clsAlumno> GetAlumno();
+
+        //-----------------PROFESOR--------------------
+
+        [OperationContract]
+        List<clsEntidades.clsProfesorDTO> GetProfesor();
+
 
         // TODO: agregue aquí sus operaciones de servicio
     }

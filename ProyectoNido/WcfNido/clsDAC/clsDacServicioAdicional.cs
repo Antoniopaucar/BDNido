@@ -29,7 +29,7 @@ namespace clsDAC
                             s.Id_ServicioAdicional = Convert.ToInt32(dr["Id_ServicioAdicional"]);
                             s.Nombre = dr["Nombre"].ToString();
                             s.Descripcion = dr["Descripcion"].ToString();
-                            s.Tipo = Convert.ToChar(dr["Tipo"]);
+                            s.Tipo = dr["Tipo"] is DBNull ? (char?)null : Convert.ToChar(dr["Tipo"]);
                             s.Costo = Convert.ToDecimal(dr["Costo"]);
 
                             lista.Add(s);

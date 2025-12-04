@@ -398,6 +398,18 @@
   <wsdl:message name="IService1_ModGrupoServicio_OutputMessage">
     <wsdl:part name="parameters" element="tns:ModGrupoServicioResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_GetAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfesorResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -658,6 +670,14 @@
     <wsdl:operation name="ModGrupoServicio">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModGrupoServicio" message="tns:IService1_ModGrupoServicio_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModGrupoServicioResponse" message="tns:IService1_ModGrupoServicio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAlumno" message="tns:IService1_GetAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAlumnoResponse" message="tns:IService1_GetAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetProfesor" message="tns:IService1_GetProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetProfesorResponse" message="tns:IService1_GetProfesor_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -1240,6 +1260,24 @@
     </wsdl:operation>
     <wsdl:operation name="ModGrupoServicio">
       <soap:operation soapAction="http://tempuri.org/IService1/ModGrupoServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetProfesor" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

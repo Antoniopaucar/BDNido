@@ -744,6 +744,18 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+        //------------------ALUMNO----------------------------
 
+        public List<clsAlumno> GetAlumno()
+        {
+            clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+            return xbl.listar_alumnos();
+        }
+        //------------------PROFESOR----------------------------
+        public List<clsProfesorDTO> GetProfesor()
+        {
+            clsBL.clsBLProfesor bl = new clsBL.clsBLProfesor();
+            return bl.listar_profesores();
+        }
     }
 }

@@ -367,14 +367,21 @@ namespace ProyectoNido
                         ddl_GrupoServicio.SelectedValue = ser.Id_GrupoServicio.ToString();
                         ddl_Alumno.SelectedValue = ser.Id_Alumno.ToString();
 
-                        txt_FechaInicio.Text = ser.FechaInicio.ToString("dd/MM/yyyy");
+                        // FechaInicio puede ser Nullable<DateTime>, evitar ToString(format) directamente sobre Nullable
+                        txt_FechaInicio.Text = (ser.FechaInicio != null && ser.FechaInicio.HasValue)
+                            ? ser.FechaInicio.Value.ToString("dd/MM/yyyy")
+                            : "";
+
                         txt_FechaFinal.Text = ser.FechaFinal.HasValue ? ser.FechaFinal.Value.ToString("dd/MM/yyyy") : "";
                         txt_FechaPago.Text = ser.FechaPago.HasValue ? ser.FechaPago.Value.ToString("dd/MM/yyyy") : "";
 
                         txt_HoraInicio.Text = ser.HoraInicio.HasValue ? ser.HoraInicio.Value.ToString(@"hh\:mm") : "";
                         txt_HoraFinal.Text = ser.HoraFinal.HasValue ? ser.HoraFinal.Value.ToString(@"hh\:mm") : "";
 
-                        txt_Monto.Text = ser.Monto.ToString("0.00");
+                        // Monto puede ser Nullable<decimal>, usar Value si tiene valor
+                        txt_Monto.Text = (ser.Monto != null && ser.Monto.HasValue)
+                            ? ser.Monto.Value.ToString("0.00")
+                            : "";
                     }
                 }
                 catch (Exception ex)
@@ -404,6 +411,11 @@ namespace ProyectoNido
         {
             gvServicioAlumno.PageIndex = e.NewPageIndex;
             CargarGrid();
+        }
+
+        protected void ddl_GrupoServicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

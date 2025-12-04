@@ -273,7 +273,7 @@
       <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Id_ServicioAdicional" type="xs:int" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="Tipo" type="ser:char" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="ser:char" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clsServicioAdicional" nillable="true" type="tns:clsServicioAdicional" />
@@ -293,4 +293,35 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clsGrupoServicio" nillable="true" type="tns:clsGrupoServicio" />
+  <xs:complexType name="ArrayOfclsAlumno">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsAlumno" nillable="true" type="tns:clsAlumno" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsAlumno" nillable="true" type="tns:ArrayOfclsAlumno" />
+  <xs:complexType name="clsAlumno">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApellidoMaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApellidoPaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_Alumno" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsAlumno" nillable="true" type="tns:clsAlumno" />
+  <xs:complexType name="ArrayOfclsProfesorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsProfesorDTO" nillable="true" type="tns:clsProfesorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsProfesorDTO" nillable="true" type="tns:ArrayOfclsProfesorDTO" />
+  <xs:complexType name="clsProfesorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApellidoMaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApellidoPaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_Profesor" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Usuario" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsProfesorDTO" nillable="true" type="tns:clsProfesorDTO" />
 </xs:schema>

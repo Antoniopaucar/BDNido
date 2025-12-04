@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAlumno.cs" />
     <Compile Include="clsApoderado.cs" />
     <Compile Include="clsComunicado.cs" />
+    <Compile Include="clsProfesorDTO.cs" />
     <Compile Include="clsDistrito.cs" />
+    <Compile Include="clsError.cs" />
     <Compile Include="clsGrupoServicio.cs" />
     <Compile Include="clsLogin.cs" />
     <Compile Include="clsNivel.cs" />

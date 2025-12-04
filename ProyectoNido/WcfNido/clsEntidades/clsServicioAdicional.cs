@@ -11,7 +11,7 @@ namespace clsEntidades
         public int Id_ServicioAdicional { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public char Tipo { get; set; }
+        public char? Tipo { get; set; }
         public decimal Costo { get; set; }
 
         public clsServicioAdicional() { }
