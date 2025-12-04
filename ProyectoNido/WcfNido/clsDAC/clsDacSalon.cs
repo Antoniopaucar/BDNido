@@ -28,7 +28,8 @@ namespace clsDAC
 
                             s.Id = Convert.ToInt32(dr["Id_Salon"]);
                             s.Nombre = dr["Nombre"].ToString();
-                            s.Aforo = Convert.ToInt32(dr["Aforo"].ToString());
+                            int idxAforo = dr.GetOrdinal("Aforo");
+                            s.Aforo = dr.IsDBNull(idxAforo) ? (int?)null : dr.GetInt32(idxAforo);
                             s.Dimensiones = dr["Dimensiones"].ToString();
                             s.Activo = Convert.ToBoolean(dr["Activo"]);
 

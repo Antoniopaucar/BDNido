@@ -44,17 +44,20 @@
     <Compile Include="clsBLApoderado.cs" />
     <Compile Include="clsBLComunicado.cs" />
     <Compile Include="clsBLDistrito.cs" />
-    <Compile Include="clsBLError.cs" />
+    <Compile Include="clsBLGrupoServicio.cs" />
     <Compile Include="clsBLLogin.cs" />
     <Compile Include="clsBLNivel.cs" />
     <Compile Include="clsBLPermiso.cs" />
     <Compile Include="clsBLRol.cs" />
     <Compile Include="clsBLRolPermiso.cs" />
     <Compile Include="clsBLSalon.cs" />
+    <Compile Include="clsBLServicioAdicional.cs" />
+    <Compile Include="clsBLServicioAlumno.cs" />
     <Compile Include="clsBLUsuario.cs" />
     <Compile Include="clsBLUsuarioPermiso.cs" />
     <Compile Include="clsBLUsuarioRol.cs" />
     <Compile Include="clsBLGrupoAnual.cs" />
+    <Compile Include="clsBLTarifario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
