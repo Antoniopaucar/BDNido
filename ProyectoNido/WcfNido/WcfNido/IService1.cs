@@ -154,6 +154,47 @@ namespace WcfNido
         [OperationContract]
         void DelTarifario(int idTarifario);
 
+        //-------------------------------- Servicio_Alumno --------------------------------
+        [OperationContract]
+        List<clsServicioAlumno> GetServicioAlumno();
+
+        [OperationContract]
+        void DelServicioAlumno(int Codigo);
+
+        [OperationContract]
+        void InsServicioAlumno(clsServicioAlumno servicioAlumno);
+
+        [OperationContract]
+        void ModServicioAlumno(clsServicioAlumno servicioAlumno);
+
+        //-------------------------------- SERVICIO ADICIONAL --------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsServicioAdicional> GetServicioAdicional();
+
+        [OperationContract]
+        void DelServicioAdicional(int Codigo);
+
+        [OperationContract]
+        void InsServicioAdicional(clsEntidades.clsServicioAdicional servicio);
+
+        [OperationContract]
+        void ModServicioAdicional(clsEntidades.clsServicioAdicional servicio);
+
+
+        //------------------------ GRUPO SERVICIO -------------------------------------
+
+        [OperationContract]
+        List<clsGrupoServicio> GetGrupoServicio();
+
+        [OperationContract]
+        void DelGrupoServicio(int Codigo);
+
+        [OperationContract]
+        void InsGrupoServicio(clsGrupoServicio grupo);
+
+        [OperationContract]
+        void ModGrupoServicio(clsGrupoServicio grupo);
 
 
         // TODO: agregue aquí sus operaciones de servicio
@@ -181,4 +222,5 @@ namespace WcfNido
             set { stringValue = value; }
         }
     }
+
 }

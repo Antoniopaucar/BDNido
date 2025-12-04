@@ -540,5 +540,125 @@ namespace WcfNido
                 throw new FaultException("Error al eliminar el tarifario: " + ex.Message);
             }
         }
+
+        //----------------------------- SERVICIO ALUMNO ---------------------------------------
+
+        public List<clsServicioAlumno> GetServicioAlumno()
+        {
+            clsBLServicioAlumno bl = new clsBLServicioAlumno();
+            return bl.listar_ServicioAlumno();
+        }
+
+        public void DelServicioAlumno(int Codigo)
+        {
+            clsBLServicioAlumno bl = new clsBLServicioAlumno();
+            bl.eliminar_ServicioAlumno(Codigo);
+        }
+
+        public void InsServicioAlumno(clsServicioAlumno servicioAlumno)
+        {
+            clsBLServicioAlumno bl = new clsBLServicioAlumno();
+            bl.insertar_ServicioAlumno(servicioAlumno);
+        }
+
+        public void ModServicioAlumno(clsServicioAlumno servicioAlumno)
+        {
+            clsBLServicioAlumno bl = new clsBLServicioAlumno();
+            bl.modificar_ServicioAlumno(servicioAlumno);
+        }
+
+        //-------------------------------- SERVICIO ADICIONAL ---------------------------------------
+
+        public List<clsServicioAdicional> GetServicioAdicional()
+        {
+            clsBL.clsBLServicioAdicional xbl = new clsBL.clsBLServicioAdicional();
+            return xbl.listar_servicioAdicional();
+        }
+
+        public void DelServicioAdicional(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLServicioAdicional xbl = new clsBL.clsBLServicioAdicional();
+                xbl.eliminar_servicioAdicional(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsServicioAdicional(clsServicioAdicional servicio)
+        {
+            try
+            {
+                clsBL.clsBLServicioAdicional xbl = new clsBL.clsBLServicioAdicional();
+                xbl.insertar_servicioAdicional(servicio);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void ModServicioAdicional(clsServicioAdicional servicio)
+        {
+            try
+            {
+                clsBL.clsBLServicioAdicional xbl = new clsBL.clsBLServicioAdicional();
+                xbl.modificar_servicioAdicional(servicio);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        //----------------------------- GRUPO SERVICIO ---------------------------------------
+        public List<clsGrupoServicio> GetGrupoServicio()
+        {
+            clsBL.clsBLGrupoServicio xbl = new clsBL.clsBLGrupoServicio();
+            return xbl.listar_grupoServicio();
+        }
+
+        public void DelGrupoServicio(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLGrupoServicio xbl = new clsBL.clsBLGrupoServicio();
+                xbl.eliminar_grupoServicio(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsGrupoServicio(clsGrupoServicio grupo)
+        {
+            try
+            {
+                clsBL.clsBLGrupoServicio xbl = new clsBL.clsBLGrupoServicio();
+                xbl.insertar_grupoServicio(grupo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void ModGrupoServicio(clsGrupoServicio grupo)
+        {
+            try
+            {
+                clsBL.clsBLGrupoServicio xbl = new clsBL.clsBLGrupoServicio();
+                xbl.modificar_grupoServicio(grupo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
     }
 }

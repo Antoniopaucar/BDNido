@@ -43,11 +43,14 @@
   <ItemGroup>
     <Compile Include="clsBLComunicado.cs" />
     <Compile Include="clsBLDistrito.cs" />
+    <Compile Include="clsBLGrupoServicio.cs" />
     <Compile Include="clsBLLogin.cs" />
     <Compile Include="clsBLNivel.cs" />
     <Compile Include="clsBLPermiso.cs" />
     <Compile Include="clsBLRol.cs" />
     <Compile Include="clsBLSalon.cs" />
+    <Compile Include="clsBLServicioAdicional.cs" />
+    <Compile Include="clsBLServicioAlumno.cs" />
     <Compile Include="clsBLUsuario.cs" />
     <Compile Include="clsBLUsuarioRol.cs" />
     <Compile Include="clsBLGrupoAnual.cs" />
