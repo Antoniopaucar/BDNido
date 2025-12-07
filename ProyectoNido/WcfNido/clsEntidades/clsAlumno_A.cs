@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace clsEntidades
 {
-    public class clsAlumno
+    public class clsAlumno_A
     {
         public int Id_Alumno { get; set; }
         public string Nombres { get; set; }
@@ -19,9 +19,9 @@ namespace clsEntidades
             get { return $"{ApellidoPaterno} {ApellidoMaterno}, {Nombres}"; }
         }
 
-        public clsAlumno() { }
+        public clsAlumno_A() { }
 
-        public clsAlumno(int id, string nombres, string apP, string apM)
+        public clsAlumno_A(int id, string nombres, string apP, string apM)
         {
             Id_Alumno = id;
             Nombres = nombres;

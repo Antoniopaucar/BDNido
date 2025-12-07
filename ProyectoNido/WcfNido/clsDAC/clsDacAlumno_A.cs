@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace clsDAC
 {
-    public class clsDacAlumno
+    public class clsDacAlumno_A
     {
-        public List<clsEntidades.clsAlumno> listarAlumnos()
+        public List<clsEntidades.clsAlumno_A> listarAlumnos()
         {
-            List<clsEntidades.clsAlumno> lista = new List<clsEntidades.clsAlumno>();
+            List<clsEntidades.clsAlumno_A> lista = new List<clsEntidades.clsAlumno_A>();
 
             using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
             {
@@ -25,7 +25,7 @@ namespace clsDAC
                     {
                         while (dr.Read())
                         {
-                            var a = new clsEntidades.clsAlumno
+                            var a = new clsEntidades.clsAlumno_A
                             {
                                 Id_Alumno = Convert.ToInt32(dr["Id_Alumno"]),
                                 Nombres = dr["Nombres"].ToString(),

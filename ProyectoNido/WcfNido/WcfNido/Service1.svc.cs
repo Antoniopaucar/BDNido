@@ -746,15 +746,15 @@ namespace WcfNido
         }
         //------------------ALUMNO----------------------------
 
-        public List<clsAlumno> GetAlumno()
+        public List<clsAlumno_A> GetAlumno_A()
         {
-            clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+            clsBL.clsBLAlumno_A xbl = new clsBL.clsBLAlumno_A();
             return xbl.listar_alumnos();
         }
         //------------------PROFESOR----------------------------
-        public List<clsProfesorDTO> GetProfesor()
+        public List<clsProfesorDTO> GetProfesor_A()
         {
-            clsBL.clsBLProfesor bl = new clsBL.clsBLProfesor();
+            clsBL.clsBLProfesorDTO bl = new clsBL.clsBLProfesorDTO();
             return bl.listar_profesores();
         }
     }

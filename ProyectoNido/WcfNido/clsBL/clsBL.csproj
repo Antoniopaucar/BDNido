@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsBLAlumno.cs" />
+    <Compile Include="clsBLAlumno_A.cs" />
     <Compile Include="clsBLApoderado.cs" />
     <Compile Include="clsBLComunicado.cs" />
     <Compile Include="clsBLDistrito.cs" />
@@ -50,7 +50,7 @@
     <Compile Include="clsBLLogin.cs" />
     <Compile Include="clsBLNivel.cs" />
     <Compile Include="clsBLPermiso.cs" />
-    <Compile Include="clsBLProfesor.cs" />
+    <Compile Include="clsBLProfesorDTO.cs" />
     <Compile Include="clsBLRol.cs" />
     <Compile Include="clsBLRolPermiso.cs" />
     <Compile Include="clsBLSalon.cs" />

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace clsDAC
 {
-    public class clsDacProfesor
+    public class clsDacProfesorDTO
     {
         public List<clsEntidades.clsProfesorDTO> listarProfesores()
         {

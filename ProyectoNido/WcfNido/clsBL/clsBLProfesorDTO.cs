@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace clsBL
 {
-    public class clsBLProfesor
+    public class clsBLProfesorDTO
     {
         public List<clsEntidades.clsProfesorDTO> listar_profesores()
         {
-            clsDAC.clsDacProfesor db = new clsDAC.clsDacProfesor();
+            clsDAC.clsDacProfesorDTO db = new clsDAC.clsDacProfesorDTO();
             return db.listarProfesores();
         }
     }

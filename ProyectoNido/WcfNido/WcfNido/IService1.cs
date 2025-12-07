@@ -226,12 +226,12 @@ namespace WcfNido
         //-----------------ALUMNO--------------------
 
         [OperationContract]
-        List<clsEntidades.clsAlumno> GetAlumno();
+        List<clsEntidades.clsAlumno_A> GetAlumno_A();
 
         //-----------------PROFESOR--------------------
 
         [OperationContract]
-        List<clsEntidades.clsProfesorDTO> GetProfesor();
+        List<clsEntidades.clsProfesorDTO> GetProfesor_A();
 
 
         // TODO: agregue aquí sus operaciones de servicio
