@@ -41,12 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsAlumno.cs" />
+    <Compile Include="clsAlumno_A.cs" />
     <Compile Include="clsApoderado.cs" />
     <Compile Include="clsArchivoBase.cs" />
     <Compile Include="clsComunicado.cs" />
+    <Compile Include="clsProfesorDTO.cs" />
     <Compile Include="clsDistrito.cs" />
     <Compile Include="clsError.cs" />
+    <Compile Include="clsGrupoServicio.cs" />
     <Compile Include="clsLogin.cs" />
     <Compile Include="clsNivel.cs" />
     <Compile Include="clsPermiso.cs" />
@@ -54,7 +56,9 @@
     <Compile Include="clsRol.cs" />
     <Compile Include="clsRolPermiso.cs" />
     <Compile Include="clsSalon.cs" />
-    <Compile Include="clsTipoDocumento.cs" />
+    <Compile Include="clsServicioAdicional.cs" />
+    <Compile Include="clsServicioAlumno.cs" />
+    <Compile Include="clsTarifario.cs" />
     <Compile Include="clsUsuario.cs" />
     <Compile Include="clsUsuarioPermiso.cs" />
     <Compile Include="clsUsuarioRol.cs" />

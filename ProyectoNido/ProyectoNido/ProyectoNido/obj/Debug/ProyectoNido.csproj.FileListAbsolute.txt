@@ -1,59 +1,236 @@
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll.config
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.pdb
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe.config
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.rsp
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe.config
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.rsp
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Managed.Core.targets
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.AppContext.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Collections.Immutable.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Console.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Globalization.Calendars.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Http.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Sockets.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Reflection.Metadata.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.ValueTuple.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XmlDocument.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe.config
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.rsp
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe.config
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.AssemblyReference.cache
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.CoreCompileInputs.cache
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\Proyecto.E7B5C83F.Up2Date
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.dll
-D:\EXPERIENCIAS FORMATIVAS III\ProyectoLaColmenita\BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.pdb
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll.config
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.pdb
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe.config
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.rsp
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe.config
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.rsp
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.AppContext.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Collections.Immutable.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Console.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Globalization.Calendars.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Http.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Sockets.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Reflection.Metadata.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.ValueTuple.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe.config
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.rsp
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe.config
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.AssemblyReference.cache
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.CoreCompileInputs.cache
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\Proyecto.E7B5C83F.Up2Date
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.dll
+D:\DESARROLLO DE APLICACIONES DISTRIBUIDAS\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.pdb
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.pdb
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.AppContext.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Collections.Immutable.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Console.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Globalization.Calendars.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Http.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Sockets.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Reflection.Metadata.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.ValueTuple.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.AssemblyReference.cache
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.CoreCompileInputs.cache
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\Proyecto.E7B5C83F.Up2Date
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.pdb
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.pdb
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.AppContext.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Collections.Immutable.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Console.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Globalization.Calendars.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Http.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Sockets.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Reflection.Metadata.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.ValueTuple.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.rsp
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe.config
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.AssemblyReference.cache
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.CoreCompileInputs.cache
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\Proyecto.E7B5C83F.Up2Date
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.dll
+D:\ISUR\6 SEMESTRE\EXPERIENCIAS FORMATIVAS III\P_nido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.pdb
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.AssemblyReference.cache
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.csproj.CoreCompileInputs.cache
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\ProyectoNido.pdb
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll.config
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\ProyectoNido.pdb
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.exe.config
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csc.rsp
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.exe.config
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\csi.rsp
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.AppContext.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Console.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Http.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.exe.config
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\vbc.rsp
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alberto_VQ\source\repos\Aqui_BDNido\BDNido\ProyectoNido\ProyectoNido\ProyectoNido\obj\Debug\Proyecto.E7B5C83F.Up2Date

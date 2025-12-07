@@ -201,6 +201,77 @@ namespace WcfNido
         [OperationContract]
         List<clsEntidades.GrupoAnualDetalle> ListarGruposPorDocente(int idUsuario);
 
+
+
+        //-----------------TARIFARIO--------------------
+        [OperationContract]
+        List<clsTarifario> GetTarifario();
+
+        [OperationContract]
+        List<clsTarifario> FilTarifario(string texto);
+
+        [OperationContract]
+        void InsTarifario(clsTarifario tarifario);
+
+        [OperationContract]
+        void ModTarifario(clsTarifario tarifario);
+
+        [OperationContract]
+        void DelTarifario(int idTarifario);
+
+        //-------------------------------- Servicio_Alumno --------------------------------
+        [OperationContract]
+        List<clsServicioAlumno> GetServicioAlumno();
+
+        [OperationContract]
+        void DelServicioAlumno(int Codigo);
+
+        [OperationContract]
+        void InsServicioAlumno(clsServicioAlumno servicioAlumno);
+
+        [OperationContract]
+        void ModServicioAlumno(clsServicioAlumno servicioAlumno);
+
+        //-------------------------------- SERVICIO ADICIONAL --------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsServicioAdicional> GetServicioAdicional();
+
+        [OperationContract]
+        void DelServicioAdicional(int Codigo);
+
+        [OperationContract]
+        void InsServicioAdicional(clsEntidades.clsServicioAdicional servicio);
+
+        [OperationContract]
+        void ModServicioAdicional(clsEntidades.clsServicioAdicional servicio);
+
+
+        //------------------------ GRUPO SERVICIO -------------------------------------
+
+        [OperationContract]
+        List<clsGrupoServicio> GetGrupoServicio();
+
+        [OperationContract]
+        void DelGrupoServicio(int Codigo);
+
+        [OperationContract]
+        void InsGrupoServicio(clsGrupoServicio grupo);
+
+        [OperationContract]
+        void ModGrupoServicio(clsGrupoServicio grupo);
+
+        //-----------------ALUMNO--------------------
+
+        [OperationContract]
+        List<clsEntidades.clsAlumno_A> GetAlumno_A();
+
+        //-----------------PROFESOR--------------------
+
+        [OperationContract]
+        List<clsEntidades.clsProfesorDTO> GetProfesor_A();
+
+
         // TODO: agregue aquí sus operaciones de servicio
     }
 
@@ -226,4 +297,5 @@ namespace WcfNido
             set { stringValue = value; }
         }
     }
+
 }
