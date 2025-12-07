@@ -52,91 +52,100 @@
             <td>
                 <asp:Label ID="Label5" runat="server" Text="Nombres:"></asp:Label>
             </td>
-            <td colspan="3">
+            <td colspan="2">
                 <asp:TextBox ID="txt_Nombres" runat="server" onkeypress="return SoloTexto(event);" CssClass="full-width-textbox"></asp:TextBox>
             </td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label6" runat="server" Text="Apellido Paterno:"></asp:Label>
             </td>
-            <td colspan="3">
+            <td colspan="2">
                 <asp:TextBox ID="txt_ApellidoPaterno" runat="server" onkeypress="return SoloTexto(event);" CssClass="full-width-textbox"></asp:TextBox>
             </td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label9" runat="server" Text="Apellido Materno:"></asp:Label>
             </td>
-            <td colspan="3">
+            <td colspan="2">
                 <asp:TextBox ID="txt_ApellidoMaterno" runat="server" onkeypress="return SoloTexto(event);" CssClass="full-width-textbox"></asp:TextBox>
             </td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="Label1" runat="server" Text="DNI:"></asp:Label>
+                <asp:Label ID="Label16" runat="server" Text="Tipo Documento:"></asp:Label>
             </td>
-            <td>
-                <asp:TextBox ID="txt_Dni" runat="server" onkeypress="return SoloNumeros(event);" MaxLength="8"></asp:TextBox>
+            <td colspan="2">
+                <asp:DropDownList ID="Ddl_Tipo_Documento" runat="server" AutoPostBack="true" OnSelectedIndexChanged="Ddl_Tipo_Documento_SelectedIndexChanged"></asp:DropDownList>
             </td>
             <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label1" runat="server" Text="Documento:"></asp:Label>
+            </td>
+            <td colspan="2">
+                <asp:TextBox ID="txt_Documento" runat="server" onkeypress="return SinEspacios(event);"></asp:TextBox>
+            </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label15" runat="server" Text="Fecha Nacimiento:"></asp:Label>
             </td>
-            <td>
+            <td colspan="2">
                 <asp:TextBox ID="txt_Fecha_Nacimiento" runat="server" CssClass="full-width-textbox" TextMode="Date"></asp:TextBox>
             </td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label8" runat="server" Text="Sexo:"></asp:Label>
             </td>
-            <td>
+            <td colspan="2">
                 <asp:DropDownList ID="Ddl_Sexo" runat="server"></asp:DropDownList>
             </td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label14" runat="server" Text="Distrito:"></asp:Label>
             </td>
-            <td>
+            <td colspan="2">
                 <asp:DropDownList ID="Ddl_Distrito" runat="server"></asp:DropDownList>
             </td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label11" runat="server" Text="Direccion:"></asp:Label>
             </td>
-            <td colspan="3">
+            <td colspan="2">
                 <asp:TextBox ID="txt_Direccion" runat="server" CssClass="full-width-textbox"></asp:TextBox>
             </td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label13" runat="server" Text="Telefono:"></asp:Label>
             </td>
-            <td>
+            <td colspan="2">
                 <asp:TextBox ID="txt_Telefono" runat="server" onkeypress="return SoloNumeros(event);" CssClass="full-width-textbox" MaxLength="9"></asp:TextBox>
             </td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>
                 <asp:Label ID="Label12" runat="server" Text="Email:"></asp:Label>
             </td>
-            <td colspan="3">
+            <td colspan="2">
                 <asp:TextBox ID="txt_Email" runat="server" onkeypress="return SinEspacios(event);" CssClass="full-width-textbox"></asp:TextBox>
             </td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td></td>
@@ -149,12 +158,12 @@
         <tr>
             <td>
                 <asp:Button ID="btn_Agregar" runat="server" Text="AGREGAR" 
-                    OnClientClick="return confirm('¿Deseas agregar este Usuario?') && validarCamposTabla('tablaUsuarios',',txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,txt_ApellidoMaterno,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
+                    OnClientClick="return confirm('¿Deseas agregar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
                     OnClick="btn_Agregar_Click" class="btn btn-exito" />
             </td>
             <td>
                 <asp:Button ID="btn_Modificar" runat="server" Text="MODIFICAR" 
-                    OnClientClick="return confirm('¿Deseas modificar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_Contrasenia,txt_Repetir_Contrasenia,txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,txt_ApellidoMaterno,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
+                    OnClientClick="return confirm('¿Deseas modificar este Usuario?') && validarCamposTabla('tablaUsuarios','txt_Contrasenia,txt_Repetir_Contrasenia,txt_Nombres,txt_ApellidoPaterno,txt_ApellidoMaterno,txt_Fecha_Nacimiento,Ddl_Sexo,Ddl_Distrito,txt_Direccion,txt_Telefono,txt_Email') ;" 
                     OnClick="btn_Modificar_Click" class="btn btn-primario" />
             </td>
             <td>
@@ -171,7 +180,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
     <div style="width: 40%; margin: 20px auto; text-align: center;">
         <div style="display: flex; justify-content: center; gap: 10px;">
-            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre de usuario, nombres, apellidos y dni ..." />
+            <asp:TextBox ID="txtBuscar" runat="server" CssClass="full-width-textbox" placeholder="Buscar por nombre de usuario, nombres, apellidos o documento ..." />
             <asp:Button ID="btnFiltrar" runat="server" Text="FILTRAR" CssClass="btn btn-info" OnClick="btnFiltrar_Click" />
         </div>
         <div style="margin-top: 10px;">
@@ -190,7 +199,7 @@
                 <asp:BoundField DataField="Nombres" HeaderText="Nombres" />
                 <asp:BoundField DataField="ApellidoPaterno" HeaderText="Apellido Paterno" />
                 <asp:BoundField DataField="ApellidoMaterno" HeaderText="Apellido Materno" /> 
-                <asp:BoundField DataField="Dni" HeaderText="Dni" />
+                <asp:BoundField DataField="Documento" HeaderText="Documento" />
                 
                 <asp:BoundField DataField="Sexo" HeaderText="Sexo" />
 

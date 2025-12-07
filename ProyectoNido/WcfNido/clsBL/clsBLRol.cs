@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,10 +23,10 @@ namespace clsBL
                 clsDAC.clsDacRol xRol = new clsDAC.clsDacRol();
                 xRol.EliminarRol(xcodigo);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_rol(clsEntidades.clsRol xRol)
@@ -35,10 +36,10 @@ namespace clsBL
                 clsDAC.clsDacRol db = new clsDAC.clsDacRol();
                 db.InsertarRol(xRol);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
@@ -49,10 +50,10 @@ namespace clsBL
                 clsDAC.clsDacRol db = new clsDAC.clsDacRol();
                 db.ModificarRol(xRol);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
     }

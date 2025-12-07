@@ -10,6 +10,41 @@ namespace ProyectoNido.Auxiliar
 {
     public static class clsValidacion
     {
+        public static void AplicarMaxLengthPorTipoDocumento(
+            DropDownList ddl,
+            TextBox txt)
+        {
+            // Si no hay selección válida
+            if (string.IsNullOrEmpty(ddl.SelectedValue) || ddl.SelectedValue == "0")
+            {
+                txt.Text = "";
+                txt.MaxLength = 20;  // Valor por defecto
+                return;
+            }
+
+            wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+            var lista = xdb.GetTipoDocumento().ToList();
+
+            if (lista == null || lista.Count == 0)
+            {
+                txt.MaxLength = 20;
+                return;
+            }
+
+            int idSeleccionado = Convert.ToInt32(ddl.SelectedValue);
+
+            var tipo = lista.FirstOrDefault(t => t.Id == idSeleccionado);
+
+            if (tipo == null)
+            {
+                txt.MaxLength = 20;
+                return;
+            }
+
+            txt.Text = "";
+            txt.MaxLength = tipo.CantidadCaracteres;
+        }
+
         public static void LimpiarControles(Control parent)
         {
             foreach (Control c in parent.Controls)

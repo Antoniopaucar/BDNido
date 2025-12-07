@@ -34,50 +34,50 @@ namespace ProyectoNido
 
         private void CargarDatosDocente()
         {
-            try
-            {
-                int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
-                wcfNido.Service1Client servicio = new wcfNido.Service1Client();
-                wcfNido.clsUsuario docente = servicio.ObtenerDatosDocente(idUsuario);
+            //try
+            //{
+            //    int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+            //    wcfNido.Service1Client servicio = new wcfNido.Service1Client();
+            //    wcfNido.clsUsuario docente = servicio.ObtenerDatosDocente(idUsuario);
 
-                if (docente != null)
-                {
-                    lblNombreDocente.Text = $"{docente.Nombres} {docente.ApellidoPaterno} {docente.ApellidoMaterno}";
-                }
-            }
-            catch (Exception ex)
-            {
-                // Manejo silencioso o log
-                System.Diagnostics.Debug.WriteLine("Error al cargar docente: " + ex.Message);
-            }
+            //    if (docente != null)
+            //    {
+            //        lblNombreDocente.Text = $"{docente.Nombres} {docente.ApellidoPaterno} {docente.ApellidoMaterno}";
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    // Manejo silencioso o log
+            //    System.Diagnostics.Debug.WriteLine("Error al cargar docente: " + ex.Message);
+            //}
         }
 
         private void CargarGrupos()
         {
-            try
-            {
-                int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
-                wcfNido.Service1Client servicio = new wcfNido.Service1Client();
+            //try
+            //{
+            //    int idUsuario = Convert.ToInt32(Session["IdUsuario"]);
+            //    wcfNido.Service1Client servicio = new wcfNido.Service1Client();
                 
-                var grupos = servicio.ListarGruposPorDocente(idUsuario);
+            //    var grupos = servicio.ListarGruposPorDocente(idUsuario);
 
-                if (grupos != null && grupos.Count() > 0)
-                {
-                    rptGrupos.DataSource = grupos;
-                    rptGrupos.DataBind();
-                    pnlSinGrupos.Visible = false;
-                }
-                else
-                {
-                    rptGrupos.Visible = false;
-                    pnlSinGrupos.Visible = true;
-                }
-            }
-            catch (Exception ex)
-            {
-                string script = $"console.error('Error al cargar grupos: {ex.Message}');";
-                ClientScript.RegisterStartupScript(this.GetType(), "error", script, true);
-            }
+            //    if (grupos != null && grupos.Count() > 0)
+            //    {
+            //        rptGrupos.DataSource = grupos;
+            //        rptGrupos.DataBind();
+            //        pnlSinGrupos.Visible = false;
+            //    }
+            //    else
+            //    {
+            //        rptGrupos.Visible = false;
+            //        pnlSinGrupos.Visible = true;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    string script = $"console.error('Error al cargar grupos: {ex.Message}');";
+            //    ClientScript.RegisterStartupScript(this.GetType(), "error", script, true);
+            //}
         }
     }
 }

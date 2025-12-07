@@ -9,13 +9,14 @@ namespace clsEntidades
     public class clsUsuario
     {
         public int Id { get; set; }
+        public clsTipoDocumento TipoDocumento { get; set; }
         public string NombreUsuario { get; set; }
         public string Clave { get; set; }
         public string ClaveII { get; set; }
         public string Nombres { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
-        public string Dni { get; set; }
+        public string Documento { get; set; }
         public DateTime? FechaNacimiento { get; set; }
         public string Sexo { get; set; }
         public clsDistrito Distrito { get; set; }
@@ -30,27 +31,20 @@ namespace clsEntidades
         public DateTime? UltimoLoginExitoso { get; set; }
         public DateTime FechaCreacion { get; set; }
 
-        // Campos de Profesor (opcionales, solo se llenan cuando se obtienen datos del docente)
-        public DateTime? FechaIngreso { get; set; }
-        public string TituloProfesional { get; set; }
-        public string Cv { get; set; }
-        public string EvaluacionPsicologica { get; set; }
-        public string Fotos { get; set; }
-        public string VerificacionDomiciliaria { get; set; }
-
         public clsUsuario() { }
-        public clsUsuario(int id, string nombreUsuario, string password, string passwordII, string nombres, string apellidoP,
-            string apellidoM,string dni, DateTime? fecNacimiento,string sexo,clsDistrito distrito,string direccion, string telefono, 
+        public clsUsuario(int id, clsTipoDocumento tipodoc,string nombreUsuario, string password, string passwordII, string nombres, string apellidoP,
+            string apellidoM,string documento, DateTime? fecNacimiento,string sexo,clsDistrito distrito,string direccion, string telefono, 
             string email, DateTime? fecha_bloqueo, DateTime? ultimo_intento, DateTime? ultimo_intento_exitoso)
         {
             Id = id;
+            TipoDocumento = tipodoc;
             NombreUsuario = nombreUsuario;
             Clave = password;
             ClaveII = passwordII;
             Nombres = nombres;
             ApellidoPaterno = apellidoP;
             ApellidoMaterno = apellidoM;
-            Dni = dni;
+            Documento = documento;
             FechaNacimiento = fecNacimiento;
             Sexo = sexo;
             Distrito = distrito;

@@ -3,6 +3,7 @@ using ProyectoNido.wcfNido;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -42,40 +43,35 @@ namespace ProyectoNido
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
 
+                // 1. UsuarioRol
                 clsUsuarioRol xUsr = new clsUsuarioRol();
-
                 xUsr.Usuario = new clsUsuario();
                 xUsr.Rol = new clsRol();
 
                 xUsr.Usuario.Id = int.Parse(Ddl_Usuario.SelectedValue);
                 xUsr.Rol.Id = int.Parse(Ddl_Rol.SelectedValue);
 
-                xdb.InsUsuarioRol(xUsr);
+                // 2. Profesor (solo si el rol es 2)
+                clsProfesor xPro = new clsProfesor();
+                xPro.TituloProfesional = new clsArchivoBase();
+                xPro.Cv = new clsArchivoBase();
+                xPro.EvaluacionPsicologica = new clsArchivoBase();
+                xPro.Fotos = new clsArchivoBase();
+                xPro.VerificacionDomiciliaria = new clsArchivoBase();
 
-                switch (xUsr.Rol.Id)
-                {
-                    case 2:
-                        //clsProfesor xPro = new clsProfesor();
-                        //xPro.Id = xUsr.Usuario.Id;
-                        //xdb.InsProfesor(xPro);
-                        break;
+                // 3. Apoderado (solo si el rol es 3)
+                clsApoderado xApo = new clsApoderado();
+                xApo.ArchivoBase = new clsArchivoBase();
 
-                     case 3:
-                        clsApoderado xApo = new clsApoderado();
-                        xApo.Id = xUsr.Usuario.Id;
-                        xdb.InsApoderado(xApo);
-                        break;
+                // 4. LLamada ÚNICA → que ejecuta todo en una transacción real
+                xdb.InsUsuarioRol(xUsr, xPro, xApo);
 
-                    default:
-                        // opcional: acción por defecto
-                        break;
-                }
-
-
+                // 5. UI
                 LimpiarCampos();
                 CargarGrid();
 
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario ROl agregado correctamente.');", true);
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Usuario Rol agregado correctamente.');", true);
+
             }
             catch (System.ServiceModel.FaultException fex)
             {
@@ -134,6 +130,22 @@ namespace ProyectoNido
                     int idRol = Convert.ToInt32(argumentos[1]);
 
                     wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+
+                    switch (idRol)
+                    {
+                        case 2:
+                            xdb.DelProfesor(idUsuario);
+                            break;
+
+                        case 3:
+                            xdb.DelApoderado(idUsuario);
+                            break;
+
+                        default:
+                            // opcional: acción por defecto
+                            break;
+                    }
+
                     xdb.DelUsuarioRol(idUsuario, idRol);
 
                     CargarGrid();

@@ -12,7 +12,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" enctype="multipart/form-data">
         <table>
             <!-- Título -->
             <tr>
@@ -47,7 +47,7 @@
                             <ul class="submenu">
                                 <li><a href="frm_Apoderado.aspx"><img src="Img/apoderado.png" alt="Apoderado">Apoderado</a></li>
                                 <li><a href="frm_Alumno.aspx"><img src="Img/alumno.png" alt="Alumno">Alumno</a></li>
-                                <li><a href="frm_Docente_Datos.aspx"><img src="Img/profesor.png" alt="Profesor">Profesor</a></li>
+                                <li><a href="frm_Profesor.aspx"><img src="Img/profesor.png" alt="Profesor">Profesor</a></li>
                             </ul>
                         </li>
 
@@ -81,6 +81,7 @@
                                 <li><a href="frm_Reportes.aspx"><img src="Img/reportes.png" alt="Reportes">Reportes</a></li>
                                 <li><a href="frm_Comunicado.aspx"><img src="Img/comunicado.png" alt="Comunicado">Comunicado</a></li>
                                 <li><a href="frm_Distrito.aspx"><img src="Img/distrito.png" alt="Distrito">Distrito</a></li>
+                                <li><a href="frm_Tipo_Documento.aspx"><img src="Img/tipo de documento.png" alt="Tipo Documento">Tipo de Documento</a></li>
                             </ul>
                         </li>
                     </ul>

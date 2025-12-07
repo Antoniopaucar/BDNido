@@ -1,9 +1,13 @@
-﻿using System;
+﻿using clsDAC;
+using clsEntidades;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
+
 
 namespace clsBL
 {
@@ -29,13 +33,63 @@ namespace clsBL
                 dacError.Control_Sql_Error(ex);
             }
         }
-        public void insertar_usuario_rol(clsEntidades.clsUsuarioRol xUr)
-        {
 
+        //public void insertar_usuario_rol(clsEntidades.clsUsuarioRol xUr)
+        //{
+        //    try
+        //    {
+        //        clsDAC.clsDacUsuarioRol db = new clsDAC.clsDacUsuarioRol();
+        //        db.InsertarUsuarioRol(xUr);
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        clsBLError dacError = new clsBLError();
+        //        dacError.Control_Sql_Error(ex);
+        //    }
+        //}
+
+        public void insertar_usuario_rol(clsUsuarioRol xUsr, clsProfesor xPro, clsApoderado xApo)
+        {
             try
             {
-                clsDAC.clsDacUsuarioRol db = new clsDAC.clsDacUsuarioRol();
-                db.InsertarUsuarioRol(xUr);
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+                {
+                    cn.Open();
+                    SqlTransaction trx = cn.BeginTransaction();
+
+                    try
+                    {
+                        // 1. Insertar UsuarioRol
+                        new clsDacUsuarioRol().InsertarUsuarioRol(xUsr, cn, trx);
+
+                        // 2. Según el Rol, insertar profesor o apoderado
+                        switch (xUsr.Rol.Id)
+                        {
+                            case 2:
+
+                                xPro.Id = xUsr.Usuario.Id;
+
+                                new clsDacProfesor().InsertarProfesor(xPro, cn, trx);
+                                break;
+
+                            case 3:
+
+                                xApo.Id = xUsr.Usuario.Id;
+
+                                new clsDacApoderado().InsertarApoderado(xApo, cn, trx);
+                                break;
+                        }
+
+                        // 3. Todo OK → commit
+                        trx.Commit();
+                    }
+                    catch
+                    {
+                        // Error → rollback
+                        trx.Rollback();
+                        throw;
+                    }
+                }
             }
             catch (SqlException ex)
             {

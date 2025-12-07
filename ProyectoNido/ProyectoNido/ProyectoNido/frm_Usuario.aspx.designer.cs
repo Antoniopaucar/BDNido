@@ -150,6 +150,24 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.TextBox txt_ApellidoMaterno;
 
         /// <summary>
+        /// Control Label16.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label16;
+
+        /// <summary>
+        /// Control Ddl_Tipo_Documento.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Ddl_Tipo_Documento;
+
+        /// <summary>
         /// Control Label1.
         /// </summary>
         /// <remarks>
@@ -159,13 +177,13 @@ namespace ProyectoNido
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control txt_Dni.
+        /// Control txt_Documento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Dni;
+        protected global::System.Web.UI.WebControls.TextBox txt_Documento;
 
         /// <summary>
         /// Control Label15.

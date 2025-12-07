@@ -1,5 +1,7 @@
-﻿using System;
+﻿using clsEntidades;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -64,22 +66,16 @@ namespace clsDAC
             }
         }
 
-        public void InsertarUsuarioRol(clsEntidades.clsUsuarioRol xUr)
+        public void InsertarUsuarioRol(clsUsuarioRol xUr, SqlConnection cn, SqlTransaction trx)
         {
-            try 
+            try
             {
-                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+                using (SqlCommand cmd = new SqlCommand("insertar_usuario_rol", cn, trx))
                 {
-                    cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("insertar_usuario_rol", cn))
-                    {
-                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
-
-                        cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
-                        cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
-
-                        cmd.ExecuteNonQuery();
-                    }
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
+                    cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
+                    cmd.ExecuteNonQuery();
                 }
             }
             catch (ArgumentException)
@@ -87,6 +83,30 @@ namespace clsDAC
                 throw;
             }
         }
+
+        //public void InsertarUsuarioRol(clsEntidades.clsUsuarioRol xUr)
+        //{
+        //    try 
+        //    {
+        //        using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+        //        {
+        //            cn.Open();
+        //            using (SqlCommand cmd = new SqlCommand("insertar_usuario_rol", cn))
+        //            {
+        //                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+        //                cmd.Parameters.AddWithValue("@Id_Usuario", xUr.Usuario.Id);
+        //                cmd.Parameters.AddWithValue("@Id_Rol", xUr.Rol.Id);
+
+        //                cmd.ExecuteNonQuery();
+        //            }
+        //        }
+        //    }
+        //    catch (ArgumentException)
+        //    {
+        //        throw;
+        //    }
+        //}
 
     }
 }

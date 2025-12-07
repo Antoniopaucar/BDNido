@@ -194,6 +194,51 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+        //----------------------------- TIPO DOCUMENTO ------------------------------
+        public List<clsTipoDocumento> GetTipoDocumento()
+        {
+            clsBL.clsBLTipoDocumento xbl = new clsBL.clsBLTipoDocumento();
+            return xbl.listar_tipo_documentos();
+        }
+
+        public void DelTipoDocumento(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLTipoDocumento xbl = new clsBL.clsBLTipoDocumento();
+                xbl.eliminar_tipo_documento(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsTipoDocumento(clsTipoDocumento tipodoc)
+        {
+            try
+            {
+                clsBL.clsBLTipoDocumento xbl = new clsBL.clsBLTipoDocumento();
+                xbl.insertar_tipo_documento(tipodoc);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void ModTipoDocumento(clsTipoDocumento tipodoc)
+        {
+            try
+            {
+                clsBL.clsBLTipoDocumento xbl = new clsBL.clsBLTipoDocumento();
+                xbl.modificar_tipo_documento(tipodoc);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
         //----------------------------- NIVEL ---------------------------------------
         public List<clsNivel> GetNivel()
         {
@@ -394,18 +439,19 @@ namespace WcfNido
             }
         }
 
-        public void InsUsuarioRol(clsUsuarioRol xUr)
+        public void InsUsuarioRol(clsUsuarioRol xUsr, clsProfesor xPro, clsApoderado xApo)
         {
             try
             {
-                clsBL.clsBLUsuarioRol xbl = new clsBL.clsBLUsuarioRol();
-                xbl.insertar_usuario_rol(xUr);
+                clsBLUsuarioRol bl = new clsBLUsuarioRol();
+                bl.insertar_usuario_rol(xUsr, xPro, xApo);
             }
             catch (Exception ex)
             {
                 throw new FaultException(ex.Message);
             }
         }
+
         // --------------------------- ROL PERMISO -----------------------------------
         public List<clsRolPermiso> GetRolPermiso()
         {
@@ -515,18 +561,31 @@ namespace WcfNido
             }
         }
 
-        //---------------------------- ACTUALIZAR DATOS DOCENTE ---------------------------------
-        public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
-            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
-            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
-            string fotos, string verificacionDomiciliaria)
+        public clsArchivoBase RetArchivoApoderado(int Codigo)
         {
             try
             {
-                clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
-                xbl.actualizar_datos_docente(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento,
-                    sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica,
-                    fotos, verificacionDomiciliaria);
+                clsBL.clsBLApoderado xbl = new clsBL.clsBLApoderado();
+                return xbl.Retornar_Archivo_Apoderado(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+        //----------------------------- PROFESOR --------------------------------------------------
+        public List<clsProfesor> GetProfesor()
+        {
+            clsBL.clsBLProfesor xbl = new clsBL.clsBLProfesor();
+            return xbl.listar_profesores();
+        }
+
+        public void DelProfesor(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLProfesor xbl = new clsBL.clsBLProfesor();
+                xbl.eliminar_profesor(Codigo);
             }
             catch (Exception ex)
             {
@@ -534,18 +593,134 @@ namespace WcfNido
             }
         }
 
-        public clsUsuario ObtenerDatosDocente(int idUsuario)
+        public void InsProfesor(clsProfesor profe)
         {
             try
             {
-                clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
-                return xbl.obtener_datos_docente(idUsuario);
+                clsBL.clsBLProfesor xbl = new clsBL.clsBLProfesor();
+                xbl.insertar_profesor(profe);
             }
             catch (Exception ex)
             {
                 throw new FaultException(ex.Message);
             }
         }
+
+        public void ModProfesor(clsProfesor profe)
+        {
+            try
+            {
+                clsBL.clsBLProfesor xbl = new clsBL.clsBLProfesor();
+                xbl.modificar_profesor(profe);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public clsArchivoBase RetArchivoProfesor(int Codigo, string archivo)
+        {
+            try
+            {
+                clsBL.clsBLProfesor xbl = new clsBL.clsBLProfesor();
+                return xbl.Retornar_Archivo_Profesor(Codigo, archivo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+        //----------------------------- ALUMNO ---------------------------------------------------
+        public List<clsAlumno> GetAlumno()
+        {
+            clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+            return xbl.listar_alumnos();
+        }
+
+        public void DelAlumno(int Codigo)
+        {
+            try
+            {
+                clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+                xbl.eliminar_alumno(Codigo);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void InsAlumno(clsAlumno alu)
+        {
+            try
+            {
+                clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+                xbl.insertar_alumno(alu);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public void ModAlumno(clsAlumno alu)
+        {
+            try
+            {
+                clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+                xbl.modificar_alumno(alu);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        public clsArchivoBase RetArchivoAlumno(int Codigo, string tipoArch)
+        {
+            try
+            {
+                clsBL.clsBLAlumno xbl = new clsBL.clsBLAlumno();
+                return xbl.Retornar_Archivo_Alumno(Codigo, tipoArch);
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException(ex.Message);
+            }
+        }
+
+        //---------------------------- ACTUALIZAR DATOS DOCENTE ---------------------------------
+        //public void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+        //    string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+        //    DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+        //    string fotos, string verificacionDomiciliaria)
+        //{
+        //    try
+        //    {
+        //        clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
+        //        xbl.actualizar_datos_docente(idUsuario, nombres, apPaterno, apMaterno, dni, fechaNacimiento,
+        //            sexo, direccion, email, fechaIngreso, tituloProfesional, cv, evaluacionPsicologica,
+        //            fotos, verificacionDomiciliaria);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new FaultException(ex.Message);
+        //    }
+        //}
+
+        //public clsUsuario ObtenerDatosDocente(int idUsuario)
+        //{
+        //    try
+        //    {
+        //        clsBL.clsBLUsuario xbl = new clsBL.clsBLUsuario();
+        //        return xbl.obtener_datos_docente(idUsuario);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new FaultException(ex.Message);
+        //    }
+        //}
 
         //---------------------------- GRUPO ANUAL ---------------------------------
         public List<GrupoAnualDetalle> ListarGruposPorDocente(int idUsuario)
@@ -560,5 +735,6 @@ namespace WcfNido
                 throw new FaultException(ex.Message);
             }
         }
+
     }
 }

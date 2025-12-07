@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clsEntidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -114,7 +115,7 @@ namespace WcfNido
         [OperationContract]
         void DelUsuarioRol(int id_user,int id_rol);
         [OperationContract]
-        void InsUsuarioRol(clsEntidades.clsUsuarioRol xUr);
+        void InsUsuarioRol(clsUsuarioRol xUsr, clsProfesor xPro, clsApoderado xApo);
 
         //------------------------ ROL PERMISO ----------------------------------------------
 
@@ -147,16 +148,54 @@ namespace WcfNido
         void InsApoderado(clsEntidades.clsApoderado apo);
         [OperationContract]
         void ModApoderado(clsEntidades.clsApoderado apo);
+        [OperationContract]
+        clsArchivoBase RetArchivoApoderado(int Codigo);
+        //------------------------ PROFESOR----------------------------------------------
 
+        [OperationContract]
+        List<clsEntidades.clsProfesor> GetProfesor();
+
+        [OperationContract]
+        void DelProfesor(int Codigo);
+        [OperationContract]
+        void InsProfesor(clsEntidades.clsProfesor profe);
+        [OperationContract]
+        void ModProfesor(clsEntidades.clsProfesor profe);
+        [OperationContract]
+        clsArchivoBase RetArchivoProfesor(int Codigo,string archivo);
+        //------------------------ ALUMNO ----------------------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsAlumno> GetAlumno();
+
+        [OperationContract]
+        void DelAlumno(int Codigo);
+        [OperationContract]
+        void InsAlumno(clsEntidades.clsAlumno alu);
+        [OperationContract]
+        void ModAlumno(clsEntidades.clsAlumno alu);
+        [OperationContract]
+        clsArchivoBase RetArchivoAlumno(int Codigo,string tipoArch);
+        //------------------------ TIPO DOCUMENTO ----------------------------------------------
+
+        [OperationContract]
+        List<clsEntidades.clsTipoDocumento> GetTipoDocumento();
+
+        [OperationContract]
+        void DelTipoDocumento(int Codigo);
+        [OperationContract]
+        void InsTipoDocumento(clsEntidades.clsTipoDocumento tipodoc);
+        [OperationContract]
+        void ModTipoDocumento(clsEntidades.clsTipoDocumento tipodoc);
         //------------------------ DOCENTE DATOS ----------------------------------------------
-        [OperationContract]
-        void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
-            string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
-            DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
-            string fotos, string verificacionDomiciliaria);
+        //[OperationContract]
+        //void ActualizarDatosDocente(int idUsuario, string nombres, string apPaterno, string apMaterno,
+        //    string dni, DateTime? fechaNacimiento, string sexo, string direccion, string email,
+        //    DateTime? fechaIngreso, string tituloProfesional, string cv, string evaluacionPsicologica,
+        //    string fotos, string verificacionDomiciliaria);
 
-        [OperationContract]
-        clsEntidades.clsUsuario ObtenerDatosDocente(int idUsuario);
+        //[OperationContract]
+        //clsEntidades.clsUsuario ObtenerDatosDocente(int idUsuario);
 
         //------------------------ GRUPO ANUAL ----------------------------------------------
         [OperationContract]

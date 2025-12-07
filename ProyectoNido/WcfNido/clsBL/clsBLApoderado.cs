@@ -1,4 +1,6 @@
-﻿using clsUtilidades;
+﻿using clsDAC;
+using clsEntidades;
+using clsUtilidades;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -17,6 +19,21 @@ namespace clsBL
             return xlistaApos;
         }
 
+        public clsArchivoBase Retornar_Archivo_Apoderado(int id)
+        {
+            try
+            {
+                clsDAC.clsDacArchivoBase xAb = new clsDAC.clsDacArchivoBase();
+                return xAb.RetornarArchivo("Retornar_Copia_Dni_Apoderado","NombreArchivo","TamanioBytes","CopiaDni",id);
+            }
+            catch (SqlException ex)
+            {
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
+                return null;
+            }
+        }
+
         public void eliminar_apoderado(int xcodigo)
         {
             try
@@ -30,12 +47,42 @@ namespace clsBL
                 dacError.Control_Sql_Error(ex);
             }
         }
+        //public void insertar_apoderado(clsEntidades.clsApoderado xapo)
+        //{
+        //    try
+        //    {
+        //        clsDAC.clsDacApoderado db = new clsDAC.clsDacApoderado();
+        //        db.InsertarApoderado(xapo);
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        clsBLError dacError = new clsBLError();
+        //        dacError.Control_Sql_Error(ex);
+        //    }
+        //}
+
         public void insertar_apoderado(clsEntidades.clsApoderado xapo)
         {
             try
             {
-                clsDAC.clsDacApoderado db = new clsDAC.clsDacApoderado();
-                db.InsertarApoderado(xapo);
+                using (SqlConnection cn = clsConexion.getInstance().GetSqlConnection())
+                {
+                    cn.Open();
+                    SqlTransaction trx = cn.BeginTransaction();
+
+                    try
+                    {
+                        clsDAC.clsDacApoderado db = new clsDAC.clsDacApoderado();
+                        db.InsertarApoderado(xapo, cn, trx);
+
+                        trx.Commit();
+                    }
+                    catch
+                    {
+                        trx.Rollback();
+                        throw;
+                    }
+                }
             }
             catch (SqlException ex)
             {
@@ -43,6 +90,7 @@ namespace clsBL
                 dacError.Control_Sql_Error(ex);
             }
         }
+
 
         public void modificar_apoderado(clsEntidades.clsApoderado xapo)
         {

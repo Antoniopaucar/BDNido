@@ -24,6 +24,15 @@ namespace ProyectoNido
                 this.chb_Activo.Checked = true;
 
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
+
+                List<clsTipoDocumento> listatd = xdb.GetTipoDocumento().ToList();
+
+                Ddl_Tipo_Documento.DataSource = listatd;
+                Ddl_Tipo_Documento.DataTextField = "Nombre";
+                Ddl_Tipo_Documento.DataValueField = "Id";
+                Ddl_Tipo_Documento.DataBind();
+                Ddl_Tipo_Documento.Items.Insert(0, new ListItem("-- Seleccione un Documento --", ""));
+
                 List<clsDistrito> lista = xdb.GetDistrito().ToList();
 
                 Ddl_Distrito.DataSource = lista;
@@ -45,18 +54,18 @@ namespace ProyectoNido
             try
             {
                 wcfNido.Service1Client xdb = new wcfNido.Service1Client();
-
-
                 clsUsuario xusuario = new clsUsuario();
                 xusuario.Distrito = new clsDistrito();
+                xusuario.TipoDocumento = new clsTipoDocumento();
 
+                xusuario.TipoDocumento.Id = Convert.ToInt32(Ddl_Tipo_Documento.SelectedValue);
                 xusuario.NombreUsuario = txt_NombreUsuario.Text.Trim();
                 xusuario.Clave = txt_Contrasenia.Text.Trim();
                 xusuario.ClaveII = txt_Repetir_Contrasenia.Text.Trim();
                 xusuario.Nombres = txt_Nombres.Text.Trim();
                 xusuario.ApellidoPaterno = txt_ApellidoPaterno.Text.Trim();
                 xusuario.ApellidoMaterno = txt_ApellidoMaterno.Text.Trim();
-                xusuario.Dni = txt_Dni.Text.Trim();
+                xusuario.Documento = txt_Documento.Text.Trim();
                 xusuario.FechaNacimiento = DateTime.TryParse(txt_Fecha_Nacimiento.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
                 xusuario.Sexo = string.IsNullOrEmpty(Ddl_Sexo.SelectedValue)
                 ? null
@@ -105,8 +114,10 @@ namespace ProyectoNido
 
                 clsUsuario xusuario = new clsUsuario();
                 xusuario.Distrito = new clsDistrito();
+                xusuario.TipoDocumento = new clsTipoDocumento();
 
                 xusuario.Id = Convert.ToInt32(this.txt_IdUsuario.Text.Trim());
+                xusuario.TipoDocumento.Id = Convert.ToInt32(Ddl_Tipo_Documento.SelectedValue);
                 xusuario.NombreUsuario = txt_NombreUsuario.Text.Trim();
 
                 if (!string.IsNullOrEmpty(xusuario.Clave))
@@ -118,7 +129,7 @@ namespace ProyectoNido
                 xusuario.Nombres = txt_Nombres.Text.Trim();
                 xusuario.ApellidoPaterno = txt_ApellidoPaterno.Text.Trim();
                 xusuario.ApellidoMaterno = txt_ApellidoMaterno.Text.Trim();
-                xusuario.Dni = txt_Dni.Text.Trim();
+                xusuario.Documento = txt_Documento.Text.Trim();
                 xusuario.FechaNacimiento = DateTime.TryParse(txt_Fecha_Nacimiento.Text.Trim(), out DateTime f) ? f : (DateTime?)null;
                 xusuario.Sexo = string.IsNullOrEmpty(Ddl_Sexo.SelectedValue)
                     ? null
@@ -215,7 +226,7 @@ namespace ProyectoNido
                             (x.Nombres ?? "").ToLower().Contains(filtro) ||
                             (x.ApellidoPaterno ?? "").ToLower().Contains(filtro) ||
                             (x.ApellidoMaterno ?? "").ToLower().Contains(filtro) ||
-                            (x.Dni ?? "").ToLower().Contains(filtro)
+                            (x.Documento ?? "").ToLower().Contains(filtro)
                         )
                         .ToList();
                 }
@@ -260,7 +271,7 @@ namespace ProyectoNido
                         (x.Nombres != null && x.Nombres.ToLower().Contains(filtro)) ||
                         (x.ApellidoPaterno != null && x.ApellidoPaterno.ToLower().Contains(filtro)) ||
                         (x.ApellidoMaterno != null && x.ApellidoMaterno.ToLower().Contains(filtro)) ||
-                        (x.Dni != null && x.Dni.ToLower().Contains(filtro))
+                        (x.Documento != null && x.Documento.ToLower().Contains(filtro))
                     )
                     .ToList();
             }
@@ -299,13 +310,14 @@ namespace ProyectoNido
                         this.btn_Eliminar.Enabled = true;
 
                         txt_IdUsuario.Text = user.Id.ToString();
+                        Ddl_Tipo_Documento.SelectedValue = user.TipoDocumento.Id.ToString();
                         txt_NombreUsuario.Text = user.NombreUsuario;
                         txt_Nombres.Text = user.Nombres;
                         txt_ApellidoPaterno.Text = user.ApellidoPaterno;
                         txt_ApellidoMaterno.Text = user.ApellidoMaterno;
                         txt_Contrasenia.Text = user.Clave;
                         txt_Repetir_Contrasenia.Text = user.ClaveII;
-                        txt_Dni.Text = user.Dni;
+                        txt_Documento.Text = user.Documento;
                         txt_Fecha_Nacimiento.Text = user.FechaNacimiento.HasValue ? user.FechaNacimiento.Value.ToString("yyyy-MM-dd") : string.Empty;
                         Ddl_Sexo.SelectedValue = user.Sexo;
 
@@ -381,6 +393,11 @@ namespace ProyectoNido
 
             clsValidacion.LimpiarControles(this);
             this.chb_Activo.Checked = true;
+        }
+
+        protected void Ddl_Tipo_Documento_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            clsValidacion.AplicarMaxLengthPorTipoDocumento(Ddl_Tipo_Documento,txt_Documento);
         }
     }
 }

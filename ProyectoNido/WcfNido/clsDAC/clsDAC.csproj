@@ -43,16 +43,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsConexion.cs" />
+    <Compile Include="clsDacAlumno.cs" />
     <Compile Include="clsDacApoderado.cs" />
+    <Compile Include="clsDacArchivoBase.cs" />
     <Compile Include="clsDacComunicado.cs" />
     <Compile Include="clsDacDistrito.cs" />
     <Compile Include="clsDacError.cs" />
     <Compile Include="clsDacLogin.cs" />
     <Compile Include="clsDacNivel.cs" />
     <Compile Include="clsDacPermiso.cs" />
+    <Compile Include="clsDacProfesor.cs" />
     <Compile Include="clsDacRol.cs" />
     <Compile Include="clsDacRolPermiso.cs" />
     <Compile Include="clsDacSalon.cs" />
+    <Compile Include="clsDacTipoDocumento.cs" />
     <Compile Include="clsDacUsuario.cs" />
     <Compile Include="clsDacUsuarioPermiso.cs" />
     <Compile Include="clsDacUsuarioRol.cs" />

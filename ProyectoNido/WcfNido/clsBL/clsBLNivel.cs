@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,10 +23,10 @@ namespace clsBL
                 clsDAC.clsDacNivel xdis = new clsDAC.clsDacNivel();
                 xdis.EliminarNivel(xcodigo);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_nivel(clsEntidades.clsNivel xNivel)
@@ -35,10 +36,10 @@ namespace clsBL
                 clsDAC.clsDacNivel db = new clsDAC.clsDacNivel();
                 db.InsertarNivel(xNivel);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
@@ -49,10 +50,10 @@ namespace clsBL
                 clsDAC.clsDacNivel db = new clsDAC.clsDacNivel();
                 db.ModificarNivel(xNivel);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
     }

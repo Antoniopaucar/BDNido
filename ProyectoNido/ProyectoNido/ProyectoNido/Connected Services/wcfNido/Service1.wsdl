@@ -278,17 +278,95 @@
   <wsdl:message name="IService1_ModApoderado_OutputMessage">
     <wsdl:part name="parameters" element="tns:ModApoderadoResponse" />
   </wsdl:message>
-  <wsdl:message name="IService1_ActualizarDatosDocente_InputMessage">
-    <wsdl:part name="parameters" element="tns:ActualizarDatosDocente" />
+  <wsdl:message name="IService1_RetArchivoApoderado_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoApoderado" />
   </wsdl:message>
-  <wsdl:message name="IService1_ActualizarDatosDocente_OutputMessage">
-    <wsdl:part name="parameters" element="tns:ActualizarDatosDocenteResponse" />
+  <wsdl:message name="IService1_RetArchivoApoderado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoApoderadoResponse" />
   </wsdl:message>
-  <wsdl:message name="IService1_ObtenerDatosDocente_InputMessage">
-    <wsdl:part name="parameters" element="tns:ObtenerDatosDocente" />
+  <wsdl:message name="IService1_GetProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfesor" />
   </wsdl:message>
-  <wsdl:message name="IService1_ObtenerDatosDocente_OutputMessage">
-    <wsdl:part name="parameters" element="tns:ObtenerDatosDocenteResponse" />
+  <wsdl:message name="IService1_GetProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetArchivoProfesor_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoProfesor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetArchivoProfesor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoProfesorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetArchivoAlumno_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoAlumno" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetArchivoAlumno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetArchivoAlumnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTipoDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTipoDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTipoDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTipoDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelTipoDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelTipoDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DelTipoDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelTipoDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsTipoDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsTipoDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsTipoDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsTipoDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModTipoDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModTipoDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModTipoDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModTipoDocumentoResponse" />
   </wsdl:message>
   <wsdl:message name="IService1_ListarGruposPorDocente_InputMessage">
     <wsdl:part name="parameters" element="tns:ListarGruposPorDocente" />
@@ -477,13 +555,65 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModApoderado" message="tns:IService1_ModApoderado_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModApoderadoResponse" message="tns:IService1_ModApoderado_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="ActualizarDatosDocente">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ActualizarDatosDocente" message="tns:IService1_ActualizarDatosDocente_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ActualizarDatosDocenteResponse" message="tns:IService1_ActualizarDatosDocente_OutputMessage" />
+    <wsdl:operation name="RetArchivoApoderado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RetArchivoApoderado" message="tns:IService1_RetArchivoApoderado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RetArchivoApoderadoResponse" message="tns:IService1_RetArchivoApoderado_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="ObtenerDatosDocente">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerDatosDocente" message="tns:IService1_ObtenerDatosDocente_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerDatosDocenteResponse" message="tns:IService1_ObtenerDatosDocente_OutputMessage" />
+    <wsdl:operation name="GetProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetProfesor" message="tns:IService1_GetProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetProfesorResponse" message="tns:IService1_GetProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelProfesor" message="tns:IService1_DelProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelProfesorResponse" message="tns:IService1_DelProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsProfesor" message="tns:IService1_InsProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsProfesorResponse" message="tns:IService1_InsProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModProfesor" message="tns:IService1_ModProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModProfesorResponse" message="tns:IService1_ModProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetArchivoProfesor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RetArchivoProfesor" message="tns:IService1_RetArchivoProfesor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RetArchivoProfesorResponse" message="tns:IService1_RetArchivoProfesor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAlumno" message="tns:IService1_GetAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAlumnoResponse" message="tns:IService1_GetAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelAlumno" message="tns:IService1_DelAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelAlumnoResponse" message="tns:IService1_DelAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsAlumno" message="tns:IService1_InsAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsAlumnoResponse" message="tns:IService1_InsAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModAlumno" message="tns:IService1_ModAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModAlumnoResponse" message="tns:IService1_ModAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetArchivoAlumno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RetArchivoAlumno" message="tns:IService1_RetArchivoAlumno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RetArchivoAlumnoResponse" message="tns:IService1_RetArchivoAlumno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTipoDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTipoDocumento" message="tns:IService1_GetTipoDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTipoDocumentoResponse" message="tns:IService1_GetTipoDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelTipoDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DelTipoDocumento" message="tns:IService1_DelTipoDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DelTipoDocumentoResponse" message="tns:IService1_DelTipoDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsTipoDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsTipoDocumento" message="tns:IService1_InsTipoDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsTipoDocumentoResponse" message="tns:IService1_InsTipoDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModTipoDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModTipoDocumento" message="tns:IService1_ModTipoDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModTipoDocumentoResponse" message="tns:IService1_ModTipoDocumento_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="ListarGruposPorDocente">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListarGruposPorDocente" message="tns:IService1_ListarGruposPorDocente_InputMessage" />
@@ -897,8 +1027,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="ActualizarDatosDocente">
-      <soap:operation soapAction="http://tempuri.org/IService1/ActualizarDatosDocente" style="document" />
+    <wsdl:operation name="RetArchivoApoderado">
+      <soap:operation soapAction="http://tempuri.org/IService1/RetArchivoApoderado" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -906,8 +1036,125 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="ObtenerDatosDocente">
-      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerDatosDocente" style="document" />
+    <wsdl:operation name="GetProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetArchivoProfesor">
+      <soap:operation soapAction="http://tempuri.org/IService1/RetArchivoProfesor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetArchivoAlumno">
+      <soap:operation soapAction="http://tempuri.org/IService1/RetArchivoAlumno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTipoDocumento">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTipoDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelTipoDocumento">
+      <soap:operation soapAction="http://tempuri.org/IService1/DelTipoDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsTipoDocumento">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsTipoDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModTipoDocumento">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModTipoDocumento" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

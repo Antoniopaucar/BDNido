@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,10 +23,10 @@ namespace clsBL
                 clsDAC.clsDacSalon xsal = new clsDAC.clsDacSalon();
                 xsal.EliminarSalon(xcodigo);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
         public void insertar_salon(clsEntidades.clsSalon xSal)
@@ -35,10 +36,10 @@ namespace clsBL
                 clsDAC.clsDacSalon db = new clsDAC.clsDacSalon();
                 db.InsertarSalon(xSal);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
 
@@ -49,10 +50,10 @@ namespace clsBL
                 clsDAC.clsDacSalon db = new clsDAC.clsDacSalon();
                 db.ModificarSalon(xSal);
             }
-            catch (ArgumentException ex)
+            catch (SqlException ex)
             {
-                //throw new ApplicationException(ex.Message);
-                throw;
+                clsBLError dacError = new clsBLError();
+                dacError.Control_Sql_Error(ex);
             }
         }
     }
